@@ -1,0 +1,14 @@
+{
+  "shell": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "description": "Use this page for general questions, media requests, referrals, or other inquiries."
+  },
+  "sidebar": {
+    "detailsHeading": "Practice details",
+    "bookingHeading": "Looking to book?",
+    "bookingExternal": "Use the link below to schedule through our online booking portal.",
+    "bookingSession": "Use the booking page to request a consultation or session.",
+    "bookingConsultation": "Use the consultation request page for first appointments or fit calls."
+  }
+}

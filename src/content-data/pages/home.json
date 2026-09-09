@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "eyebrow": "Private practice counselling template",
+    "subtitle": "This template gives counsellors a calm, easy-to-maintain website with pages for services, specialties, fees, FAQs, consultation requests, and blog posts.",
+    "specialtiesCta": "View Specialties"
+  },
+  "approach": {
+    "eyebrow": "Approach",
+    "title": "Counselling copy that is ready to customize",
+    "description": "The starter language references common counselling approaches. Replace these with your actual modalities, training, and scope of practice.",
+    "items": [
+      {
+        "title": "Person-centred",
+        "description": "A collaborative relationship where clients are met with warmth, respect, and curiosity."
+      },
+      {
+        "title": "Trauma-informed",
+        "description": "Care that prioritizes safety, consent, pacing, and the wisdom of the nervous system."
+      },
+      {
+        "title": "CBT-informed",
+        "description": "Practical tools for noticing patterns in thoughts, emotions, and behaviour."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "A practical starting point for private practice",
+    "description": "Use this section to describe who you support, how sessions are offered, and what clients can expect when they reach out.",
+    "items": [
+      "Individual counselling for adults",
+      "Support for anxiety, depression, relationships, stress, and transitions",
+      "Virtual or in-person sessions, depending on your practice setup"
+    ]
+  },
+  "specialties": {
+    "eyebrow": "Specialties",
+    "title": "Starter specialty pages",
+    "seeAllLabel": "See all specialties"
+  },
+  "cta": {
+    "title": "Ready to make it your own?",
+    "description": "Update the site config, swap photos, add specialties, publish blog posts, and choose a built-in palette without rebuilding the whole design."
+  }
+}

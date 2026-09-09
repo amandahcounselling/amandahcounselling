@@ -1,0 +1,31 @@
+{
+  "shell": {
+    "eyebrow": "About",
+    "description": "Use this page to introduce the counsellor, their credentials, and the kind of therapeutic relationship clients can expect."
+  },
+  "intro": {
+    "title": "A calm, clear place to describe your practice",
+    "paragraphs": [
+      "This starter copy is intentionally general. Replace it with your own professional bio, education, designations, populations served, and therapeutic approach.",
+      "You might describe how you help clients understand patterns, strengthen coping, process difficult experiences, and move toward choices that feel more aligned with their values."
+    ]
+  },
+  "values": {
+    "title": "Therapeutic approach",
+    "description": "Update these blocks with the methodologies you actually use, such as person-centred therapy, somatic therapy, EMDR, ACT, CBT, EFT, narrative therapy, or another approach.",
+    "items": [
+      {
+        "title": "Collaborative care",
+        "description": "Counselling works best when goals, pace, and focus are shaped together."
+      },
+      {
+        "title": "Respect for lived experience",
+        "description": "Clients bring wisdom about their own lives, identities, relationships, and needs."
+      },
+      {
+        "title": "Practical support",
+        "description": "Sessions can include reflection, skill-building, nervous system support, and next steps."
+      }
+    ]
+  }
+}

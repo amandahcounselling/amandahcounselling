@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ContactPage from '../components/ContactPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+---
+
+<Layout
+  title={`Contact - ${siteConfig.practiceName}`}
+  description="Contact the counselling practice with general inquiries, referrals, and questions."
+  canonicalPath="/contact"
+  noindex={!siteConfig.pages.contact.enabled}
+>
+  {
+    siteConfig.pages.contact.enabled ? (
+      <ContactPage client:load />
+    ) : (
+      <PageUnavailable title="Contact" client:load />
+    )
+  }
+</Layout>

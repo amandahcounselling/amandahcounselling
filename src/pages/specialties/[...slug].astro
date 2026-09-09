@@ -1,0 +1,81 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import CollectionDetailLayout from '../../components/CollectionDetailLayout';
+import SpecialtyPage from '../../components/SpecialtyPage';
+import { getBookCtaLabel, siteConfig } from '../../config';
+import { getBookHref, getBookLinkProps } from '../../lib/booking';
+import { withBase } from '../../lib/paths';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  if (!siteConfig.pages.specialties.enabled) {
+    return [];
+  }
+
+  const specialties = await getCollection('specialties');
+
+  return specialties.map((entry: CollectionEntry<'specialties'>) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+type Props = {
+  entry: CollectionEntry<'specialties'>;
+};
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const consultationHref = siteConfig.pages.book.enabled ? getBookHref() : withBase('/contact');
+const consultationLabel = siteConfig.pages.book.enabled
+  ? getBookCtaLabel()
+  : 'Contact';
+const bookLink = getBookLinkProps();
+const repoPath = `src/content/specialties/${entry.id}.md`;
+---
+
+<Layout
+  title={`${entry.data.title} Counselling - ${siteConfig.practiceName}`}
+  description={entry.data.description}
+  canonicalPath={`/specialties/${entry.id}`}
+>
+  <CollectionDetailLayout
+    repoPath={repoPath}
+    frontmatter={{
+      title: entry.data.title,
+      description: entry.data.description,
+      order: entry.data.order,
+      heroImage: entry.data.heroImage,
+    }}
+    body={entry.body ?? ''}
+    client:load
+  >
+    <SpecialtyPage
+      specialty={{
+        title: entry.data.title,
+        description: entry.data.description,
+        heroImage: entry.data.heroImage,
+      }}
+    />
+    <article class="content mx-auto max-w-3xl px-6 py-14 text-lg text-muted-foreground lg:px-8">
+      <Content />
+    </article>
+    <section class="px-6 pb-16 text-center lg:px-8">
+      <a
+        href={consultationHref}
+        target={siteConfig.pages.book.enabled ? bookLink.target : undefined}
+        rel={siteConfig.pages.book.enabled ? bookLink.rel : undefined}
+        class="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex rounded-full px-6 py-3 font-bold shadow-sm transition-colors"
+      >
+        {consultationLabel}
+      </a>
+    </section>
+  </CollectionDetailLayout>
+</Layout>
+
+<style>
+  .content :global(p) {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+  }
+</style>

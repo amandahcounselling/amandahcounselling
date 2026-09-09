@@ -1,0 +1,28 @@
+---
+import BookPage from '../components/BookPage';
+import Layout from '../layouts/Layout.astro';
+import PageUnavailable from '../components/PageUnavailable';
+import { getBookCtaLabel, siteConfig } from '../config';
+import { isExternalBookingEnabled } from '../lib/booking';
+---
+
+<Layout
+  title={`${getBookCtaLabel()} - ${siteConfig.practiceName}`}
+  description={
+    isExternalBookingEnabled()
+      ? siteConfig.forms.bookSession.externalLink.description
+      : siteConfig.forms.bookSession.enabled
+        ? 'Request a consultation or counselling session.'
+        : 'Request a brief consultation to ask questions and learn whether counselling is a good fit.'
+  }
+  canonicalPath="/book"
+  noindex={!siteConfig.pages.book.enabled}
+>
+  {
+    siteConfig.pages.book.enabled ? (
+      <BookPage client:load />
+    ) : (
+      <PageUnavailable title="Book a Consultation" client:load />
+    )
+  }
+</Layout>

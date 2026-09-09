@@ -1,0 +1,66 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BlogPostPage from '../../components/BlogPostPage';
+import CollectionDetailLayout from '../../components/CollectionDetailLayout';
+import { siteConfig } from '../../config';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  if (!siteConfig.pages.blog.enabled) {
+    return [];
+  }
+
+  const posts = await getCollection('blog', ({ data }: CollectionEntry<'blog'>) => !data.draft);
+
+  return posts.map((entry: CollectionEntry<'blog'>) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+type Props = {
+  entry: CollectionEntry<'blog'>;
+};
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const repoPath = `src/content/blog/${entry.id}.md`;
+---
+
+<Layout
+  title={`${entry.data.title} - ${siteConfig.practiceName}`}
+  description={entry.data.description}
+  canonicalPath={`/blog/${entry.id}`}
+>
+  <CollectionDetailLayout
+    repoPath={repoPath}
+    frontmatter={{
+      title: entry.data.title,
+      description: entry.data.description,
+      pubDate: entry.data.pubDate.toISOString().slice(0, 10),
+      heroImage: entry.data.heroImage ?? '',
+      draft: entry.data.draft,
+    }}
+    body={entry.body ?? ''}
+    client:load
+  >
+    <BlogPostPage
+      post={{
+        title: entry.data.title,
+        description: entry.data.description,
+        pubDate: entry.data.pubDate.toISOString(),
+        heroImage: entry.data.heroImage,
+      }}
+    />
+    <article class="content mx-auto max-w-3xl px-6 py-14 text-lg text-muted-foreground lg:px-8">
+      <Content />
+    </article>
+  </CollectionDetailLayout>
+</Layout>
+
+<style>
+  .content :global(p) {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+  }
+</style>

@@ -1,0 +1,20 @@
+{
+  "shell": {
+    "eyebrow": "Booking",
+    "title": "Request a time to connect",
+    "description": "Choose whether you want a brief consultation or, when enabled, a session request.",
+    "descriptionWithCalendar": "Choose a consultation or session type and pick an available time from the calendar."
+  },
+  "external": {
+    "description": "Schedule through our online booking portal."
+  },
+  "sidebar": {
+    "sessionHeading": "Session requests",
+    "consultationHeading": "What to expect",
+    "consultationDescription": "A consultation is a short conversation about what you are looking for, whether the practice is a good fit, and what next steps could look like.",
+    "externalDescription": "Online booking lets you view availability, choose a time, and share the details needed to get started.",
+    "responseTimeLabel": "Response time",
+    "availabilityLabel": "Availability",
+    "timeZoneLabel": "Calendar time zone"
+  }
+}

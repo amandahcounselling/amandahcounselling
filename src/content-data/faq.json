@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "first-session",
+      "question": "What happens in the first counselling session?",
+      "answer": "The first session is a chance to get oriented. We will talk about what brings you to counselling, what you hope will feel different, and whether this approach feels like a good fit. You do not need to prepare anything perfectly before you arrive."
+    },
+    {
+      "id": "confidentiality",
+      "question": "Is counselling confidential?",
+      "answer": "Counselling is private and confidential, with a few legal and ethical limits related to safety. Your counsellor will review confidentiality clearly before you begin so you know what to expect."
+    },
+    {
+      "id": "session-length",
+      "question": "How long are sessions?",
+      "answer": "Most individual sessions are 50 minutes. Extended sessions may be available when clinically appropriate and can be listed in the fees section."
+    },
+    {
+      "id": "virtual-in-person",
+      "question": "Do you offer virtual or in-person counselling?",
+      "answer": "This template supports either virtual, in-person, or hybrid services. Update the practice details to reflect how sessions are offered in your practice."
+    },
+    {
+      "id": "approach",
+      "question": "What counselling approaches do you use?",
+      "answer": "The starter copy references person-centred, trauma-informed, and CBT-informed care. Replace these with the modalities, training, and language that accurately describe your practice."
+    },
+    {
+      "id": "insurance",
+      "question": "Can I use insurance benefits?",
+      "answer": "Many extended health plans cover counselling by specific provider types. Clients are encouraged to check their plan details before booking. You can customize this answer based on your designation and region."
+    },
+    {
+      "id": "cancellation",
+      "question": "What is the cancellation policy?",
+      "answer": "A common policy is to request 24 or 48 hours notice for cancellations. Update this answer and the fees page with the policy your practice uses."
+    }
+  ]
+}

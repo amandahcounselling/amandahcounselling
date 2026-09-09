@@ -1,0 +1,21 @@
+---
+import FeesPage from '../components/FeesPage';
+import Layout from '../layouts/Layout.astro';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+---
+
+<Layout
+  title={`Fees & Insurance - ${siteConfig.practiceName}`}
+  description="Learn about counselling fees, insurance reimbursement, and payment options."
+  canonicalPath="/fees"
+  noindex={!siteConfig.pages.fees.enabled}
+>
+  {
+    siteConfig.pages.fees.enabled ? (
+      <FeesPage client:load />
+    ) : (
+      <PageUnavailable title="Fees & Insurance" client:load />
+    )
+  }
+</Layout>

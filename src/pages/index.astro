@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HomePage from '../components/HomePage';
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../config';
+
+const specialties = siteConfig.pages.specialties.enabled
+  ? (await getCollection('specialties'))
+      .sort((a: any, b: any) => a.data.order - b.data.order)
+      .slice(0, 3)
+      .map((entry: any) => ({
+        slug: entry.id,
+        title: entry.data.title,
+        description: entry.data.description,
+      }))
+  : [];
+---
+
+<Layout
+  title={`${siteConfig.practiceName} - Private Practice Counselling Template`}
+  description={siteConfig.description}
+  canonicalPath="/"
+>
+  <HomePage specialties={specialties} client:load />
+</Layout>

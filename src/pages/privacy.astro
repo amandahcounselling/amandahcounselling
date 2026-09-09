@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PrivacyPage from '../components/PrivacyPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+---
+
+<Layout
+  title={`Privacy Policy - ${siteConfig.practiceName}`}
+  description="Starter privacy policy language for a counselling private practice website template."
+  canonicalPath="/privacy"
+  noindex={!siteConfig.pages.privacy.enabled}
+>
+  {
+    siteConfig.pages.privacy.enabled ? (
+      <PrivacyPage client:load />
+    ) : (
+      <PageUnavailable title="Privacy Policy" client:load />
+    )
+  }
+</Layout>

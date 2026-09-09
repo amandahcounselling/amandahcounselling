@@ -1,0 +1,18 @@
+{
+	"pid": 87817,
+	"port": 5001,
+	"url": "http://localhost:5001",
+	"urls": {
+		"local": [
+			"http://localhost:5001/"
+		],
+		"network": [
+			"http://192.168.1.114:5001/"
+		],
+		"networkInterfaceNames": [
+			"en0"
+		]
+	},
+	"background": false,
+	"startedAt": "2026-09-09T21:27:41.000Z"
+}

@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FaqPage from '../components/FaqPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+---
+
+<Layout
+  title={`Frequently Asked Questions - ${siteConfig.practiceName}`}
+  description="Find answers to common questions about counselling."
+  canonicalPath="/faq"
+  noindex={!siteConfig.pages.faq.enabled}
+>
+  {
+    siteConfig.pages.faq.enabled ? (
+      <FaqPage client:load />
+    ) : (
+      <PageUnavailable title="FAQ" client:load />
+    )
+  }
+</Layout>

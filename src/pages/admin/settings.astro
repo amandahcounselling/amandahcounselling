@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AdminPage from '../../components/admin/AdminPage';
+---
+
+<Layout title="Site Settings" noindex>
+  <AdminPage view="settings" client:only="react" />
+</Layout>

@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import PageUnavailable from '../../components/PageUnavailable';
+import SpecialtiesPage from '../../components/SpecialtiesPage';
+import { siteConfig } from '../../config';
+import Layout from '../../layouts/Layout.astro';
+
+const specialties = siteConfig.pages.specialties.enabled
+  ? (await getCollection('specialties'))
+      .sort((a: any, b: any) => a.data.order - b.data.order)
+      .map((entry: any) => ({
+        slug: entry.id,
+        title: entry.data.title,
+        description: entry.data.description,
+        heroImage: entry.data.heroImage,
+      }))
+  : [];
+---
+
+<Layout
+  title={`Specialties - ${siteConfig.practiceName}`}
+  description="Explore common counselling specialties and areas of support."
+  canonicalPath="/specialties"
+  noindex={!siteConfig.pages.specialties.enabled}
+>
+  {
+    siteConfig.pages.specialties.enabled ? (
+      <SpecialtiesPage specialties={specialties} client:load />
+    ) : (
+      <PageUnavailable title="Specialties" client:load />
+    )
+  }
+</Layout>

@@ -1,0 +1,28 @@
+{
+  "shell": {
+    "eyebrow": "Privacy",
+    "title": "Privacy Policy",
+    "description": "This starter policy is a placeholder. Review it with the laws, ethics, and tools that apply to your counselling practice."
+  },
+  "sections": [
+    {
+      "title": "Information submitted through forms",
+      "body": "This template includes contact and consultation forms. Before using the site with clients, connect those forms to a secure form provider or backend that matches your privacy and professional obligations."
+    },
+    {
+      "title": "How information is used",
+      "body": "Information submitted through a live form should only be used to respond to inquiries, coordinate consultations, and provide services requested by the visitor."
+    },
+    {
+      "title": "Health information",
+      "body": "Avoid asking visitors to submit detailed personal health information through a general website form. Use secure clinical systems for intake forms, records, and ongoing care."
+    },
+    {
+      "title": "Third-party services",
+      "body": "If you add analytics, scheduling, email marketing, or payment tools, update this policy to name those services and explain how they handle information."
+    }
+  ],
+  "contactHeading": "Contact",
+  "contactBodyPrefix": "Questions about privacy can be sent to",
+  "lastUpdated": "Last updated: June 2026"
+}

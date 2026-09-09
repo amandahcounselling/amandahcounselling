@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AboutPage from '../components/AboutPage';
+import PageUnavailable from '../components/PageUnavailable';
+import { siteConfig } from '../config';
+---
+
+<Layout
+  title={`About - ${siteConfig.practiceName}`}
+  description="Learn about the counsellor, therapeutic approach, credentials, and values behind the practice."
+  canonicalPath="/about"
+  noindex={!siteConfig.pages.about.enabled}
+>
+  {
+    siteConfig.pages.about.enabled ? (
+      <AboutPage client:load />
+    ) : (
+      <PageUnavailable title="About" client:load />
+    )
+  }
+</Layout>
