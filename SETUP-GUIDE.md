@@ -17,8 +17,8 @@ You will need:
 **Helpful order of work:**
 
 1. Create any external accounts you need (forms, booking, hosting)
-2. Update `src/config/site.ts` and `src/config/theme.ts`
-3. Replace content in the page and data files
+2. Update practice details in `src/content-data/practice.json` (or `/admin/settings`), structural settings in `src/config/site.structural.ts`, and colours in `src/config/theme.ts`
+3. Replace page copy in `src/content-data/pages/` and markdown content
 4. Add your photos
 5. Preview the site locally, then publish
 
@@ -54,7 +54,7 @@ The site can send contact and booking requests by email through a form service. 
 | [FormBold](https://formbold.com/) | Similar to Formspree |
 | [UseBasin](https://usebasin.com/) | Similar; no-code form backend |
 
-After you create a form, the service gives you a **form action URL**. You paste that into `site.ts` (see Part 2).
+After you create a form, the service gives you a **form action URL**. You paste that into `src/config/site.structural.ts` (see Part 2).
 
 Until you connect a real form service, the site runs in **demo mode**: it shows a success message but does not email you.
 
@@ -65,7 +65,7 @@ If you already book clients through **Jane App**, **Owl Practice**, **SimplePrac
 - Your booking portal URL (from your Jane/Owl profile)
 - A short label for the button (e.g. “Book on Jane App”)
 
-You will turn on **external booking** in `site.ts` instead of setting up form URLs for sessions.
+You will turn on **external booking** in `src/config/site.structural.ts` instead of setting up form URLs for sessions.
 
 ### Google Calendar (only if using built-in booking with live availability)
 
@@ -73,7 +73,7 @@ If you want clients to pick times from *your* calendar on the website:
 
 1. Use a **Google account** with a calendar for appointments
 2. Make that calendar **public** (or share a public link / ICS feed — see README for details)
-3. Copy the calendar URLs into `site.ts`
+3. Copy the calendar URLs into `src/config/site.structural.ts`
 
 If you use Jane/Owl for scheduling, skip Google Calendar setup and use external booking instead.
 
@@ -83,23 +83,27 @@ The recommended calendar setup syncs your Google Calendar to the website automat
 
 ### Spam protection / captcha (optional)
 
-If you get unwanted form submissions, you can add [hCaptcha](https://www.hcaptcha.com/) or [Google reCAPTCHA](https://www.google.com/recaptcha/). You will get a **site key** to paste into `site.ts`.
+If you get unwanted form submissions, you can add [hCaptcha](https://www.hcaptcha.com/) or [Google reCAPTCHA](https://www.google.com/recaptcha/). You will get a **site key** to paste into `src/config/site.structural.ts`.
 
 ---
 
-## Part 2: Settings in `site.ts`
+## Part 2: Site settings
 
-**File location:** `src/config/site.ts` — this is the only settings file you need to edit. Types and helper logic live in `site.types.ts` and `site.internal.ts`; leave those alone unless you are developing the template itself.
+Settings are split into two places. `src/config/site.ts` only merges them for the app — do not edit it.
 
-Think of this as your practice control panel. Most site-wide behaviour is set here.
+| File | What it controls | Who edits it |
+| --- | --- | --- |
+| `src/content-data/practice.json` | Practice name, contact, photos, logo, fees, nav labels, booking/contact copy | You (or `/admin/settings`) |
+| `src/config/site.structural.ts` | Page on/off, form backends, captcha, calendar URLs, external booking URL | Usually a developer |
 
-### Practice identity (update first)
+### Practice identity (`practice.json`)
 
-Replace every placeholder with your real information:
+Replace every placeholder with your real information (also editable at `/admin/settings`):
 
 | Setting | What visitors see |
 | --- | --- |
-| `practiceName` | Site header, footer, page titles |
+| `practiceName` | Site header (when no logo), footer, page titles |
+| `logo` | Optional header logo image; if blank, the header shows the practice name instead |
 | `practitionerName` | About page heading |
 | `credentials` | About page (e.g. “Registered Clinical Counsellor”) |
 | `tagline` | Large headline on the home page |
@@ -116,12 +120,18 @@ Replace every placeholder with your real information:
 
 Image paths always start with `/images/`, e.g. `/images/my-headshot.jpg`. Put the actual image files in `public/images/`.
 
-### Which pages are visible
+**Header logo:** set `logo` to a path like `/images/my-logo.png` to replace the default heart icon and practice name in the top navigation. Leave it as `""` to keep the practice name.
+
+Nav labels (and book-page consultation wording) live under `pages` in `practice.json`. Each page has a `label`; the Book page may also have `consultationLabel`.
+
+### Structural settings (`site.structural.ts`)
+
+#### Which pages are visible
 
 Under `pages`, each section has:
 
 - **`enabled`** — `true` to show the page, `false` to hide it
-- **`label`** — the name in menus and footer
+- **`href`** — the page URL
 - **`showInNavigation`** — whether it appears in the top menu
 
 Example: to hide the blog until you are ready to write posts:
@@ -133,9 +143,7 @@ blog: {
 },
 ```
 
-The **Book** page uses `consultationLabel` for the consultation tab wording on the booking page.
-
-### Contact forms
+#### Contact forms
 
 Under `forms`:
 
@@ -153,36 +161,38 @@ formspree: {
 
 Set `backend: 'disabled'` if you do not want forms to submit at all (visitors will see a message to email you instead).
 
-### Booking: choose one path
+#### Booking: choose one path
 
-#### Option A — External booking (Jane App, Owl, etc.)
+##### Option A — External booking (Jane App, Owl, etc.)
+
+In `site.structural.ts`:
 
 ```ts
 bookSession: {
   backend: 'external-link',
   externalLink: {
     url: 'https://your-practice.janeapp.com/',
-    label: 'Book an appointment online',
-    description: 'Short note explaining they will leave your site to book.',
   },
   ...
 }
 ```
 
-Site buttons will open your booking portal in a new tab. You can ignore the calendar and `sessionTypes` settings for scheduling (they are not used in this mode).
+Button label and description for that portal live in `practice.json` under `forms.bookSession.externalLink`.
 
-#### Option B — Built-in booking forms
+Site buttons will open your booking portal in a new tab. You can ignore the calendar settings for scheduling (they are not used in this mode).
+
+##### Option B — Built-in booking forms
+
+In `site.structural.ts`:
 
 ```ts
 bookSession: {
   backend: 'built-in',
-  enabled: true,           // show “Book a Session” tab
-  siteCtaLabel: 'Book with me',  // main button text site-wide
   ...
 }
 ```
 
-Under **`sessionTypes`**, list each appointment type:
+In `practice.json`, set copy such as `enabled`, `siteCtaLabel`, and the session list under **`sessionTypes`**:
 
 | Field | Meaning |
 | --- | --- |
@@ -195,7 +205,7 @@ Under **`sessionTypes`**, list each appointment type:
 
 Match these fees to what you list on your Fees page.
 
-**Calendar section** (built-in only): set `calendar.enabled: false` if you do not use live availability. If you do, add your Google Calendar URLs and set `timeZone` and `businessHours` to match when you actually take clients.
+**Calendar section** (built-in only, in `site.structural.ts`): set `calendar.enabled: false` if you do not use live availability. If you do, add your Google Calendar URLs and set `timeZone` and `businessHours` to match when you actually take clients.
 
 ---
 
@@ -232,28 +242,25 @@ Use this checklist so no placeholder language is left on the live site.
 
 | What | File or folder |
 | --- | --- |
-| Practice name, contact, forms, booking | `src/config/site.ts` |
+| Practice name, contact, logo, photos, fees, booking copy | `src/content-data/practice.json` (`/admin/settings`) |
+| Page on/off, form backends, captcha, calendar URLs | `src/config/site.structural.ts` |
 | Colours | `src/config/theme.ts` |
-| Fees and insurance notes | `sessionTypes` and `fees` in `src/config/site.ts` |
-| FAQ questions and answers | `src/data/faq.ts` |
+| FAQ questions and answers | `src/content-data/faq.json` (`/admin/faq`) |
+| Page marketing copy (home, about, contact, etc.) | `src/content-data/pages/*.json` |
 | Specialty pages | `src/content/specialties/` |
 | Blog posts | `src/content/blog/` |
 | Photos | `public/images/` |
-| Home page sections (approach, services) | `src/components/HomePage.tsx` |
-| About page bio and values | `src/components/AboutPage.tsx` |
-| Privacy policy sections | `src/components/PrivacyPage.tsx` |
-| Specialties listing intro | `src/components/SpecialtiesPage.tsx` |
 | Browser tab titles (search results) | `src/pages/*.astro` |
 
-### Fees and insurance (`site.ts`)
+### Fees and insurance (`practice.json`)
 
 The Fees page lists every entry in `forms.bookSession.sessionTypes`. For each service, set `label`, `durationMinutes`, `fee`, and `description`.
 
-Insurance and payment notes are under `fees.insuranceNotes` at the top of `site.ts`.
+Insurance and payment notes are under `fees.insuranceNotes` in `practice.json`.
 
-### `src/data/faq.ts`
+### `src/content-data/faq.json`
 
-Rewrite each `question` and `answer` in your own voice. Pay special attention to:
+Rewrite each `question` and `answer` in your own voice (or use `/admin/faq`). Pay special attention to:
 
 - Session length and format (virtual / in-person)
 - Your therapeutic approaches
@@ -262,36 +269,9 @@ Rewrite each `question` and `answer` in your own voice. Pay special attention to
 
 Remove any answer that still says “template” or “starter copy.”
 
-### `src/components/HomePage.tsx`
+### Page copy (`src/content-data/pages/`)
 
-Search for and replace template phrases, including:
-
-- “Private practice counselling template” (top eyebrow text)
-- “This template gives counsellors…” (intro paragraph)
-- “Counselling copy that is ready to customize”
-- The `approaches` list (person-centred, trauma-informed, etc.) — use your real modalities
-- The `services` bullet list — describe who you work with and what you offer
-- “Starter specialty pages” heading
-- “Ready to make it your own?” closing section — rewrite for clients, not for someone editing the template
-
-### `src/components/AboutPage.tsx`
-
-Replace:
-
-- Page `description` under `PageShell`
-- Both bio paragraphs (currently say “starter copy”)
-- The `values` array (collaborative care, etc.) — use your real principles
-- “Therapeutic approach” section text and the three value cards
-
-Add a meaningful `alt` text on your photo if you customize the image tag.
-
-### `src/components/PrivacyPage.tsx`
-
-This is a **placeholder policy**, not legal advice. Rewrite every section for your practice, tools, and province/country. Update “Last updated” to the current month and year. Consider having a lawyer or your professional college’s guidance review it before launch.
-
-### `src/components/SpecialtiesPage.tsx`
-
-Change the page description — it currently says the pages are “starter” examples.
+Edit the JSON files for each page (or use inline edit mode on the live site). Search for and replace template phrases such as “Private practice counselling template,” “starter copy,” and wording aimed at template editors rather than clients.
 
 ### `src/pages/*.astro` (page titles)
 
@@ -301,7 +281,7 @@ Also update `src/pages/index.astro` — the home page title and description are 
 
 ### `public/images/`
 
-Replace template photos (`woman-sitting-temp.jpg`, `nature-temp.jpg`, etc.) with your own headshots, office, or stock images you have rights to use. Update paths in `site.ts` and in specialty/blog frontmatter.
+Replace template photos (`woman-sitting-temp.jpg`, `nature-temp.jpg`, etc.) with your own headshots, office, or stock images you have rights to use. Update paths in `practice.json` (including optional `logo`) and in specialty/blog frontmatter.
 
 ### `public/favicon.svg`
 
@@ -367,7 +347,7 @@ Delete its `.md` file from `src/content/specialties/`. The page will disappear o
 
 ## Part 6: How to write blog posts
 
-Blog posts are optional. Turn the blog on in `site.ts` (`pages.blog.enabled: true`) when you are ready.
+Blog posts are optional. Turn the blog on in `src/config/site.structural.ts` (`pages.blog.enabled: true`) when you are ready.
 
 **Folder:** `src/content/blog/`
 
@@ -420,12 +400,12 @@ Delete the `.md` file or set `draft: true`.
 
 ## Part 7: Before you launch — final checklist
 
-- [ ] `site.ts` — practice name, email, phone, location, images, social links
-- [ ] `site.ts` — forms connected (`backend` not `demo`) OR external booking URL set
-- [ ] `site.ts` — pages enabled/disabled as you want
+- [ ] `practice.json` — practice name, email, phone, location, images (and optional `logo`), social links
+- [ ] `site.structural.ts` — forms connected (`backend` not `demo`) OR external booking URL set
+- [ ] `site.structural.ts` — pages enabled/disabled as you want
 - [ ] `theme.ts` — palette chosen
-- [ ] `site.ts` — `sessionTypes` fees/descriptions and `fees.insuranceNotes`; `faq.ts` — accurate for your practice
-- [ ] Home, About, Privacy, Specialties intro — no “template” or “starter” language
+- [ ] `practice.json` — `sessionTypes` fees/descriptions and `fees.insuranceNotes`; `faq.json` — accurate for your practice
+- [ ] Page copy in `src/content-data/pages/` — no “template” or “starter” language
 - [ ] Specialty `.md` files — your wording; remove template reminders
 - [ ] Blog posts — only published posts you want public (`draft: false`)
 - [ ] `src/pages/*.astro` — titles use your practice name, not “Counselling by Blank”

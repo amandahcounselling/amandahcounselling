@@ -9,6 +9,7 @@
   "email": "hello@example.com",
   "hours": "Monday to Thursday, 9:00 AM to 5:00 PM",
   "responseTime": "1-2 business days",
+  "logo": "",
   "heroImage": "/images/woman-sitting-temp.jpg",
   "aboutImage": "/images/woman-reading-temp.png",
   "defaultImage": "/images/nature-temp.jpg",

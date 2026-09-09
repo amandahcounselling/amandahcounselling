@@ -64,6 +64,7 @@ Shared practice copy lives in `src/content-data/practice.json` and is editable v
 ```json
 {
   "practiceName": "Counselling by Blank",
+  "logo": "",
   "practitionerName": "Your Name",
   "credentials": "Registered Clinical Counsellor",
   "location": "Your City, Province",
@@ -71,6 +72,8 @@ Shared practice copy lives in `src/content-data/practice.json` and is editable v
   "email": "hello@example.com"
 }
 ```
+
+Set `logo` to a path like `/images/my-logo.png` to replace the header brand text with your logo image. Leave it blank to show `practiceName`.
 
 ## Turn pages on or off
 
@@ -161,7 +164,7 @@ Photos live in `public/images/`.
 To replace a photo:
 
 1. Add your new image to `public/images/`.
-2. Update the matching path in `src/config/site.ts` or in a markdown page frontmatter.
+2. Update the matching path in `src/content-data/practice.json` or in a markdown page frontmatter.
 3. Keep paths starting with `/images/`, for example `/images/my-office.jpg`.
 
 Specialty and blog images are controlled in each markdown file:
@@ -220,13 +223,13 @@ Set `draft: true` to keep a post out of the public blog.
 
 ## Edit fees and FAQ
 
-Fees and insurance notes are in `src/config/site.ts`. Service rows come from `forms.bookSession.sessionTypes` (label, `durationMinutes`, fee, and `description`). Insurance notes live under `fees.insuranceNotes`.
+Fees and insurance notes are in `src/content-data/practice.json`. Service rows come from `forms.bookSession.sessionTypes` (label, `durationMinutes`, fee, and `description`). Insurance notes live under `fees.insuranceNotes`.
 
-FAQ content is in `src/data/faq.ts`. Each item has an `id`, `question`, and `answer`.
+FAQ content is in `src/content-data/faq.json`. Each item has an `id`, `question`, and `answer`.
 
 ## Connect forms
 
-The Contact and Book a Consultation forms are controlled in `src/config/site.ts`.
+The Contact and Book a Consultation forms are controlled in `src/config/site.structural.ts` (backends and providers) and `src/content-data/practice.json` (form copy and labels).
 
 By default, forms use:
 
@@ -243,7 +246,7 @@ The `/book` page can show two booking modes:
 - `Book a Consultation` - a starter consultation request form.
 - `Book a Session` - a session request form with optional live availability from a public Google Calendar.
 
-Session booking is controlled in `src/config/site.ts`:
+Session booking is controlled in `src/config/site.structural.ts` (backend, calendar URLs) and `src/content-data/practice.json` (labels, session types, booking copy):
 
 ### Built-in forms (default)
 
@@ -342,7 +345,7 @@ Internally, the site requires an extra 10-minute buffer when checking the calend
 
 Google's ICS feed blocks direct browser requests (CORS). The recommended setup syncs busy intervals to a same-origin JSON file that the booking page reads in the browser.
 
-In `src/config/site.ts`:
+In `src/config/site.structural.ts`:
 
 ```ts
 icsFeedUrl:
@@ -353,7 +356,7 @@ availabilitySync: {
 },
 ```
 
-- `icsFeedUrl` is used by the sync script and GitHub Action (public URL, safe to keep in `site.ts`).
+- `icsFeedUrl` is used by the sync script and GitHub Action (public URL, safe to keep in `site.structural.ts`).
 - `availabilitySync.enabled: false` skips sync and falls back to direct ICS loading in the browser (may fail due to CORS).
 - `jsonPath` must match a file under `public/` (for example `public/calendar-availability.json`).
 
@@ -367,10 +370,10 @@ GitHub Action (`.github/workflows/sync-calendar-availability.yml`):
 
 - runs every 15 minutes on a schedule
 - supports manual **Run workflow** via `workflow_dispatch`
-- reads `icsFeedUrl` from `site.ts`, writes `public/calendar-availability.json`, and commits when changed
+- reads `icsFeedUrl` from `site.structural.ts`, writes `public/calendar-availability.json`, and commits when changed
 - your host rebuilds on push
 
-The workflow checks `src/config/site.ts` before installing dependencies. It skips when `calendar.enabled` or `availabilitySync.enabled` is `false`.
+The workflow checks `src/config/site.structural.ts` before installing dependencies. It skips when `calendar.enabled` or `availabilitySync.enabled` is `false`.
 
 To disable calendar sync entirely, set `availabilitySync.enabled: false` or `calendar.enabled: false`. The site still works without it.
 
@@ -381,7 +384,7 @@ When `availabilitySync.enabled` and `availabilityPicker.enabled` are both `true`
 The picker:
 
 - reads same-origin availability from `availabilitySync.jsonPath`
-- uses `businessHours`, `slotIntervalMinutes`, and `lookaheadDays` from `site.ts`
+- uses `businessHours`, `slotIntervalMinutes`, and `lookaheadDays` from `site.structural.ts`
 - recalculates openings when a visitor changes between 50-minute and 75-minute sessions
 - shows session length in the calendar while keeping the 10-minute buffer internal
 - submits `preferredDateTime`, `preferredDateTimeIso`, and `sessionDurationMinutes` with the form
@@ -458,7 +461,7 @@ forms: {
 }
 ```
 
-When forms are disabled, the Contact and Book pages still display practice contact information and ask visitors to email the address in `src/config/site.ts`.
+When forms are disabled, the Contact and Book pages still display practice contact information and ask visitors to email the address in `src/content-data/practice.json`.
 
 Then update the matching provider config:
 
@@ -540,7 +543,7 @@ Useful Google docs:
 
 ### Captcha
 
-Captcha is also configured in `src/config/site.ts`.
+Captcha is also configured in `src/config/site.structural.ts`.
 
 ```ts
 captcha: {
