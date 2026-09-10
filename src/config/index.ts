@@ -28,6 +28,7 @@ export {
   getSessionCalendarIcsFeedUrl,
   getSessionCalendarId,
   getSessionTypesByKind,
+  isPhoneEnabled,
   isSessionAvailabilityPickerEnabled,
   isSessionAvailabilitySyncEnabled,
   isSessionCalendarActive,

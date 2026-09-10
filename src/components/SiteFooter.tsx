@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
-import { getBookCtaLabel, siteConfig } from '../config';
+import { getBookCtaLabel, isPhoneEnabled, siteConfig } from '../config';
 import { getBookLinkProps } from '../lib/booking';
 import { withBase } from '../lib/paths';
 import SharedField from './admin/SharedField';
@@ -41,12 +41,14 @@ export default function SiteFooter() {
                 <SharedField path="email" fallback={siteConfig.email} />
               </a>
             </p>
-            <p className="flex items-center gap-2">
-              <Phone className="text-primary h-4 w-4" aria-hidden="true" />
-              <a href={`tel:${siteConfig.phone}`}>
-                <SharedField path="phone" fallback={siteConfig.phone} />
-              </a>
-            </p>
+            {isPhoneEnabled() && (
+              <p className="flex items-center gap-2">
+                <Phone className="text-primary h-4 w-4" aria-hidden="true" />
+                <a href={`tel:${siteConfig.phone}`}>
+                  <SharedField path="phone" fallback={siteConfig.phone} />
+                </a>
+              </p>
+            )}
           </div>
         </div>
 

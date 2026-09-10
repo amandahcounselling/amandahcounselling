@@ -1,6 +1,6 @@
 import { CheckCircle, Mail, MapPin, Phone } from 'lucide-react';
 import { useState } from 'react';
-import { getBookCtaLabel, siteConfig } from '../config';
+import { getBookCtaLabel, isPhoneEnabled, siteConfig } from '../config';
 import { pageContent } from '../lib/content';
 import { getBookLinkProps, isExternalBookingEnabled } from '../lib/booking';
 import { getFormSettings, getFormSubject } from '../lib/forms';
@@ -62,12 +62,14 @@ export default function ContactPage() {
                     <SharedField path="email" fallback={siteConfig.email} />
                   </a>
                 </p>
-                <p className="flex gap-3">
-                  <Phone className="text-primary mt-1 h-5 w-5" />
-                  <a href={`tel:${siteConfig.phone}`}>
-                    <SharedField path="phone" fallback={siteConfig.phone} />
-                  </a>
-                </p>
+                {isPhoneEnabled() && (
+                  <p className="flex gap-3">
+                    <Phone className="text-primary mt-1 h-5 w-5" />
+                    <a href={`tel:${siteConfig.phone}`}>
+                      <SharedField path="phone" fallback={siteConfig.phone} />
+                    </a>
+                  </p>
+                )}
               </div>
             </div>
 

@@ -110,7 +110,7 @@ Replace every placeholder with your real information (also editable at `/admin/s
 | `tagline` | Large headline on the home page |
 | `description` | Search engine summary; default page description |
 | `location` | Footer and contact areas |
-| `phone` | Footer and contact |
+| `phone` | Footer and contact. Set to `disabled` to hide phone everywhere (footer, contact, booking forms, structured data) |
 | `email` | Footer, contact, privacy page |
 | `hours` | When you are generally available |
 | `responseTime` | e.g. “1–2 business days” on the booking page |
@@ -160,7 +160,7 @@ formspree: {
 },
 ```
 
-Set `backend: 'basic'` for a simple email-only contact page (no form; visitors are invited to email the address in practice settings). Set `backend: 'disabled'` if forms are temporarily unavailable (visitors see a “forms off” message with email and phone).
+Set `backend: 'basic'` for a simple email-only contact page (no form; visitors are invited to email the address in practice settings). Set `backend: 'disabled'` if forms are temporarily unavailable (visitors see a “forms off” message with email, and phone when it is not set to `disabled`).
 
 #### Booking: choose one path
 

@@ -1,5 +1,5 @@
 ---
-import { siteConfig } from '../config';
+import { isPhoneEnabled, siteConfig } from '../config';
 import { activePalette } from '../config/theme';
 import { buildAbsoluteUrl, withBase } from '../lib/paths';
 
@@ -54,7 +54,7 @@ const themeVariables = Object.entries(activePalette.cssVariables)
         name: siteConfig.practiceName,
         description: siteConfig.description,
         url: siteUrl || undefined,
-        telephone: siteConfig.phone,
+        telephone: isPhoneEnabled() ? siteConfig.phone : undefined,
         email: siteConfig.email,
         address: {
           '@type': 'PostalAddress',

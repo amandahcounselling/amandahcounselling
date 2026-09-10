@@ -143,4 +143,9 @@ export function getSessionCalendarEmbedUrl() {
   );
 }
 
+/** False when practice.json sets `phone` to `"disabled"` — hide phone UI site-wide. */
+export function isPhoneEnabled() {
+  return siteConfig.phone.trim().toLowerCase() !== 'disabled';
+}
+
 export type SiteConfig = typeof siteConfig;

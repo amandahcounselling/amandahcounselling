@@ -5,6 +5,7 @@ import {
   getSessionBookingDescription,
   getSessionCalendarEmbedUrl,
   getSessionTypesByKind,
+  isPhoneEnabled,
   isSessionAvailabilityPickerEnabled,
   isSessionCalendarActive,
   siteConfig,
@@ -326,14 +327,16 @@ function ConsultationForm({
         <TextField name="email" label="Email" type="email" required />
       </div>
 
-      <div className="grid gap-5 md:grid-cols-2">
-        <TextField name="phone" label="Phone" type="tel" />
-        <SelectField
-          name="preferredContact"
-          label="Preferred contact method"
-          options={['Email', 'Phone']}
-        />
-      </div>
+      {isPhoneEnabled() && (
+        <div className="grid gap-5 md:grid-cols-2">
+          <TextField name="phone" label="Phone" type="tel" />
+          <SelectField
+            name="preferredContact"
+            label="Preferred contact method"
+            options={['Email', 'Phone']}
+          />
+        </div>
+      )}
 
       {consultationTypes.length > 1 ? (
         <SelectField
@@ -483,14 +486,16 @@ function SessionForm({
         <TextField name="email" label="Email" type="email" required />
       </div>
 
-      <div className="grid gap-5 md:grid-cols-2">
-        <TextField name="phone" label="Phone" type="tel" />
-        <SelectField
-          name="preferredContact"
-          label="Preferred contact method"
-          options={['Email', 'Phone']}
-        />
-      </div>
+      {isPhoneEnabled() && (
+        <div className="grid gap-5 md:grid-cols-2">
+          <TextField name="phone" label="Phone" type="tel" />
+          <SelectField
+            name="preferredContact"
+            label="Preferred contact method"
+            options={['Email', 'Phone']}
+          />
+        </div>
+      )}
 
       <SelectField
         name="sessionType"

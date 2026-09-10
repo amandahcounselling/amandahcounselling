@@ -1,5 +1,5 @@
 import { Mail, Phone } from 'lucide-react';
-import { siteConfig } from '../config';
+import { isPhoneEnabled, siteConfig } from '../config';
 
 type FormDisabledMessageProps = {
   context: 'contact' | 'booking';
@@ -43,7 +43,7 @@ export default function FormDisabledMessage({
           <Mail className="h-4 w-4" aria-hidden="true" />
           {siteConfig.email}
         </a>
-        {!isBasic && (
+        {!isBasic && isPhoneEnabled() && (
           <a
             href={`tel:${siteConfig.phone}`}
             className="border-primary text-primary hover:bg-primary/10 inline-flex items-center justify-center gap-2 rounded-full border px-6 py-3 font-bold transition-colors"
