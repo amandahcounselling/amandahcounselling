@@ -102,8 +102,9 @@ Replace every placeholder with your real information (also editable at `/admin/s
 
 | Setting | What visitors see |
 | --- | --- |
-| `practiceName` | Site header (when no logo), footer, page titles |
-| `logo` | Optional header logo image; if blank, the header shows the practice name instead |
+| `practiceName` | Footer, page titles; header text when no logo assets are set |
+| `logo` | Full wordmark shown large at the top of the page |
+| `logoMark` | Compact mark used after you scroll (header shrinks; mark only, no practice name) |
 | `practitionerName` | About page heading |
 | `credentials` | About page (e.g. “Registered Clinical Counsellor”) |
 | `tagline` | Large headline on the home page |
@@ -120,7 +121,7 @@ Replace every placeholder with your real information (also editable at `/admin/s
 
 Image paths always start with `/images/`, e.g. `/images/my-headshot.jpg`. Put the actual image files in `public/images/`.
 
-**Header logo:** set `logo` to a path like `/images/my-logo.png` to replace the default heart icon and practice name in the top navigation. Leave it as `""` to keep the practice name.
+**Header logo:** set `logo` to your full wordmark (e.g. `/images/logo-transparent.svg`) so it displays large when visitors first land. Set `logoMark` to a compact mark (e.g. `/images/logo-standalone.png`) for the shrunk sticky header after scrolling. Leave both blank to keep the heart icon and practice name.
 
 Nav labels (and book-page consultation wording) live under `pages` in `practice.json`. Each page has a `label`; the Book page may also have `consultationLabel`.
 

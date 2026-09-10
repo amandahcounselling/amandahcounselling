@@ -26,6 +26,18 @@ export interface ContentStorageClient {
   uploadImage(path: string, base64Content: string, message?: string): Promise<{ commitSha?: string }>;
 }
 
+/** True when env explicitly opts into local file editing (`true` / `1`). */
+export function isLocalAdminEditingFlagEnabled(value: string | undefined | null) {
+  return value === 'true' || value === '1';
+}
+
+/**
+ * Local on-site editing is available only in `astro dev` when
+ * `PUBLIC_ADMIN_LOCAL_EDITING=true` (or `1`) is set. Off by default.
+ */
 export function isLocalAdminEnvironment() {
-  return import.meta.env.DEV;
+  return (
+    import.meta.env.DEV &&
+    isLocalAdminEditingFlagEnabled(import.meta.env.PUBLIC_ADMIN_LOCAL_EDITING)
+  );
 }

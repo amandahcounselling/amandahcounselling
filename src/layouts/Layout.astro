@@ -18,7 +18,7 @@ const {
 } = Astro.props;
 
 const canonicalUrl = buildAbsoluteUrl(canonicalPath || '/');
-const faviconHref = withBase('/favicon.svg');
+const faviconHref = withBase('/favicon.ico');
 const siteUrl = buildAbsoluteUrl('/');
 const themeVariables = Object.entries(activePalette.cssVariables)
   .map(([property, value]) => `  --${property}: ${value};`)
@@ -42,7 +42,7 @@ const themeVariables = Object.entries(activePalette.cssVariables)
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Lora:wght@500..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400..800;1,400..800&display=swap"
       rel="stylesheet"
     />
 
@@ -100,9 +100,9 @@ const themeVariables = Object.entries(activePalette.cssVariables)
     --radius-lg: 1rem;
     --radius-xl: 1.5rem;
 
-    --font-sans: 'Inter', sans-serif;
-    --font-heading: 'Lora', serif;
-    --font-hand: 'Lora', serif;
+    --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+    --font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+    --font-hand: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
   }
 
   @layer base {

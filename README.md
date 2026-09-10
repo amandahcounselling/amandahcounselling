@@ -53,9 +53,14 @@ npm run validate:content
 
 ### Local development saves
 
-When running `npm run dev`, use **Start local editing** on `/admin` instead of a GitHub token. Saves go directly to files in your working tree via a dev-only API (`/__admin/content/*`) — no GitHub commits are created.
+Local on-site editing is **off by default**. To enable it:
 
-Edit mode and your session persist across page navigation via `localStorage`. Restart the dev server after pulling these changes so the local save middleware is active.
+1. Copy `.env.example` to `.env` (if you have not already).
+2. Set `PUBLIC_ADMIN_LOCAL_EDITING=true`.
+3. Restart `npm run dev`.
+4. Open `/admin` and choose **Start local editing**.
+
+Saves go directly to files in your working tree via a dev-only API (`/__admin/content/*`) — no GitHub commits are created. Edit mode and your session persist across page navigation via `localStorage`.
 
 ## Customize the practice details
 
@@ -65,6 +70,7 @@ Shared practice copy lives in `src/content-data/practice.json` and is editable v
 {
   "practiceName": "Counselling by Blank",
   "logo": "",
+  "logoMark": "",
   "practitionerName": "Your Name",
   "credentials": "Registered Clinical Counsellor",
   "location": "Your City, Province",
@@ -73,7 +79,7 @@ Shared practice copy lives in `src/content-data/practice.json` and is editable v
 }
 ```
 
-Set `logo` to a path like `/images/my-logo.png` to replace the header brand text with your logo image. Leave it blank to show `practiceName`.
+Set `logo` to a full wordmark like `/images/logo-transparent.svg` for the large header at the top of the page. Set `logoMark` to a compact mark like `/images/logo-standalone.png` for the shrunk sticky header after scrolling (mark only). Leave both blank to show `practiceName` with the default heart icon.
 
 ## Turn pages on or off
 
@@ -257,17 +263,24 @@ bookSession: {
 
 ### External booking link (Jane App, Owl, etc.)
 
-If you already use an online booking portal, set `backend: 'external-link'` and add your portal URL and button label. The `/book` page becomes a short landing page with a link out, and site CTAs (header, home, footer) point directly to that URL.
+If you already use an online booking portal, set `backend: 'external-link'` and your portal URL in `src/config/site.structural.ts`. Button label and description live in `src/content-data/practice.json` under `forms.bookSession.externalLink`. The `/book` page becomes a short landing page with a link out, and site CTAs (header, home, footer) open that URL in a new tab.
 
 ```ts
+// src/config/site.structural.ts
 bookSession: {
   backend: 'external-link',
   externalLink: {
-    url: 'https://your-practice.janeapp.com/',
-    label: 'Book on Jane App',
-    description:
-      'You will leave this site to view availability and complete your profile.',
+    url: 'https://amandahcounselling.janeapp.com',
   },
+},
+```
+
+```json
+// src/content-data/practice.json
+"externalLink": {
+  "label": "Book an appointment online",
+  "description": "Appointments are scheduled through Jane App..."
+}
 ```
 
 Calendar sync and the built-in availability picker are skipped when `external-link` is selected.

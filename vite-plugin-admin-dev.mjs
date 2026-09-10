@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { loadEnv } from 'vite';
 
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 
@@ -38,12 +39,22 @@ function sendJson(res, status, payload) {
   res.end(JSON.stringify(payload));
 }
 
+function isLocalAdminEditingEnabled(mode) {
+  const env = loadEnv(mode, projectRoot, '');
+  const value = env.PUBLIC_ADMIN_LOCAL_EDITING ?? process.env.PUBLIC_ADMIN_LOCAL_EDITING;
+  return value === 'true' || value === '1';
+}
+
 /** Dev-only middleware: write admin edits directly to the working tree. */
 export function adminDevPlugin() {
   return {
     name: 'admin-dev',
     apply: 'serve',
     configureServer(server) {
+      if (!isLocalAdminEditingEnabled(server.config.mode)) {
+        return;
+      }
+
       server.middlewares.use(async (req, res, next) => {
         if (!req.url?.startsWith('/__admin/')) {
           next();

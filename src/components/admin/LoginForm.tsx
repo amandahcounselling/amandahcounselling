@@ -64,7 +64,8 @@ export default function LoginForm() {
             <h2 className="font-heading text-2xl font-bold">Local development</h2>
             <p className="text-muted-foreground mt-2 leading-relaxed">
               Save edits directly to this repository on your machine. No GitHub commits are created
-              while running <code>npm run dev</code>.
+              while running <code>npm run dev</code>. Requires{' '}
+              <code>PUBLIC_ADMIN_LOCAL_EDITING=true</code> in your <code>.env</code>.
             </p>
           </div>
           <button

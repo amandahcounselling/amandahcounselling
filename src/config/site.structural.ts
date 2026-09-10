@@ -35,7 +35,7 @@ export const structuralSiteConfig = {
       showInNavigation: false,
     },
     blog: {
-      enabled: true,
+      enabled: false,
       href: '/blog',
       showInNavigation: true,
     },
@@ -63,10 +63,10 @@ export const structuralSiteConfig = {
     backend: 'demo' as FormBackend,
 
     bookSession: {
-      backend: 'built-in' as BookingBackend,
+      backend: 'external-link' as BookingBackend,
 
       externalLink: {
-        url: 'https://jane.app/',
+        url: 'https://amandahcounselling.janeapp.com',
       },
 
       calendar: {
