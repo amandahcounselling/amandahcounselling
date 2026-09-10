@@ -1,11 +1,11 @@
 import { readFileSync } from 'node:fs';
 
 /**
- * Lightweight site.ts check for GitHub Actions (no npm install required).
- * Keep aligned with shouldRunCalendarAvailabilitySync() in src/config/site.ts.
+ * Lightweight site.structural.ts check for GitHub Actions (no npm install required).
+ * Keep aligned with shouldRunCalendarAvailabilitySync() in src/config/site.internal.ts.
  */
 function readSiteConfigSource() {
-  return readFileSync('src/config/site.ts', 'utf8');
+  return readFileSync('src/config/site.structural.ts', 'utf8');
 }
 
 function readBooleanFlag(source, pattern) {
@@ -14,9 +14,11 @@ function readBooleanFlag(source, pattern) {
 }
 
 function shouldRunCalendarAvailabilitySyncFromSource(source) {
-  const usesExternalBooking = /backend:\s*['"`]external-link['"`]/.test(source);
-
-  if (usesExternalBooking) {
+  // Match bookSession.backend (not forms.backend). Only built-in booking runs sync.
+  const bookSessionBackend = source.match(
+    /bookSession:\s*\{[\s\S]*?backend:\s*['"`]([^'"`]+)['"`]/,
+  )?.[1];
+  if (bookSessionBackend !== 'built-in') {
     return false;
   }
 

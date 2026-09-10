@@ -1,0 +1,60 @@
+# Sync Google Calendar ICS → public/calendar-availability.json when enabled.
+name: Sync calendar availability
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-calendar-availability
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check whether sync is enabled
+        id: enabled
+        run: |
+          ENABLED=$(node scripts/check-calendar-sync-enabled.mjs)
+          echo "enabled=$ENABLED" >> "$GITHUB_OUTPUT"
+          if [ "$ENABLED" != "true" ]; then
+            echo "Calendar availability sync is disabled; skipping."
+          fi
+
+      - name: Setup Node
+        if: steps.enabled.outputs.enabled == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        if: steps.enabled.outputs.enabled == 'true'
+        run: npm ci
+
+      - name: Sync calendar availability
+        if: steps.enabled.outputs.enabled == 'true'
+        run: npm run sync:calendar
+
+      - name: Commit and push if changed
+        if: steps.enabled.outputs.enabled == 'true'
+        run: |
+          if git diff --quiet -- public/calendar-availability.json; then
+            echo "No availability changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/calendar-availability.json
+          git commit -m "chore: sync calendar availability"
+          git push
