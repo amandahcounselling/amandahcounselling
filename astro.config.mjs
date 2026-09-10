@@ -3,7 +3,7 @@ import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 import { adminDevPlugin } from './vite-plugin-admin-dev.mjs';
 
-// GitHub Pages project sites need a base path (e.g. /counselling-website-template).
+// GitHub Pages project sites need a base path (e.g. /repo-name).
 // deploy-pages.yml sets these from actions/configure-pages outputs.
 const site = process.env.ASTRO_SITE_URL || 'https://example.com';
 const configuredBase = process.env.ASTRO_BASE_PATH || '/';

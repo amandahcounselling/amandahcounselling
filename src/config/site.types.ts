@@ -22,6 +22,7 @@ export type PageKey =
 
 export type FormBackend =
   | 'disabled'
+  | 'basic'
   | 'demo'
   | 'formspree'
   | 'formbold'

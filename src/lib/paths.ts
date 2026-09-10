@@ -1,6 +1,6 @@
 /**
  * Prefix a root-relative path with Astro's configured base.
- * Required for GitHub Pages project sites (e.g. /counselling-website-template/).
+ * Required when the site is served under a path prefix (e.g. GitHub Pages project sites).
  */
 export function withBase(path: string): string {
   if (

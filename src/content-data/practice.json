@@ -3,13 +3,13 @@
   "practitionerName": "Amanda Hecimovic",
   "credentials": "Registered Clinical Counsellor",
   "tagline": "Compassionate counselling for steadier days and meaningful change.",
-  "description": "A private practice counselling website template for individual therapy, specialties, fees, FAQs, consultation requests, and blog posts.",
+  "description": "Individual counselling in Vancouver, BC with Amanda Hecimovic, RCC — support for anxiety, mood, relationships, stress, and life transitions.",
   "location": "Vancouver, BC",
   "phone": "(555) 123-4567",
   "email": "info@amandahcounselling.com",
   "hours": "Monday to Thursday, 9:00 AM to 5:00 PM",
   "responseTime": "1-2 business days",
-  "logo": "/images/logo-transparent.svg",
+  "logo": "/images/logo-aligned.svg",
   "logoMark": "/images/logo-standalone.png",
   "heroImage": "/images/amanda-hero-1-cropped.webp",
   "aboutImage": "/images/amanda-hero-3-cropped.webp",
@@ -50,14 +50,14 @@
       "siteCtaLabel": "Book with me",
       "label": "Book a Session",
       "title": "Request a counselling session",
-      "description": "Are you an existing client? Send a session request here, or contact me via email or phone. I will follow up to confirm scheduling. If you are new to my practice, please use the consultation request form instead.",
+      "description": "Are you an existing client? Send a session request here, or contact me by email or phone. I will follow up to confirm scheduling. If you are new to the practice, please start with a consultation.",
       "descriptionWithCalendar": "Choose a session type and an available time from the calendar, then send your request.",
-      "confirmationMessage": "Your session request has been prepared. The appointment is not confirmed until the practice follows up or your form backend confirms the booking.",
+      "confirmationMessage": "Your session request has been received. The appointment is not confirmed until the practice follows up.",
       "consultationCopy": {
         "title": "Start with a brief consultation",
-        "description": "Use this starter intake request to ask questions, share what you are looking for, and decide whether counselling feels like a good fit."
+        "description": "A short conversation to ask questions, share what you are looking for, and decide whether counselling feels like a good fit."
       },
-      "consultationSuccessMessage": "Your request has been prepared. In a live site, connect this form to a form service so messages are delivered securely.",
+      "consultationSuccessMessage": "Thank you for reaching out. I will reply within the stated response time to confirm next steps.",
       "calendar": {
         "availabilityHelpText": "Available times are based on the public calendar and include a short buffer between sessions."
       },
@@ -95,7 +95,7 @@
       "submitLabel": "Send Message",
       "disclaimer": "Please do not put sensitive information in the message field. I will follow up with you via email or phone. If you are in a crisis, or need immediate assistance, please call 911 or go to the nearest emergency room.",
       "successTitle": "Message received.",
-      "successMessage": "Thanks for reaching out. In production, connect this form to a form service so messages are delivered to your inbox.",
+      "successMessage": "Thanks for reaching out. I will follow up by email or phone within the stated response time.",
       "successResetLabel": "Send another message"
     }
   },

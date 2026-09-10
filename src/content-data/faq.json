@@ -8,32 +8,32 @@
     {
       "id": "confidentiality",
       "question": "Is counselling confidential?",
-      "answer": "Counselling is private and confidential, with a few legal and ethical limits related to safety. Your counsellor will review confidentiality clearly before you begin so you know what to expect."
+      "answer": "Counselling is private and confidential, with a few legal and ethical limits related to safety. Confidentiality is reviewed clearly before you begin so you know what to expect."
     },
     {
       "id": "session-length",
       "question": "How long are sessions?",
-      "answer": "Most individual sessions are 50 minutes. Extended sessions may be available when clinically appropriate and can be listed in the fees section."
+      "answer": "Most individual sessions are 50 minutes. Extended 75-minute sessions may be available when clinically appropriate."
     },
     {
       "id": "virtual-in-person",
       "question": "Do you offer virtual or in-person counselling?",
-      "answer": "This template supports either virtual, in-person, or hybrid services. Update the practice details to reflect how sessions are offered in your practice."
+      "answer": "Sessions are offered virtually for clients across British Columbia. If you have questions about format or suitability, please ask during consultation."
     },
     {
       "id": "approach",
       "question": "What counselling approaches do you use?",
-      "answer": "The starter copy references person-centred, trauma-informed, and CBT-informed care. Replace these with the modalities, training, and language that accurately describe your practice."
+      "answer": "Work is person-centred, trauma-informed, and CBT-informed. The approach is shaped around your goals, capacity, and what feels useful in the moment."
     },
     {
       "id": "insurance",
       "question": "Can I use insurance benefits?",
-      "answer": "Many extended health plans cover counselling by specific provider types. Clients are encouraged to check their plan details before booking. You can customize this answer based on your designation and region."
+      "answer": "Many extended health plans cover counselling with a Registered Clinical Counsellor. Coverage varies by plan. Clients are encouraged to check their benefits before booking. Receipts can be provided for reimbursement."
     },
     {
       "id": "cancellation",
       "question": "What is the cancellation policy?",
-      "answer": "A common policy is to request 24 or 48 hours notice for cancellations. Update this answer and the fees page with the policy your practice uses."
+      "answer": "Please provide at least 24 hours’ notice if you need to cancel or reschedule. Late cancellations or missed appointments may be charged the session fee."
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "shell": {
     "eyebrow": "About",
-    "description": "Use this page to introduce the counsellor, their credentials, and the kind of therapeutic relationship clients can expect."
+    "description": "Meet Amanda Hecimovic, Registered Clinical Counsellor, and learn about the kind of therapeutic relationship clients can expect."
   },
   "intro": {
-    "title": "A calm, clear place to describe your practice",
+    "title": "A steady place to make sense of what you are carrying",
     "paragraphs": [
-      "This starter copy is intentionally general. Replace it with your own professional bio, education, designations, populations served, and therapeutic approach.",
-      "You might describe how you help clients understand patterns, strengthen coping, process difficult experiences, and move toward choices that feel more aligned with their values."
+      "I am Amanda Hecimovic, a Registered Clinical Counsellor offering individual counselling for adults in Vancouver and across British Columbia. My work focuses on anxiety, mood, relationships, stress, grief, identity, and life transitions.",
+      "In session, we make space to understand patterns, strengthen coping, process difficult experiences, and move toward choices that feel more aligned with your values — at a pace that respects your capacity."
     ]
   },
   "values": {
     "title": "Therapeutic approach",
-    "description": "Update these blocks with the methodologies you actually use, such as person-centred therapy, somatic therapy, EMDR, ACT, CBT, EFT, narrative therapy, or another approach.",
+    "description": "Counselling here is collaborative and practical, drawing on person-centred, trauma-informed, and CBT-informed ideas as they fit your goals.",
     "items": [
       {
         "title": "Collaborative care",
@@ -20,11 +20,11 @@
       },
       {
         "title": "Respect for lived experience",
-        "description": "Clients bring wisdom about their own lives, identities, relationships, and needs."
+        "description": "You bring wisdom about your own life, identities, relationships, and needs."
       },
       {
         "title": "Practical support",
-        "description": "Sessions can include reflection, skill-building, nervous system support, and next steps."
+        "description": "Sessions can include reflection, skill-building, nervous system support, and clear next steps."
       }
     ]
   }

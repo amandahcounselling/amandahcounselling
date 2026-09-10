@@ -1,17 +1,17 @@
 {
   "hero": {
-    "eyebrow": "Private practice counselling template",
-    "subtitle": "This template gives counsellors a calm, easy-to-maintain website with pages for services, specialties, fees, FAQs, consultation requests, and blog posts.",
+    "eyebrow": "Registered Clinical Counsellor · Vancouver, BC",
+    "subtitle": "Thoughtful, collaborative counselling for adults navigating anxiety, mood, relationships, stress, and life transitions.",
     "specialtiesCta": "View Specialties"
   },
   "approach": {
     "eyebrow": "Approach",
-    "title": "Counselling copy that is ready to customize",
-    "description": "The starter language references common counselling approaches. Replace these with your actual modalities, training, and scope of practice.",
+    "title": "Care that is warm, grounded, and practical",
+    "description": "Sessions draw on person-centred, trauma-informed, and CBT-informed ideas, shaped around your goals, capacity, and what feels useful in the moment.",
     "items": [
       {
         "title": "Person-centred",
-        "description": "A collaborative relationship where clients are met with warmth, respect, and curiosity."
+        "description": "A collaborative relationship where you are met with warmth, respect, and curiosity."
       },
       {
         "title": "Trauma-informed",
@@ -25,21 +25,21 @@
   },
   "services": {
     "eyebrow": "Services",
-    "title": "A practical starting point for private practice",
-    "description": "Use this section to describe who you support, how sessions are offered, and what clients can expect when they reach out.",
+    "title": "Individual counselling for adults",
+    "description": "Support for what you are carrying, with space to understand patterns, strengthen coping, and move toward what matters to you.",
     "items": [
       "Individual counselling for adults",
       "Support for anxiety, depression, relationships, stress, and transitions",
-      "Virtual or in-person sessions, depending on your practice setup"
+      "Virtual sessions available across British Columbia"
     ]
   },
   "specialties": {
     "eyebrow": "Specialties",
-    "title": "Starter specialty pages",
+    "title": "Areas of support",
     "seeAllLabel": "See all specialties"
   },
   "cta": {
-    "title": "Ready to work with me?",
-    "description": "Contact me to discuss your needs and explore how we can work together."
+    "title": "Ready to work together?",
+    "description": "Book a consultation to ask questions, share what you are looking for, and see whether counselling feels like a good fit."
   }
 }

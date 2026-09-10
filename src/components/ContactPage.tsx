@@ -94,7 +94,7 @@ export default function ContactPage() {
           </aside>
 
           <div className="bg-card rounded-[2rem] border border-border p-6 shadow-sm md:p-8">
-            {formSettings.isDisabled ? (
+            {formSettings.hidesForm ? (
               <FormDisabledMessage context="contact" />
             ) : submitted ? (
               <div className="space-y-4 text-center">

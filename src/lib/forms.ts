@@ -9,6 +9,8 @@ export function getFormSettings(kind: FormKind) {
     action: provider.action,
     captcha: siteConfig.forms.captcha,
     isDisabled: backend === 'disabled',
+    isBasic: backend === 'basic',
+    hidesForm: backend === 'disabled' || backend === 'basic',
     isDemo: backend === 'demo' || !provider.action,
   };
 }

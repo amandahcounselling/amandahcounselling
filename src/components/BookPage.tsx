@@ -140,7 +140,7 @@ export default function BookPage() {
             {isSession && calendarActive && !pickerEnabled && <SessionAvailability />}
 
             <div className="bg-card rounded-[2rem] border border-border p-6 shadow-sm md:p-8">
-              {formSettings.isDisabled ? (
+              {formSettings.hidesForm ? (
                 <FormDisabledMessage context="booking" />
               ) : submittedMode === activeMode ? (
                 <SubmissionSuccess

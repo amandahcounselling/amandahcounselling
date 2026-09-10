@@ -60,7 +60,7 @@ export const structuralSiteConfig = {
   >,
 
   forms: {
-    backend: 'demo' as FormBackend,
+    backend: 'basic' as FormBackend,
 
     bookSession: {
       backend: 'external-link' as BookingBackend,
@@ -103,13 +103,14 @@ export const structuralSiteConfig = {
 
     providers: {
       disabled: { action: '' },
+      basic: { action: '' },
       demo: { action: '' },
       formspree: { action: 'https://formspree.io/f/YOUR_FORM_ID' },
       formbold: { action: 'https://formbold.com/s/YOUR_FORM_ID' },
       usebasin: { action: 'https://usebasin.com/f/YOUR_FORM_ID' },
       resend: {
         action: '/api/forms',
-        fromEmail: 'website@example.com',
+        fromEmail: 'info@amandahcounselling.com',
         toEmail: 'hello@example.com',
       },
       custom: { action: '' },

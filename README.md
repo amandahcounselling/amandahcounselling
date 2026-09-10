@@ -448,7 +448,8 @@ Use those fields in your form backend dashboard, email templates, automations, o
 
 Supported values:
 
-- `disabled` - hides the Contact and Book forms and shows email/phone instructions instead.
+- `disabled` - hides the Contact and Book forms and shows email/phone instructions instead (temporary “forms off” messaging).
+- `basic` - hides the forms and shows a professional email-only invitation using the address in `practice.json`.
 - `demo` - no backend; useful while editing the template.
 - `formspree` - posts directly to Formspree form endpoints.
 - `formbold` - posts directly to Formbold form endpoints.

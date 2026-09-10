@@ -160,7 +160,7 @@ formspree: {
 },
 ```
 
-Set `backend: 'disabled'` if you do not want forms to submit at all (visitors will see a message to email you instead).
+Set `backend: 'basic'` for a simple email-only contact page (no form; visitors are invited to email the address in practice settings). Set `backend: 'disabled'` if forms are temporarily unavailable (visitors see a “forms off” message with email and phone).
 
 #### Booking: choose one path
 

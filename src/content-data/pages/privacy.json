@@ -2,27 +2,27 @@
   "shell": {
     "eyebrow": "Privacy",
     "title": "Privacy Policy",
-    "description": "This starter policy is a placeholder. Review it with the laws, ethics, and tools that apply to your counselling practice."
+    "description": "How personal information is handled when you contact or book with Amanda Hecimovic Counselling."
   },
   "sections": [
     {
-      "title": "Information submitted through forms",
-      "body": "This template includes contact and consultation forms. Before using the site with clients, connect those forms to a secure form provider or backend that matches your privacy and professional obligations."
+      "title": "Information you share",
+      "body": "When you email the practice or book through Jane App, you may share contact details and information about why you are reaching out. That information is used only to respond to your inquiry, coordinate appointments, and provide the services you request."
     },
     {
       "title": "How information is used",
-      "body": "Information submitted through a live form should only be used to respond to inquiries, coordinate consultations, and provide services requested by the visitor."
+      "body": "Practice communications are used to reply to questions, schedule care, and support ongoing counselling when you become a client. Information is not sold or shared for marketing."
     },
     {
       "title": "Health information",
-      "body": "Avoid asking visitors to submit detailed personal health information through a general website form. Use secure clinical systems for intake forms, records, and ongoing care."
+      "body": "Please avoid sending detailed personal health information by general email. Clinical intake, records, and ongoing care are handled through secure professional systems appropriate for counselling practice."
     },
     {
       "title": "Third-party services",
-      "body": "If you add analytics, scheduling, email marketing, or payment tools, update this policy to name those services and explain how they handle information."
+      "body": "Online booking is provided through Jane App, which processes scheduling and related details under its own privacy practices. Email providers and hosting services may process messages and site traffic as needed to operate the website."
     }
   ],
   "contactHeading": "Contact",
   "contactBodyPrefix": "Questions about privacy can be sent to",
-  "lastUpdated": "Last updated: June 2026"
+  "lastUpdated": "Last updated: September 2026"
 }
