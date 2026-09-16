@@ -1,7 +1,7 @@
 ---
 title: Eating Disorders & Body Image
 description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, and binge-eating.
-order:
+order: 1
 heroImage: /images/flowers-temp-2.jpg
 ---
 
