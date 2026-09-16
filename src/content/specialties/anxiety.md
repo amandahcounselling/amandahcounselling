@@ -1,7 +1,7 @@
 ---
 title: Anxiety
 description: Support for worry, panic, perfectionism, stress, and the body signals that can make life feel smaller.
-order: 1
+order: 3
 heroImage: /images/nature-temp.jpg
 ---
 
