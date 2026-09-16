@@ -39,12 +39,14 @@
       ]
     },
     {
-     "type": "bullets",
-      "eyebrow": "Education & training",
-      "items": [
-        "Individual counselling for adults",
-        "Support for eating disorders, disordered eating, and body image",
-        "Virtual sessions available across British Columbia"
+     "type": "prose",
+      "title": "Education, training, & credentials",
+      "paragraphs": [
+        "M. Ed in Counselling Psychology, University of British Columbia",
+        "B.A. in Psychology with Counselling Minor, Kwantlen Polytechnic University",
+        "Counselling Practicum, Looking Glass Foundation for Eating Disorders",
+        "Applied Suicide Intervention Training Skills", 
+        "Mental Health First Aid"
       ]
     },
     {
