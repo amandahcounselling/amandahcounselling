@@ -169,6 +169,42 @@ Blank (or whitespace-only) values are not shown and do not leave empty space on 
 
 Prefer `""` over deleting required keys, unless you know the field is optional. Optional fields (like a cards `eyebrow`) can also simply be omitted.
 
+## Markdown in strings
+
+Body copy fields support common markdown. Write it inline in the JSON string; the site converts it when rendering the page.
+
+```json
+"paragraphs": [
+  "I offer **trauma-informed** care with a focus on _eating disorders_.",
+  "Support can include:\n\n- Anxiety\n- Depression\n- Life transitions",
+  "Email me at [hello@example.com](mailto:hello@example.com)."
+]
+```
+
+Supported formatting:
+
+- `**bold**` and `_italic_` (or `*italic*`)
+- Lists with `-` or `1.` (use `\n` between lines inside one string)
+- Links: `[label](https://example.com)`
+
+Where it works:
+
+- `prose.paragraphs`
+- Section and card `description` fields
+- `bullets` item lines
+- FAQ `answer` values
+- Sidebar / insurance-note style body copy
+
+Where it does **not** apply (kept as plain text): titles, eyebrows, CTA labels, nav labels, and SEO `meta.description`.
+
+Authoring tips:
+
+- JSON strings cannot contain raw line breaks — use `\n` (and `\n\n` between a lead-in sentence and a list).
+- Prefer one idea per `paragraphs[]` entry; put a markdown list inside an entry when you need bullets in prose.
+- Keep using the `bullets` section type when you want the checklist UI with check icons.
+- Escape double quotes inside strings as `\"`.
+- Run `npm run validate:content` after edits.
+
 ## JSON tips (avoid broken pages)
 
 1. Use straight double quotes: `"like this"`.

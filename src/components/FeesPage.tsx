@@ -4,6 +4,7 @@ import { pageContent } from '../lib/content';
 import { useOptionalAdmin } from '../lib/admin/admin-context';
 import { formatSessionDuration } from '../lib/session';
 import ContentField from './admin/ContentField';
+import MarkdownText from './MarkdownText';
 import PageShell from './PageShell';
 
 const content = pageContent.fees;
@@ -40,9 +41,9 @@ export default function FeesPage() {
                   <h2 className="font-heading text-foreground text-2xl font-bold">
                     {item.label}
                   </h2>
-                  <p className="text-muted-foreground mt-2 leading-relaxed">
+                  <MarkdownText className="text-muted-foreground mt-2 leading-relaxed">
                     {item.description}
-                  </p>
+                  </MarkdownText>
                 </div>
                 <div className="bg-secondary text-secondary-foreground rounded-2xl px-6 py-4 text-left md:text-right">
                   <p className="text-sm font-bold">
@@ -64,13 +65,13 @@ export default function FeesPage() {
             />
             <div className="mt-6 grid gap-4">
               {insuranceNotes.map((note) => (
-                <p
+                <div
                   key={note}
                   className="text-muted-foreground flex gap-3 leading-relaxed"
                 >
                   <CheckCircle className="text-primary mt-1 h-5 w-5 flex-shrink-0" />
-                  {note}
-                </p>
+                  <MarkdownText>{note}</MarkdownText>
+                </div>
               ))}
             </div>
           </div>

@@ -15,6 +15,7 @@ import { useOptionalAdmin } from '../lib/admin/admin-context';
 import ContentField, { ContentCardList } from './admin/ContentField';
 import ImageField from './admin/ImageField';
 import SharedField from './admin/SharedField';
+import MarkdownText from './MarkdownText';
 
 export type PageSectionSpecialty = {
   slug: string;
@@ -74,6 +75,7 @@ function HeroSection({
               as="p"
               className="text-muted-foreground max-w-2xl text-xl leading-relaxed"
               multiline
+              markdown
             />
           </div>
 
@@ -162,6 +164,7 @@ function ProseSection({
           as="p"
           className={bodyClass}
           multiline
+          markdown
         />
       ))}
     </>
@@ -246,6 +249,7 @@ function CardsSection({
                 as="p"
                 className="text-muted-foreground mt-4 text-lg leading-relaxed"
                 multiline
+                markdown
               />
             )}
           </div>
@@ -267,9 +271,9 @@ function CardsSection({
                     </h3>
                   )}
                   {hasText(item.description) && (
-                    <p className="text-muted-foreground mt-3 leading-relaxed">
+                    <MarkdownText className="text-muted-foreground mt-3 leading-relaxed">
                       {item.description}
-                    </p>
+                    </MarkdownText>
                   )}
                 </div>
               );
@@ -331,6 +335,7 @@ function BulletsSection({
               as="p"
               className="text-muted-foreground mt-5 text-lg leading-relaxed"
               multiline
+              markdown
             />
           )}
         </div>
@@ -349,10 +354,10 @@ function BulletsSection({
                   rows={2}
                 />
               ) : (
-                <p className="bg-background text-muted-foreground flex gap-3 rounded-2xl border border-border p-5 leading-relaxed">
+                <div className="bg-background text-muted-foreground flex gap-3 rounded-2xl border border-border p-5 leading-relaxed">
                   <CheckCircle className="text-primary mt-1 h-5 w-5 flex-shrink-0" />
-                  {item}
-                </p>
+                  <MarkdownText>{item}</MarkdownText>
+                </div>
               )}
             </div>
           ))}
@@ -477,6 +482,7 @@ function CtaSection({
             as="p"
             className="text-muted-foreground mx-auto mt-4 max-w-2xl text-lg leading-relaxed"
             multiline
+            markdown
           />
         )}
         <a

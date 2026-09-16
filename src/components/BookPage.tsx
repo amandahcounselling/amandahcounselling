@@ -26,6 +26,7 @@ import SharedField from './admin/SharedField';
 import { pageContent } from '../lib/content';
 import CaptchaField from './CaptchaField';
 import FormDisabledMessage from './FormDisabledMessage';
+import MarkdownText from './MarkdownText';
 import PageShell from './PageShell';
 
 type BookingMode = 'consultation' | 'session';
@@ -88,11 +89,11 @@ export default function BookPage() {
                 ? bookPageContent.sidebar.sessionHeading
                 : bookPageContent.sidebar.consultationHeading}
             </h2>
-            <p className="mt-4 leading-relaxed">
+            <MarkdownText className="mt-4 leading-relaxed">
               {isSession
                 ? pageCopy.description
                 : bookPageContent.sidebar.consultationDescription}
-            </p>
+            </MarkdownText>
             <dl className="mt-8 space-y-4 text-sm">
               <div>
                 <dt className="font-bold">{bookPageContent.sidebar.responseTimeLabel}</dt>
@@ -192,7 +193,9 @@ function ExternalBookingPage() {
             <h2 className="font-heading text-3xl font-bold">
               {bookPageContent.sidebar.consultationHeading}
             </h2>
-            <p className="mt-4 leading-relaxed">{bookPageContent.sidebar.externalDescription}</p>
+            <MarkdownText className="mt-4 leading-relaxed">
+              {bookPageContent.sidebar.externalDescription}
+            </MarkdownText>
             <dl className="mt-8 space-y-4 text-sm">
               <div>
                 <dt className="font-bold">{bookPageContent.sidebar.responseTimeLabel}</dt>
@@ -210,9 +213,9 @@ function ExternalBookingPage() {
           </aside>
 
           <div className="bg-card rounded-[2rem] border border-border p-8 shadow-sm md:p-10">
-            <p className="text-muted-foreground leading-relaxed">
+            <MarkdownText className="text-muted-foreground leading-relaxed">
               {externalLink.description}
-            </p>
+            </MarkdownText>
             <a
               href={externalLink.url}
               target="_blank"

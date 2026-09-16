@@ -2,6 +2,7 @@ import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { contentData, pageContent } from '../lib/content';
 import { useOptionalAdmin } from '../lib/admin/admin-context';
+import MarkdownText from './MarkdownText';
 import PageShell from './PageShell';
 
 const shell = pageContent.faq;
@@ -46,9 +47,9 @@ export default function FaqPage() {
                   />
                 </button>
                 {isExpanded && (
-                  <p className="text-muted-foreground border-border border-t p-6 leading-relaxed">
+                  <MarkdownText className="text-muted-foreground border-border border-t p-6 leading-relaxed">
                     {faq.answer}
-                  </p>
+                  </MarkdownText>
                 )}
               </div>
             );

@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { Fragment } from 'react';
 import { useOptionalAdmin } from '../../lib/admin/admin-context';
 import { hasText } from '../../lib/utils';
+import MarkdownText from '../MarkdownText';
 
 type ContentFieldProps = {
   sourceId: string;
@@ -10,6 +11,8 @@ type ContentFieldProps = {
   as?: 'span' | 'p' | 'h1' | 'h2' | 'h3';
   className?: string;
   multiline?: boolean;
+  /** Render the value as markdown (bold, italics, lists, links). Ignored in edit mode. */
+  markdown?: boolean;
 };
 
 export default function ContentField({
@@ -19,6 +22,7 @@ export default function ContentField({
   as = 'span',
   className,
   multiline = false,
+  markdown = false,
 }: ContentFieldProps) {
   const admin = useOptionalAdmin();
   const value = admin?.getFieldValue(sourceId, path) ?? fallback;
@@ -40,6 +44,10 @@ export default function ContentField({
     return null;
   }
 
+  if (markdown) {
+    return <MarkdownText className={className}>{display}</MarkdownText>;
+  }
+
   const Tag = as;
   return <Tag className={className}>{display}</Tag>;
 }
@@ -50,6 +58,7 @@ type ContentListProps = {
   fallback: string[];
   className?: string;
   itemClassName?: string;
+  markdown?: boolean;
 };
 
 export function ContentStringList({
@@ -58,6 +67,7 @@ export function ContentStringList({
   fallback,
   className,
   itemClassName,
+  markdown = false,
 }: ContentListProps) {
   const admin = useOptionalAdmin();
   const value = (admin?.getFieldValue(sourceId, path) ?? fallback) as string[];
@@ -89,11 +99,17 @@ export function ContentStringList({
 
   return (
     <div className={className}>
-      {visible.map((item) => (
-        <p key={item} className={itemClassName}>
-          {item}
-        </p>
-      ))}
+      {visible.map((item) =>
+        markdown ? (
+          <MarkdownText key={item} className={itemClassName}>
+            {item}
+          </MarkdownText>
+        ) : (
+          <p key={item} className={itemClassName}>
+            {item}
+          </p>
+        ),
+      )}
     </div>
   );
 }

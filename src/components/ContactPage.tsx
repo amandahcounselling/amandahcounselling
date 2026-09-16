@@ -8,6 +8,7 @@ import ContentField from './admin/ContentField';
 import SharedField from './admin/SharedField';
 import CaptchaField from './CaptchaField';
 import FormDisabledMessage from './FormDisabledMessage';
+import MarkdownText from './MarkdownText';
 import PageShell from './PageShell';
 
 const content = pageContent.contact;
@@ -82,7 +83,7 @@ export default function ContactPage() {
                   as="h2"
                   className="font-heading text-2xl font-bold"
                 />
-                <p className="mt-3 leading-relaxed">{bookingMessage}</p>
+                <MarkdownText className="mt-3 leading-relaxed">{bookingMessage}</MarkdownText>
                 <a
                   href={bookLink.href}
                   target={bookLink.target}
