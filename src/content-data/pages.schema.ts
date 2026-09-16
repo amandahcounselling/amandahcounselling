@@ -53,7 +53,7 @@ const shellSchema = z.object({
 });
 
 const metaSchema = z.object({
-  description: z.string(),
+  description: z.string().optional(),
   titleSuffix: z.string().optional(),
 });
 

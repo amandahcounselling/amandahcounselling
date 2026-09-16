@@ -30,7 +30,7 @@ Most pages look like this:
 }
 ```
 
-- **`meta.description`** — browser/SEO description for that page.
+- **`meta.description`** — browser/SEO description for that page. Home omits this and uses `practice.json` → `description` instead.
 - **`shell`** — top-of-page banner (eyebrow, title, description). The home page has no `shell`; its top block is a `hero` section instead.
 - **`sections`** — ordered list of content blocks. Order in the file = order on the page.
 

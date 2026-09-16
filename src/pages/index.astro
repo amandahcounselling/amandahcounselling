@@ -20,7 +20,7 @@ const specialties = siteConfig.pages.specialties.enabled
 
 <Layout
   title={`${siteConfig.practiceName} | ${home.meta.titleSuffix}`}
-  description={home.meta.description}
+  description={siteConfig.description}
   canonicalPath="/"
 >
   <HomePage specialties={specialties} client:load />
