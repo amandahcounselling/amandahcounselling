@@ -41,7 +41,7 @@
     {
       "type": "prose",
       "title": "Education, training, & credentials",
-      "bullets": [
+      "paragraphs": [
         "Master of Education (M. Ed) in Counselling Psychology, <i>University of British Columbia</i>",
         "Bachelor of Arts in Psychology with Counselling Minor, <i>Kwantlen Polytechnic University</i>",
         "Counselling Practicum, <i>Looking Glass Foundation for Eating Disorders</i>",
