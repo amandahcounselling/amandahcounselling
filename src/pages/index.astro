@@ -3,7 +3,9 @@ import Layout from '../layouts/Layout.astro';
 import HomePage from '../components/HomePage';
 import { getCollection } from 'astro:content';
 import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
 
+const home = pageContent.home;
 const specialties = siteConfig.pages.specialties.enabled
   ? (await getCollection('specialties'))
       .sort((a: any, b: any) => a.data.order - b.data.order)
@@ -17,8 +19,8 @@ const specialties = siteConfig.pages.specialties.enabled
 ---
 
 <Layout
-  title={`${siteConfig.practiceName} | Counselling in Vancouver, BC`}
-  description={siteConfig.description}
+  title={`${siteConfig.practiceName} | ${home.meta.titleSuffix}`}
+  description={home.meta.description}
   canonicalPath="/"
 >
   <HomePage specialties={specialties} client:load />

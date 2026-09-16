@@ -3,11 +3,14 @@ import FeesPage from '../components/FeesPage';
 import Layout from '../layouts/Layout.astro';
 import PageUnavailable from '../components/PageUnavailable';
 import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const fees = pageContent.fees;
 ---
 
 <Layout
-  title={`Fees & Insurance - ${siteConfig.practiceName}`}
-  description="Learn about counselling fees, insurance reimbursement, and payment options."
+  title={`${siteConfig.pages.fees.label} - ${siteConfig.practiceName}`}
+  description={fees.meta.description}
   canonicalPath="/fees"
   noindex={!siteConfig.pages.fees.enabled}
 >
@@ -15,7 +18,7 @@ import { siteConfig } from '../config';
     siteConfig.pages.fees.enabled ? (
       <FeesPage client:load />
     ) : (
-      <PageUnavailable title="Fees & Insurance" client:load />
+      <PageUnavailable title={siteConfig.pages.fees.label} client:load />
     )
   }
 </Layout>

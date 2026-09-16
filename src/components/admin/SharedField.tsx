@@ -1,6 +1,7 @@
 import { Settings2 } from 'lucide-react';
 import { useOptionalAdmin } from '../../lib/admin/admin-context';
 import { withBase } from '../../lib/paths';
+import { hasText } from '../../lib/utils';
 
 type SharedFieldProps = {
   sourceId?: string;
@@ -19,11 +20,16 @@ export default function SharedField({
 }: SharedFieldProps) {
   const admin = useOptionalAdmin();
   const value = admin?.getFieldValue(sourceId, path) ?? fallback;
+  const display = String(value ?? '');
   const Tag = as;
+
+  if (!admin?.isEditMode && !hasText(display)) {
+    return null;
+  }
 
   return (
     <span className="group relative inline">
-      <Tag className={className}>{String(value ?? '')}</Tag>
+      {hasText(display) ? <Tag className={className}>{display}</Tag> : null}
       {admin?.isEditMode && (
         <a
           href={withBase('/admin')}

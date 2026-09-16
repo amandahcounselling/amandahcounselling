@@ -3,8 +3,10 @@ import { getCollection } from 'astro:content';
 import PageUnavailable from '../../components/PageUnavailable';
 import SpecialtiesPage from '../../components/SpecialtiesPage';
 import { siteConfig } from '../../config';
+import { pageContent } from '../../lib/content';
 import Layout from '../../layouts/Layout.astro';
 
+const specialtiesPage = pageContent.specialties;
 const specialties = siteConfig.pages.specialties.enabled
   ? (await getCollection('specialties'))
       .sort((a: any, b: any) => a.data.order - b.data.order)
@@ -18,8 +20,8 @@ const specialties = siteConfig.pages.specialties.enabled
 ---
 
 <Layout
-  title={`Specialties - ${siteConfig.practiceName}`}
-  description="Explore common counselling specialties and areas of support."
+  title={`${siteConfig.pages.specialties.label} - ${siteConfig.practiceName}`}
+  description={specialtiesPage.meta.description}
   canonicalPath="/specialties"
   noindex={!siteConfig.pages.specialties.enabled}
 >
@@ -27,7 +29,7 @@ const specialties = siteConfig.pages.specialties.enabled
     siteConfig.pages.specialties.enabled ? (
       <SpecialtiesPage specialties={specialties} client:load />
     ) : (
-      <PageUnavailable title="Specialties" client:load />
+      <PageUnavailable title={siteConfig.pages.specialties.label} client:load />
     )
   }
 </Layout>

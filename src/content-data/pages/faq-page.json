@@ -1,7 +1,11 @@
 {
+  "meta": {
+    "description": "Find answers to common questions about counselling."
+  },
   "shell": {
     "eyebrow": "FAQ",
     "title": "Questions before you begin",
     "description": "Common questions about sessions, confidentiality, virtual care, insurance, and getting started."
-  }
+  },
+  "sections": []
 }

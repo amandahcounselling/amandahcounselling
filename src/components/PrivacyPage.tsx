@@ -1,8 +1,10 @@
 import { siteConfig } from '../config';
 import { pageContent } from '../lib/content';
+import type { PageSection } from '../content-data/pages.schema';
 import ContentField from './admin/ContentField';
 import SharedField from './admin/SharedField';
 import PageShell from './PageShell';
+import PageSections from './PageSections';
 
 const content = pageContent.privacy;
 
@@ -16,25 +18,11 @@ export default function PrivacyPage() {
       <section className="px-6 py-16 lg:px-8">
         <div className="bg-card mx-auto max-w-3xl rounded-[2rem] border border-border p-8 shadow-sm md:p-12">
           <div className="space-y-8">
-            {content.sections.map((section, index) => (
-              <section key={section.title} className="space-y-3">
-                <ContentField
-                  sourceId="pages.privacy"
-                  path={`sections.${index}.title`}
-                  fallback={section.title}
-                  as="h2"
-                  className="font-heading text-foreground text-2xl font-bold"
-                />
-                <ContentField
-                  sourceId="pages.privacy"
-                  path={`sections.${index}.body`}
-                  fallback={section.body}
-                  as="p"
-                  className="text-muted-foreground leading-relaxed"
-                  multiline
-                />
-              </section>
-            ))}
+            <PageSections
+              sourceId="pages.privacy"
+              sections={content.sections as PageSection[]}
+              variant="article"
+            />
             <section className="space-y-3">
               <ContentField
                 sourceId="pages.privacy"
@@ -44,7 +32,11 @@ export default function PrivacyPage() {
                 className="font-heading text-foreground text-2xl font-bold"
               />
               <p className="text-muted-foreground leading-relaxed">
-                {content.contactBodyPrefix}{' '}
+                <ContentField
+                  sourceId="pages.privacy"
+                  path="contactBodyPrefix"
+                  fallback={content.contactBodyPrefix}
+                />{' '}
                 <a className="text-primary font-bold" href={`mailto:${siteConfig.email}`}>
                   <SharedField path="email" fallback={siteConfig.email} />
                 </a>

@@ -29,7 +29,7 @@ const { Content } = await render(entry);
 const consultationHref = siteConfig.pages.book.enabled ? getBookHref() : withBase('/contact');
 const consultationLabel = siteConfig.pages.book.enabled
   ? getBookCtaLabel()
-  : 'Contact';
+  : siteConfig.pages.contact.label;
 const bookLink = getBookLinkProps();
 const repoPath = `src/content/specialties/${entry.id}.md`;
 ---

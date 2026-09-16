@@ -10,6 +10,8 @@ import blogContent from '../../content-data/pages/blog.json';
 import practiceContent from '../../content-data/practice.json';
 import faqContent from '../../content-data/faq.json';
 
+export type { PageSection, PageContent } from '../../content-data/pages.schema';
+
 export const pageContent = {
   home: homeContent,
   about: aboutContent,

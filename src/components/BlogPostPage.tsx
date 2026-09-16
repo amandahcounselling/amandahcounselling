@@ -1,4 +1,5 @@
 import { ArrowLeft } from 'lucide-react';
+import { pageContent } from '../lib/content';
 import { withBase } from '../lib/paths';
 
 type BlogPostPageProps = {
@@ -10,6 +11,8 @@ type BlogPostPageProps = {
   };
 };
 
+const labels = pageContent.blog;
+
 export default function BlogPostPage({ post }: BlogPostPageProps) {
   return (
     <section className="from-primary/10 via-background to-secondary/20 bg-gradient-to-br px-6 py-14 lg:px-8">
@@ -19,7 +22,7 @@ export default function BlogPostPage({ post }: BlogPostPageProps) {
           className="text-primary inline-flex items-center gap-2 text-sm font-bold"
         >
           <ArrowLeft className="h-4 w-4" />
-          All posts
+          {labels.backLinkLabel}
         </a>
         <p className="text-primary text-sm font-bold uppercase tracking-[0.2em]">
           {new Date(post.pubDate).toLocaleDateString('en', {

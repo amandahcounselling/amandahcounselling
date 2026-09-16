@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { useOptionalAdmin } from '../../lib/admin/admin-context';
 import { withBase } from '../../lib/paths';
+import { cn } from '../../lib/utils';
 
 type ImageFieldProps = {
   sourceId?: string;
@@ -8,6 +9,7 @@ type ImageFieldProps = {
   fallback: string;
   alt?: string;
   className?: string;
+  wrapperClassName?: string;
   fieldKey: string;
 };
 
@@ -17,6 +19,7 @@ export default function ImageField({
   fallback,
   alt = '',
   className,
+  wrapperClassName,
   fieldKey,
 }: ImageFieldProps) {
   const admin = useOptionalAdmin();
@@ -42,7 +45,7 @@ export default function ImageField({
   };
 
   return (
-    <div className="relative">
+    <div className={cn('relative', wrapperClassName)}>
       <img src={withBase(src)} alt={alt} className={className} />
       {admin?.isEditMode && (
         <div className="absolute inset-x-4 bottom-4 space-y-2">

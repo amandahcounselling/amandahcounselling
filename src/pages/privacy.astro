@@ -3,11 +3,14 @@ import Layout from '../layouts/Layout.astro';
 import PrivacyPage from '../components/PrivacyPage';
 import PageUnavailable from '../components/PageUnavailable';
 import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const privacy = pageContent.privacy;
 ---
 
 <Layout
-  title={`Privacy Policy - ${siteConfig.practiceName}`}
-  description="How Amanda Hecimovic Counselling handles personal information when you get in touch or book."
+  title={`${siteConfig.pages.privacy.label} - ${siteConfig.practiceName}`}
+  description={privacy.meta.description}
   canonicalPath="/privacy"
   noindex={!siteConfig.pages.privacy.enabled}
 >
@@ -15,7 +18,7 @@ import { siteConfig } from '../config';
     siteConfig.pages.privacy.enabled ? (
       <PrivacyPage client:load />
     ) : (
-      <PageUnavailable title="Privacy Policy" client:load />
+      <PageUnavailable title={siteConfig.pages.privacy.label} client:load />
     )
   }
 </Layout>

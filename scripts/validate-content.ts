@@ -2,9 +2,11 @@ import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { practiceSchema } from '../src/content-data/practice.schema.ts';
+import pageContentSchema from '../src/content-data/pages.schema.ts';
 
 const root = path.resolve(import.meta.dirname, '..');
 const contentDataDir = path.join(root, 'src/content-data');
+const pagesDir = path.join(contentDataDir, 'pages');
 
 async function loadJson(filePath: string) {
   const raw = await readFile(filePath, 'utf8');
@@ -37,6 +39,15 @@ async function main() {
 
     if (relativePath === 'src/content-data/practice.json') {
       const result = practiceSchema.safeParse(data);
+      if (!result.success) {
+        failed = true;
+        console.error(`Invalid ${relativePath}:`, result.error.flatten());
+      }
+      continue;
+    }
+
+    if (filePath.startsWith(pagesDir + path.sep) || filePath.startsWith(pagesDir + '/')) {
+      const result = pageContentSchema.safeParse(data);
       if (!result.success) {
         failed = true;
         console.error(`Invalid ${relativePath}:`, result.error.flatten());

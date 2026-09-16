@@ -1,8 +1,13 @@
 {
+  "meta": {
+    "description": "Read counselling articles, practice updates, and mental health resources."
+  },
   "shell": {
     "eyebrow": "Blog",
     "title": "Practice updates and counselling resources",
     "description": "Articles and notes on counselling, mental health, and getting started in therapy."
   },
-  "readArticleLabel": "Read article"
+  "sections": [],
+  "readArticleLabel": "Read article",
+  "backLinkLabel": "All posts"
 }

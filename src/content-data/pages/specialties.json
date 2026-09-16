@@ -1,8 +1,14 @@
 {
+  "meta": {
+    "description": "Explore common counselling specialties and areas of support."
+  },
   "shell": {
     "eyebrow": "Specialties",
     "title": "Support for what you are carrying",
     "description": "Counselling for eating disorders, disordered eating, body image, and related concerns — with space to work at a pace that fits you."
   },
-  "cardCta": "Learn more"
+  "sections": [],
+  "cardCta": "Learn more",
+  "backLinkLabel": "All specialties",
+  "detailEyebrow": "Specialty"
 }

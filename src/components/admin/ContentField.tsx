@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
+import { Fragment } from 'react';
 import { useOptionalAdmin } from '../../lib/admin/admin-context';
+import { hasText } from '../../lib/utils';
 
 type ContentFieldProps = {
   sourceId: string;
@@ -32,6 +34,10 @@ export default function ContentField({
         rows={multiline ? 4 : undefined}
       />
     );
+  }
+
+  if (!hasText(display)) {
+    return null;
   }
 
   const Tag = as;
@@ -76,9 +82,14 @@ export function ContentStringList({
     );
   }
 
+  const visible = value.filter((item) => hasText(item));
+  if (visible.length === 0) {
+    return null;
+  }
+
   return (
     <div className={className}>
-      {value.map((item) => (
+      {visible.map((item) => (
         <p key={item} className={itemClassName}>
           {item}
         </p>
@@ -131,5 +142,11 @@ export function ContentCardList({ sourceId, path, fallback, renderItem }: Conten
     );
   }
 
-  return <>{value.map((item, index) => renderItem(item, index))}</>;
+  return (
+    <>
+      {value.map((item, index) => (
+        <Fragment key={`${path}-${index}`}>{renderItem(item, index)}</Fragment>
+      ))}
+    </>
+  );
 }

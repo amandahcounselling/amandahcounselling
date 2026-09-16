@@ -3,11 +3,14 @@ import Layout from '../layouts/Layout.astro';
 import AboutPage from '../components/AboutPage';
 import PageUnavailable from '../components/PageUnavailable';
 import { siteConfig } from '../config';
+import { pageContent } from '../lib/content';
+
+const about = pageContent.about;
 ---
 
 <Layout
-  title={`About - ${siteConfig.practiceName}`}
-  description="Learn about the counsellor, therapeutic approach, credentials, and values behind the practice."
+  title={`${siteConfig.pages.about.label} - ${siteConfig.practiceName}`}
+  description={about.meta.description}
   canonicalPath="/about"
   noindex={!siteConfig.pages.about.enabled}
 >
@@ -15,7 +18,7 @@ import { siteConfig } from '../config';
     siteConfig.pages.about.enabled ? (
       <AboutPage client:load />
     ) : (
-      <PageUnavailable title="About" client:load />
+      <PageUnavailable title={siteConfig.pages.about.label} client:load />
     )
   }
 </Layout>

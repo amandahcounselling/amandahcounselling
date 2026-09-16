@@ -1,7 +1,11 @@
 {
+  "meta": {
+    "description": "Learn about counselling fees, insurance reimbursement, and payment options."
+  },
   "shell": {
     "eyebrow": "Fees & Insurance",
     "title": "Clear fees before you book",
     "description": "Session rates, insurance reimbursement notes, and payment information for individual counselling."
-  }
+  },
+  "sections": []
 }

@@ -1,45 +1,56 @@
 {
-  "hero": {
-    "eyebrow": "Registered Clinical Counsellor · Vancouver, BC",
-    "subtitle": "Thoughtful, collaborative counselling for adults navigating eating disorders, disordered eating, and body image.",
-    "specialtiesCta": "View Specialties"
+  "meta": {
+    "description": "Individual counselling in Vancouver, BC with Amanda Hecimovic, RCC — support for anxiety, mood, relationships, stress, and life transitions.",
+    "titleSuffix": "Counselling in Vancouver, BC"
   },
-  "approach": {
-    "eyebrow": "Approach",
-    "title": "Care that is warm, grounded, and practical",
-    "description": "Sessions blend evidence-based approaches through a person-centred and trauma-informed lens, tailored to your goals, capacity, and what feels useful in the moment.",
-    "items": [
-      {
-        "title": "Person-centred",
-        "description": "A collaborative relationship where you are met with warmth, respect, and curiosity."
-      },
-      {
-        "title": "Integrative",
-        "description": "A combination of mind-body approaches shaped to your specific needs, not a one-size-fits all approach."
-      },
-      {
-        "title": "Trauma-informed",
-        "description": "Care that prioritizes safety, consent, pacing, and the wisdom of the nervous system."
-      }
-    ]
-  },
-  "services": {
-    "eyebrow": "Services",
-    "title": "Individual counselling for adults",
-    "description": "Support for what you are carrying, with space to understand patterns, strengthen coping, and move toward what matters to you.",
-    "items": [
-      "Individual counselling for adults",
-      "Support for eating disorders, disordered eating, and body image",
-      "Virtual sessions available across British Columbia"
-    ]
-  },
-  "specialties": {
-    "eyebrow": "Specialties",
-    "title": "Areas of support",
-    "seeAllLabel": "See all specialties"
-  },
-  "cta": {
-    "title": "Ready to work together?",
-    "description": "Book a consultation to ask questions, share what you are looking for, and see whether counselling feels like a good fit."
-  }
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Registered Clinical Counsellor · Vancouver, BC",
+      "subtitle": "Thoughtful, collaborative counselling for adults navigating eating disorders, disordered eating, and body image.",
+      "specialtiesCta": "View Specialties"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Approach",
+      "title": "Care that is warm, grounded, and practical",
+      "description": "Sessions blend evidence-based approaches through a person-centred and trauma-informed lens, tailored to your goals, capacity, and what feels useful in the moment.",
+      "items": [
+        {
+          "title": "Person-centred",
+          "description": "A collaborative relationship where you are met with warmth, respect, and curiosity."
+        },
+        {
+          "title": "Integrative",
+          "description": "A combination of mind-body approaches shaped to your specific needs, not a one-size-fits all approach."
+        },
+        {
+          "title": "Trauma-informed",
+          "description": "Care that prioritizes safety, consent, pacing, and the wisdom of the nervous system."
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Services",
+      "title": "Individual counselling for adults",
+      "description": "Support for what you are carrying, with space to understand patterns, strengthen coping, and move toward what matters to you.",
+      "items": [
+        "Individual counselling for adults",
+        "Support for eating disorders, disordered eating, and body image",
+        "Virtual sessions available across British Columbia"
+      ]
+    },
+    {
+      "type": "specialtiesPreview",
+      "eyebrow": "Specialties",
+      "title": "Areas of support",
+      "seeAllLabel": "See all specialties"
+    },
+    {
+      "type": "cta",
+      "title": "Ready to work together?",
+      "description": "Book a consultation to ask questions, share what you are looking for, and see whether counselling feels like a good fit."
+    }
+  ]
 }

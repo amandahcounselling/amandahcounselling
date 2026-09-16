@@ -3,8 +3,10 @@ import { getCollection } from 'astro:content';
 import BlogIndexPage from '../../components/BlogIndexPage';
 import PageUnavailable from '../../components/PageUnavailable';
 import { siteConfig } from '../../config';
+import { pageContent } from '../../lib/content';
 import Layout from '../../layouts/Layout.astro';
 
+const blog = pageContent.blog;
 const posts = siteConfig.pages.blog.enabled
   ? (await getCollection('blog', ({ data }: { data: any }) => !data.draft))
       .sort(
@@ -21,8 +23,8 @@ const posts = siteConfig.pages.blog.enabled
 ---
 
 <Layout
-  title={`Blog - ${siteConfig.practiceName}`}
-  description="Read counselling articles, practice updates, and mental health resources."
+  title={`${siteConfig.pages.blog.label} - ${siteConfig.practiceName}`}
+  description={blog.meta.description}
   canonicalPath="/blog"
   noindex={!siteConfig.pages.blog.enabled}
 >
@@ -30,7 +32,7 @@ const posts = siteConfig.pages.blog.enabled
     siteConfig.pages.blog.enabled ? (
       <BlogIndexPage posts={posts} client:load />
     ) : (
-      <PageUnavailable title="Blog" client:load />
+      <PageUnavailable title={siteConfig.pages.blog.label} client:load />
     )
   }
 </Layout>
