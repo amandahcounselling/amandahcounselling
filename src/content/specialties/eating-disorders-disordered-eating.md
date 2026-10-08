@@ -2,7 +2,7 @@
 title: Eating Disorders and Disordered Eating
 description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, and binge-eating.
 order: 1
-heroImage: /images/flowers-temp-2.jpg
+heroImage: /images/seagull-ireland.JPG
 ---
 
 Maybe your eating disorder has taken over your whole life. It dictates where you go, how long you go out for, who you are around... making your world feel incredibly small.
