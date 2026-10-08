@@ -2,7 +2,7 @@
 title: Depression
 description: Counselling for low mood, numbness, self-criticism, burnout, and feeling disconnected from yourself or others.
 order: 2
-heroImage: /images/flowers-temp.jpg
+heroImage: /images/ireland-seagull.jpg
 ---
 
 Depression can make everyday tasks feel heavy and can affect sleep, motivation, concentration, relationships, and self-worth. Counselling can help you name what has been happening without shame and begin rebuilding support one manageable step at a time.
