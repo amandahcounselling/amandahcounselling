@@ -55,7 +55,7 @@
       "confirmationMessage": "Your session request has been received. The appointment is not confirmed until the practice follows up.",
       "consultationCopy": {
         "title": "Start with a brief consultation",
-        "description": "A short conversation to ask questions, share what you are looking for, and decide whether counselling feels like a good fit."
+        "description": "A short conversation to ask questions, share what you are looking for, and explore whether we feel like it may be a good fit."
       },
       "consultationSuccessMessage": "Thank you for reaching out. I will reply within the stated response time to confirm next steps.",
       "calendar": {
@@ -74,7 +74,7 @@
           "label": "Individual counselling",
           "durationMinutes": 50,
           "fee": "$150",
-          "description": "One-to-one support for anxiety, mood, stress, grief, identity, and life transitions.",
+          "description": "One-to-one support for eating disoders, disordered eating, anxiety, depression, life transitions, burnout, and self-worth",
           "modes": ["virtual"],
           "kind": "session"
         },
