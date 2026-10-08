@@ -2,5 +2,5 @@
 title: Life transitions
 description: Whether it's one you're contemplating or moving through, transitions can bring a lot of different emotions and experiences to the surface. 
 order: 4
-heroImage: /images/scottish-door-wall.jpg
+heroImage: /images/scottish-door-wall.JPG
 ---
