@@ -2,7 +2,7 @@
 title: Anxiety
 description: Support for worry, panic, perfectionism, stress, and the body signals that can make life feel smaller.
 order: 3
-heroImage: /images/PXL_20220930_183512011.jpg
+heroImage: /images/boundary-bay-purple-flower.jpg
 ---
 
 Anxiety can show up as racing thoughts, tension, avoidance, irritability, panic, or a constant sense that something is about to go wrong. Counselling offers space to understand what your nervous system is trying to protect you from and to build steadier ways of responding.
