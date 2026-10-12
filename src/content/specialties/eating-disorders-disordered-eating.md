@@ -1,6 +1,6 @@
 ---
 title: Eating Disorders and Disordered Eating
-description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, and binge-eating.
+description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, and binge-eating. You don't have to walk this path alone.
 order: 1
 heroImage: /images/scottish-walk.jpg
 ---
