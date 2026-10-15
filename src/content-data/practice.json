@@ -64,7 +64,7 @@
       "sessionTypes": [
         {
           "label": "Brief consultation",
-          "durationMinutes": 15-20,
+          "durationMinutes": 15 to 20,
           "fee": "Free",
           "description": "A brief, informal chat where you can ask questions, discuss any goals or challenges you want to address in counselling, get a sense of how I show up, and see whether we may be a good match for each other. If we determine that I may not be the best fit, I can offer referrasl to other clinicians or organizations that may be better suited to your needs.",
           "modes": ["virtual or Phone"],
