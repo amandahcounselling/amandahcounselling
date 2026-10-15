@@ -64,10 +64,10 @@
       },
       "sessionTypes": [
         {
-          "label": "Brief consultation",
+          "label": "Brief consultation - phone or virtual",
           "durationMinutes": 20,
           "fee": "Free",
-          "description": "A casual chat where you can learn about me, ask questions, and discuss why you may be reaching out for support. Consultations can be done over the phone or virtually. The choice is completely up to you, your comfort levels, and what mode may give you a better sense of how it might feel to work with me. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs.",
+          "description": "A casual chat where you can learn about me, ask questions, and discuss why you may be reaching out for support. Phone or virtual: the choice is completely up to you, your comfort levels, and what mode might give you a better sense of how it may feel to share space with me. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs.",
           "modes": ["virtual"],
           "kind": "consultation"
         },
