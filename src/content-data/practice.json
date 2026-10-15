@@ -91,7 +91,7 @@
            "label": "Shorter session",
           "durationMinutes": 40,
           "fee": "$120",
-          "description": "Shorter sessions are available for folks who may not need deeper processing in-between sessions, but just want to check-in to help keep themselves accountable. Other times, you may find it hard to fill a 50-minute session with material to work on, and that's ok. If a 40-minute session feels more valuable for you, then we can discuss this. Typically, these sessions will be offered after we have worked together for a few sessions to better determine your needs.",
+          "description": "These are available for folks who may not need deeper processing in-between sessions, but just want to check-in to help keep themselves accountable. Other times, you may find it hard to fill a 50-minute session with material to work on, and that's ok. If a 40-minute session feels more valuable for you, then we can discuss this. Typically, these sessions will be offered after we have worked together for a few sessions to better determine your needs",
           "modes": ["virtual"],
           "kind": "consultation"
         }
