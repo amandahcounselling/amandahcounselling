@@ -20,11 +20,10 @@
   },
   "fees": {
     "insuranceNotes": [
-      "Payments are processed through Jane App, and they currently accept: Visa, Mastercard, American Express, Discover, Diners Club, UnionPay, Apple Pay, and Google Pay",
-      "Receipts are provided and can be used for reimbursement through extended health benefits.",
-      "Coverage varies by plan, provider type, and province. I would encourage you to confirm details with your insurance provider before booking a consult or session.",
-      "If you are not covered by a provider, or they are unable to cover the entire cost of sessions, receipts may be kept and filed as a medical expense on your taxes; however, this needs to be confirmed with your accountant or by contacting the CRA.",
-      "A limited number of sliding scale spaces may be available. These spots are intended for folks who are facing financial barriers, making it difficult for them to afford counselling. You're welcome to ask about the availability of these spots. I'm happy to direct you to lower-cost counselling resources available in the community if I don't have spots available."
+      "Payments are processed through Jane App through Visa, Mastercard, American Express, Discover, Diners Club, UnionPay, Apple Pay, and Google Pay",
+      "Receipts are provided and can be used for reimbursement through extended health benefits. Coverage varies by plan, provider type, and province. I would encourage you to confirm details with your insurance provider before booking a consult or session.",
+      "If you are not covered by a provider, or they are unable to cover the entire cost, receipts may be kept and filed as a medical expense on your taxes. However, this needs to be confirmed with your accountant or by contacting the CRA.",
+      "A limited number of sliding scale spaces may be available. These spots are intended for folks facing financial barriers that make it difficult to afford counselling. You're welcome to ask about the availability of these spots. I'm happy to direct you to lower-cost counselling resources available in the community if I don't have spots available."
     ],
     "insuranceHeading": "Insurance and payment"
   },
@@ -68,7 +67,7 @@
           "label": "Brief consultation",
           "durationMinutes": 20,
           "fee": "Free",
-          "description": "An informal chat where you can learn about me, ask questions, and discuss any goals or challenges you want to address in counselling. Consultations can be done over the phone or virtually. The choice is completely up to you, your comfort levels, and what mode may give you a better sense of how it might feel to work with me. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs.",
+          "description": "An casual chat where you can learn about me, ask questions, and discuss any goals or challenges you want to address in counselling. Consultations can be done over the phone or virtually. The choice is completely up to you, your comfort levels, and what mode may give you a better sense of how it might feel to work with me. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs.",
           "modes": ["virtual"],
           "kind": "consultation"
         },
@@ -84,7 +83,7 @@
           "label": "Extended session",
           "durationMinutes": 75,
           "fee": "$215",
-          "description": "Sometimes, we need extra space to explore things in more depth at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's been on your heart and mind.",
+          "description": "Sometimes, we need extra space to explore things in more depth and at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's been on your heart and mind.",
           "modes": ["virtual"],
           "kind": "session"
         }
