@@ -68,7 +68,7 @@
           "label": "Brief consultation",
           "durationMinutes": 20,
           "fee": "Free",
-          "description": "An informal chat where you can ask questions, discuss any goals or challenges you want to address in counselling, and see whether we may be a good match for each other. Consultations can be done over the phone or virtually, the choice is completely up to you and your comfort levels and what mode would give you a better sense of how it may feel to work with me. Just select which option you would prefer in Jane, and I will follow up via email with more information. If we determine that I may not be the best fit, I can offer referrals to other clinicians or organizations that may be better suited to your needs.",
+          "description": "An informal chat where you can learn about me, ask questions, and discuss any goals or challenges you want to address in counselling. Consultations can be done over the phone or virtually. The choice is completely up to you, your comfort levels, and what mode may give you a better sense of how it might feel to work with me. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs.",
           "modes": ["virtual"],
           "kind": "consultation"
         },
