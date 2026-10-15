@@ -33,9 +33,9 @@
       "type": "bullets",
       "eyebrow": "Services",
       "title": "Individual counselling for adults",
-      "description": "Support for what you are carrying, with space to understand patterns, strengthen coping, and move toward what matters to you.",
+      "description": "Support for what you are carrying, with space to understand patterns, strengthen coping, and move toward what matters most to you.",
       "items": [
-        "Individual counselling for adults",
+        "Online individual counselling for adults",
         "Support for eating disorders and disordered eating, as well as anxiety, depression, life transitions, burnout, and self-worth",
         "Virtual sessions available across British Columbia"
       ]
@@ -48,8 +48,8 @@
     },
     {
       "type": "cta",
-      "title": "Ready to work together?",
-      "description": "Book a consultation to ask questions, share what you are looking for, and see whether counselling feels like a good fit."
+      "title": "Ready to explore working together?",
+      "description": "Book a consultation with me, where you can learn more about my approach, get a sense of how I show up in sessions, share what you are looking for, ask questions, and see whether we may be a good fit."
     }
   ]
 }
