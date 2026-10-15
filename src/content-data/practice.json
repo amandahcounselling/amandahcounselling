@@ -83,7 +83,7 @@
           "label": "Extended session",
           "durationMinutes": 75,
           "fee": "$215",
-          "description": "Sometimes, we need extra space to explore things in more depth and at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's been on your heart and mind.",
+          "description": "Sometimes, we need extra space to explore things in more depth and at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's on your heart and mind.",
           "modes": ["virtual"],
           "kind": "session"
         }
