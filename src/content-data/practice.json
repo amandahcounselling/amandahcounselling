@@ -64,10 +64,10 @@
       },
       "sessionTypes": [
         {
-          "label": "Brief consultation - phone or virtual",
+          "label": "Initial consultation - phone or virtual",
           "durationMinutes": 20,
           "fee": "Free",
-          "description": "A casual chat where you can learn about me, ask questions, and discuss why you may be reaching out for support. Phone or virtual: the choice is completely up to you, your comfort levels, and which mode you think may give you a better sense of how I show up in sessions. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs",
+          "description": "A brief, casual chat where you can learn about me, ask questions, and discuss why you may be reaching out for support. Phone or virtual: the choice is completely up to you, your comfort levels, and which mode you think may give you a better sense of how I show up in sessions. If we determine that I may not be the best fit, I can offer referrals that may be better suited to your needs",
           "modes": ["virtual"],
           "kind": "consultation"
         },
@@ -86,6 +86,14 @@
           "description": "Sometimes, we need extra space to explore things in more depth and at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's on your heart and mind",
           "modes": ["virtual"],
           "kind": "session"
+         },
+         {
+           "label": "Shorter session",
+          "durationMinutes": 40,
+          "fee": "$120",
+          "description": "Shorter sessions are available for folks who may not need deeper processing in-between sessions, but just want to check-in to help keep themselves accountable. Other times, you may find it hard to fill a 50-minute session with material to work on, and that's ok. If a 40-minute session feels more valuable for you, then we can discuss this. Typically, these sessions will be offered after we have worked together for a few sessions to better determine your needs.",
+          "modes": ["virtual"],
+          "kind": "consultation"
         }
       ]
     },
