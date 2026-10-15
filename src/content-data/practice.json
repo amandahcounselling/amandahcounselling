@@ -20,9 +20,10 @@
   },
   "fees": {
     "insuranceNotes": [
-      "Receipts are provided, which can be used for reimbursement through extended health benefits. If you are not covered by a health insurance provider, or your provider is unable to cover the entire cost of sessions, receipts may be kept and used as a medical expense for that tax year; however, this needs to be confirmed with your accountant or by contacting the CRA.",
+      "Receipts are provided, which can be used for reimbursement through extended health benefits.",
+      "If you are not covered by a health insurance provider, or your provider is unable to cover the entire cost of sessions, receipts may be kept and used as a medical expense for that tax year; however, this needs to be confirmed with your accountant or by contacting the CRA.",
       "Coverage varies by plan, provider type, and province. I would encourage you to confirm details with your insurance provider before booking a consult or session.",
-      "A limited number of sliding scale spaces may be available. These spots are intended for folks who are facing financial barriers, making it difficult for them to afford counselling. You're welcome to ask about the availability of these spots. If I don't have spots available currently, I'm happy to direct you to lower-cost counselling resources available in the community."
+      "A limited number of sliding scale spaces may be available. These spots are intended for folks who are facing financial barriers, making it difficult for them to afford counselling. You're welcome to ask about the availability of these spots. I'm happy to direct you to lower-cost counselling resources available in the community if I don't have spots available."
     ],
     "insuranceHeading": "Insurance and payment"
   },
@@ -66,7 +67,8 @@
           "label": "Brief consultation",
           "durationMinutes": 20,
           "fee": "Free",
-          "description": "A brief, informal chat where you can ask questions, discuss any goals or challenges you want to address in counselling, get a sense of how I show up, and see whether we may be a good match for each other. If we determine that I may not be the best fit, I can offer referrasl to other clinicians or organizations that may be better suited to your needs.",
+          "description": "A brief, informal chat where you can ask questions, discuss any goals or challenges you want to address in counselling, get a sense of how I show up, and see whether we may be a good match for each other.",
+          "If we determine that I may not be the best fit, I can offer referrasl to other clinicians or organizations that may be better suited to your needs.",
           "modes": ["virtual"],
           "kind": "consultation"
         },
@@ -82,7 +84,8 @@
           "label": "Extended session",
           "durationMinutes": 75,
           "fee": "$215",
-          "description": "Sometimes, we just need extra space to explore things in more depth at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills, without taking away from your time to share what's been on your heart and mind.",
+          "description": "Sometimes, we just need extra space to explore things in more depth at a pace that honours what you're bringing into the room.",
+          "Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills, without taking away from your time to share what's been on your heart and mind.",
           "modes": ["virtual"],
           "kind": "session"
         }
