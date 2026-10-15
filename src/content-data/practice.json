@@ -70,6 +70,7 @@
           "fee": "Free",
           "description": "A brief, informal chat where you can ask questions, discuss any goals or challenges you want to address in counselling, get a sense of how I show up, and see whether we may be a good match for each other.",
           "If we determine that I may not be the best fit, I can offer referrasl to other clinicians or organizations that may be better suited to your needs.",
+          "Consultations can be done over the phone or virutally, the choice is completely up to you and your comfort levels. Kust select which option you would prefer in Jane, and I will follow up via email with more information."
           "modes": ["virtual"],
           "kind": "consultation"
         },
