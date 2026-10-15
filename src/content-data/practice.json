@@ -3,7 +3,7 @@
   "practitionerName": "Amanda Hecimovic",
   "credentials": "Registered Clinical Counsellor",
   "tagline": "Counselling for steadier days and meaningful change.",
-  "description": "Virtual counselling based in Vancouver, BC with Amanda Hecimovic, RCC — support for eating disorders, disordered eating, anxiety, depression, burnout, life transitions, and self-worth.",
+  "description": "Individual counselling in Vancouver, BC with Amanda Hecimovic, RCC — support for eating disorders, disordered eating, and body image.",
   "location": "Vancouver, BC",
   "phone": "disabled",
   "email": "info@amandahcounselling.com",
@@ -20,11 +20,9 @@
   },
   "fees": {
     "insuranceNotes": [
-      "Payments are processed through Jane App, and they currently accept: Visa, Mastercard, American Express, Discover, Diners Club, UnionPay, Apple Pay, and Google Pay",
-      "Receipts are provided and can be used for reimbursement through extended health benefits.",
-      "Coverage varies by plan, provider type, and province. I would encourage you to confirm details with your insurance provider before booking a consult or session.",
-      "If you are not covered by a provider, or they are unable to cover the entire cost of sessions, receipts may be kept and filed as a medical expense on your taxes; however, this needs to be confirmed with your accountant or by contacting the CRA.",
-      "A limited number of sliding scale spaces may be available. These spots are intended for folks who are facing financial barriers, making it difficult for them to afford counselling. You're welcome to ask about the availability of these spots. I'm happy to direct you to lower-cost counselling resources available in the community if I don't have spots available."
+      "Receipts can be provided for reimbursement through extended health benefits.",
+      "Coverage varies by plan, provider type, and province. Clients are encouraged to confirm details with their insurer before booking.",
+      "A limited number of sliding scale spaces may be available. Ask about availability during consultation."
     ],
     "insuranceHeading": "Insurance and payment"
   },
@@ -46,7 +44,7 @@
     "bookSession": {
       "externalLink": {
         "label": "Book an appointment online",
-        "description": "Appointments are scheduled through Jane App. When you click this link, you will leave this site to choose a time and complete your booking."
+        "description": "Appointments are scheduled through Jane App. You will leave this site to choose a time and complete your booking."
       },
       "enabled": true,
       "siteCtaLabel": "Book with me",
@@ -66,9 +64,9 @@
       "sessionTypes": [
         {
           "label": "Brief consultation",
-          "durationMinutes": 20,
+          "durationMinutes": 15,
           "fee": "Free",
-          "description": "A brief, informal chat where you can ask questions, discuss any goals or challenges you want to address in counselling, get a sense of how I show up, and see whether we may be a good match for each other. If we determine that I may not be the best fit, I can offer referrasl to other clinicians or organizations that may be better suited to your needs. Consultations can be done over the phone or virutally, the choice is completely up to you and your comfort levels. Just select which option you would prefer in Jane, and I will follow up via email with more information."
+          "description": "A brief call to ask questions, share what you are looking for, and decide on next steps.",
           "modes": ["virtual"],
           "kind": "consultation"
         },
@@ -76,7 +74,7 @@
           "label": "Individual counselling",
           "durationMinutes": 50,
           "fee": "$150",
-          "description": "One-to-one support that focuses on what feels most important to you.",
+          "description": "One-to-one support for eating disoders, disordered eating, anxiety, depression, life transitions, burnout, and self-worth",
           "modes": ["virtual"],
           "kind": "session"
         },
@@ -84,7 +82,7 @@
           "label": "Extended session",
           "durationMinutes": 75,
           "fee": "$215",
-          "description": "Sometimes, we just need extra space to explore things in more depth at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills, without taking away from your time to share what's been on your heart and mind."
+          "description": "Additional time for deeper work, complex concerns, or treatment planning.",
           "modes": ["virtual"],
           "kind": "session"
         }
