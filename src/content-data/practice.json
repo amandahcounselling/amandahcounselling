@@ -85,14 +85,6 @@
           "description": "Sometimes, we need extra space to explore things in more depth and at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's on your heart and mind",
           "modes": ["virtual"],
           "kind": "session"
-         },
-         {
-           "label": "Shorter individual session",
-          "durationMinutes": 40,
-          "fee": "$120",
-          "description": "These are available for folks who may find it hard to fill a 50-minute session with material to work with or may not need deeper processing between sessions, but just want to check-in to help keep themselves accountable. Whatever the reason, if a 40-minute session feels more valuable for you, we can discuss this. Typically, these sessions will be offered after we have worked together for a few sessions to better determine your needs",
-          "modes": ["virtual"],
-          "kind": "consultation"
         }
       ]
     },
