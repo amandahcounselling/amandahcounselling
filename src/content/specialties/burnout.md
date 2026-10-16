@@ -1,6 +1,6 @@
 ---
 title: Burnout
-description: Space to explore how your current life circumstances, like work, school, or relationships, may be creating overwhelm and exhaustion that's hard to escape.
+description: Space to explore how your current life circumstances, like work, school, or relationships, may be creating overwhelm and exhaustion that are hard to manage.
 order: 5
 heroImage: /images/sunset-gibsons.jpg
 ---
