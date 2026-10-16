@@ -6,9 +6,12 @@ heroImage: /images/irish-door-wall.JPG
 ---
 
 
-Life transitions are constants in our lives, but that doesn't make navigating them any easier. Sometimes they are ones that we intentionally plan, and other times they are ones that have been sprung on us, and we have to adapt. They come in different shapes and sizes - maybe the transition period is brief or maybe it's a period that will last years. 
-Maybe you're seeking support to help navigate the planning of a transition; look at the pros and cons
+Life transitions are constants in our lives, but that doesn't make navigating them any easier. Sometimes they are ones we intentionally choose, and other times they are ones that have been sprung on us. They come in different shapes and sizes - maybe the transition period is brief or maybe it's a period that will last years.
 
+Maybe you're seeking support to help navigate the planning of a transition; look at the pros and cons
 Maybe you're unhappy with your career, but the idea of going back to school or changing careers is terrifying.
 Maybe you were excited about moving to a new city, and now you're noticing that there are more challenges you have to face that you didn't anticipate.
+
+Feelings that may be coming up
+Identity shifts - maybe you're showing up differently than you did before and navigating the unfamiliarity of this, and figuring out whether this new way of showing up is how you want to continue showing up or if you want to change it
 
