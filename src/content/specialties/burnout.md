@@ -1,8 +1,10 @@
 ---
 title: Burnout
-description: When life feels a little heavier than usual, and you feel like you are drowning under the weight of responsibilities.
+description: Space to explore how your current life circumstances, like work, school, or relationships, may be creating overwhelm and exhaustion that's hard to escape.
 order: 5
 heroImage: /images/sunset-gibsons.jpg
 ---
 
-Burnout
+Difference between depression and burnout
+Depression is typically impacts your
+Burnout is usually in response to a certain chapter in your life, you may feel exhausted, overwhelmed, and it may feel like depression, but once you have space to recover or your responsibilities lighten, you can return back to your baseline.
