@@ -3,7 +3,7 @@ title: Depression
 description: Counselling for low mood, numbness, self-criticism, burnout, and feeling disconnected from yourself or others.
 order: 2
 heroImage: /images/fog-mud-bay.jpg
-icon: Flower
+icon: Flower2
 ---
 
 You try to put on a happy face for everyone, but when you're on your own, the weight can feel suffocating. You may be able to connect to other feelings, like joy or peace, but they feel fleeting.
