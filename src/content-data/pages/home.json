@@ -23,12 +23,12 @@
         {
           "title": "Integrative",
           "description": "A combination of mind-body approaches shaped to your specific needs, not a one-size-fits all approach.",
-          "icon": "Leaf"
+          "icon": "Waves"
         },
         {
           "title": "Trauma-informed",
           "description": "Care that prioritizes safety, consent, pacing, and the wisdom of the nervous system.",
-          "icon": "TreeDeciduous"
+          "icon": "BookOpen"
         }
       ]
     },
