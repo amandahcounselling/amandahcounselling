@@ -3,6 +3,7 @@ title: Life transitions
 description: Whether it's one you're contemplating or one you're moving through, transitions can bring a lot of different things to the surface. 
 order: 4
 heroImage: /images/irish-door-wall.JPG
+icon: TreeDeciduous
 ---
 
 

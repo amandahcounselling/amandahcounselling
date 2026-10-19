@@ -38,7 +38,7 @@ export const markdownCollections = [
     id: 'specialties',
     label: 'Specialties',
     repoPath: 'src/content/specialties',
-    frontmatterFields: ['title', 'description', 'order', 'heroImage'] as const,
+    frontmatterFields: ['title', 'description', 'order', 'heroImage', 'icon'] as const,
   },
   {
     id: 'blog',

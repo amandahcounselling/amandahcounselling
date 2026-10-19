@@ -10,6 +10,7 @@ type HomeSpecialty = {
   slug: string;
   title: string;
   description: string;
+  icon?: string;
 };
 
 type HomePageProps = {

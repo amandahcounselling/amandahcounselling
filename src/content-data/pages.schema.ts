@@ -3,6 +3,8 @@ import { z } from 'zod';
 const cardItemSchema = z.object({
   title: z.string(),
   description: z.string(),
+  /** Lucide icon name (e.g. HeartHandshake) or an emoji. */
+  icon: z.string().optional(),
 });
 
 export const pageSectionSchema = z.discriminatedUnion('type', [
@@ -42,6 +44,8 @@ export const pageSectionSchema = z.discriminatedUnion('type', [
     type: z.literal('cta'),
     title: z.string(),
     description: z.string(),
+    /** Lucide icon name (e.g. BookOpen) or an emoji. */
+    icon: z.string().optional(),
   }),
 ]);
 

@@ -8,6 +8,8 @@ const specialties = defineCollection({
     description: z.string(),
     order: z.number(),
     heroImage: z.string(),
+    /** Lucide icon name (e.g. Leaf) or an emoji — used on home specialty preview cards. */
+    icon: z.string().optional(),
   }),
 });
 

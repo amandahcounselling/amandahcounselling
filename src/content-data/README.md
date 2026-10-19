@@ -66,10 +66,26 @@ Each item in `sections` needs a `"type"`. Copy an existing block from another pa
   "title": "Section title",
   "description": "Optional intro",
   "items": [
-    { "title": "Card title", "description": "Card body" }
+    {
+      "title": "Card title",
+      "description": "Card body",
+      "icon": "HeartHandshake"
+    },
+    {
+      "title": "Another card",
+      "description": "…",
+      "icon": "🌿"
+    }
   ]
 }
 ```
+
+Each item’s optional `"icon"` can be:
+
+- A **Lucide icon name** from the curated list below (`HeartHandshake`, `heart-handshake`, and `heart handshake` all work), or
+- An **emoji** (or any other short text), which is shown in the same icon slot.
+
+If `"icon"` is omitted, cards cycle through `HeartHandshake`, `Leaf`, and `TreeDeciduous`.
 
 ### `bullets` — title + checklist-style lines
 
@@ -103,15 +119,40 @@ The main headline comes from `practice.json` (`tagline`), not this block.
 
 Pulls specialty titles/descriptions from markdown in `src/content/specialties/`. This JSON only controls the section labels.
 
+To set a specialty card icon on the home preview, add optional frontmatter in that specialty’s markdown file:
+
+```yaml
+---
+title: Anxiety
+description: …
+order: 3
+heroImage: /images/bluebells-ireland.jpg
+icon: Brain
+---
+```
+
+Same rules as cards: Lucide name or emoji. If omitted, the preview uses `Leaf`.
+
 ### `cta` — closing call-to-action
 
 ```json
 {
   "type": "cta",
   "title": "…",
-  "description": "…"
+  "description": "…",
+  "icon": "BookOpen"
 }
 ```
+
+Optional `"icon"` follows the same Lucide-name-or-emoji rules. If omitted, the CTA uses `BookOpen`.
+
+### Available Lucide icon names
+
+These names are registered for content icons (add more in `src/lib/icons.tsx` if needed):
+
+`Anchor`, `Award`, `Bird`, `BookOpen`, `Brain`, `Cloud`, `Clover`, `Compass`, `Ear`, `Eye`, `Feather`, `Flower`, `Flower2`, `HandHeart`, `Heart`, `HeartHandshake`, `KeyRound`, `Leaf`, `Lightbulb`, `Lock`, `MessageCircle`, `Moon`, `Mountain`, `PersonStanding`, `Scale`, `Shell`, `ShieldCheck`, `Shrub`, `Smile`, `Sparkles`, `Sprout`, `Sun`, `TreeDeciduous`, `TreePine`, `Trees`, `Users`, `Waves`
+
+Browse the full Lucide set at [lucide.dev/icons](https://lucide.dev/icons) — if you want a name that is not listed above, ask to add it to the registry.
 
 ## Common edits
 

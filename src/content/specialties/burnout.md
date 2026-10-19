@@ -3,6 +3,7 @@ title: Burnout
 description: Space to explore how your current life circumstances may be creating overwhelm and exhaustion that feel hard to manage.
 order: 5
 heroImage: /images/sunset-gibsons.jpg
+icon: Mountain
 ---
 
 While burnout is not a pleasant experience, it can serve as a bit of a smoke signal to areas of our life that may not be working for us

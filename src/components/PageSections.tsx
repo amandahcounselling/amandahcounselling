@@ -1,14 +1,8 @@
-import {
-  ArrowRight,
-  Award,
-  BookOpen,
-  CheckCircle,
-  HeartHandshake,
-  ShieldCheck,
-} from 'lucide-react';
+import { ArrowRight, BookOpen, CheckCircle, Leaf } from 'lucide-react';
 import type { PageSection } from '../content-data/pages.schema';
 import { getBookCtaLabel, siteConfig } from '../config';
 import { getBookLinkProps } from '../lib/booking';
+import { CardIcon, defaultCardIconFallbacks } from '../lib/icons';
 import { withBase } from '../lib/paths';
 import { hasText } from '../lib/utils';
 import { useOptionalAdmin } from '../lib/admin/admin-context';
@@ -21,6 +15,7 @@ export type PageSectionSpecialty = {
   slug: string;
   title: string;
   description: string;
+  icon?: string;
 };
 
 type PageSectionsProps = {
@@ -30,8 +25,6 @@ type PageSectionsProps = {
   /** Compact stacked prose inside a single card (privacy-style pages). */
   variant?: 'default' | 'article';
 };
-
-const cardIcons = [HeartHandshake, ShieldCheck, Award] as const;
 
 function sectionPath(index: number, field: string) {
   return `sections.${index}.${field}`;
@@ -261,10 +254,11 @@ function CardsSection({
             path={sectionPath(index, 'items')}
             fallback={section.items}
             renderItem={(item, itemIndex) => {
-              const Icon = cardIcons[itemIndex % cardIcons.length];
+              const fallback =
+                defaultCardIconFallbacks[itemIndex % defaultCardIconFallbacks.length];
               return (
                 <div className="bg-card rounded-[2rem] border border-border p-6 shadow-sm">
-                  <Icon className="text-primary mb-5 h-9 w-9" />
+                  <CardIcon icon={item.icon} fallback={fallback} />
                   {hasText(item.title) && (
                     <h3 className="font-heading text-foreground text-2xl font-bold">
                       {item.title}
@@ -423,7 +417,7 @@ function SpecialtiesPreviewSection({
               href={withBase(`/specialties/${specialty.slug}`)}
               className="bg-card group rounded-[2rem] border border-border p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
             >
-              <ShieldCheck className="text-primary mb-5 h-9 w-9" />
+              <CardIcon icon={specialty.icon} fallback={Leaf} />
               <h3 className="font-heading text-foreground text-2xl font-bold">
                 {specialty.title}
               </h3>
@@ -464,7 +458,11 @@ function CtaSection({
   return (
     <section className="from-secondary/30 to-primary/10 bg-gradient-to-br px-6 py-16 lg:px-8">
       <div className="mx-auto max-w-4xl rounded-[2rem] bg-card p-8 text-center shadow-sm md:p-12">
-        <BookOpen className="text-primary mx-auto mb-5 h-12 w-12" />
+        <CardIcon
+          icon={section.icon}
+          fallback={BookOpen}
+          className="text-primary mx-auto mb-5 h-12 w-12"
+        />
         {showTitle && (
           <ContentField
             sourceId={sourceId}

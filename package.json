@@ -15,23 +15,27 @@
     "validate:content": "tsx scripts/validate-content.ts"
   },
   "dependencies": {
-    "@astrojs/react": "^6.0.5",
+    "@astrojs/react": "^7.1.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "astro": "^7.3.2",
+    "astro": "^7.4.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^1.46.0",
-    "prettier": "^3.9.7",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "lucide-react": "^1.59.0",
+    "prettier": "^3.9.10",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "react-markdown": "^10.1.0",
     "tailwind-merge": "^3.7.0",
     "tailwindcss": "^4.3.1",
-    "zod": "^4.6.5"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@types/node": "^26.6.1",
-    "tsx": "^4.23.13"
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true
   }
 }

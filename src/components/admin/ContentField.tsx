@@ -114,19 +114,22 @@ export function ContentStringList({
   );
 }
 
+type ContentCardItem = {
+  title: string;
+  description: string;
+  icon?: string;
+};
+
 type ContentCardsProps = {
   sourceId: string;
   path: string;
-  fallback: Array<{ title: string; description: string }>;
-  renderItem: (item: { title: string; description: string }, index: number) => ReactNode;
+  fallback: ContentCardItem[];
+  renderItem: (item: ContentCardItem, index: number) => ReactNode;
 };
 
 export function ContentCardList({ sourceId, path, fallback, renderItem }: ContentCardsProps) {
   const admin = useOptionalAdmin();
-  const value = (admin?.getFieldValue(sourceId, path) ?? fallback) as Array<{
-    title: string;
-    description: string;
-  }>;
+  const value = (admin?.getFieldValue(sourceId, path) ?? fallback) as ContentCardItem[];
 
   if (admin?.isEditMode) {
     return (
@@ -141,6 +144,18 @@ export function ContentCardList({ sourceId, path, fallback, renderItem }: Conten
                 admin.setFieldValue(sourceId, path, next);
               }}
               className="border-primary/40 bg-background/95 w-full rounded-xl border px-3 py-2 outline-none"
+              placeholder="Title"
+            />
+            <input
+              value={item.icon ?? ''}
+              onChange={(event) => {
+                const next = [...value];
+                const icon = event.currentTarget.value;
+                next[index] = { ...item, icon };
+                admin.setFieldValue(sourceId, path, next);
+              }}
+              className="border-primary/40 bg-background/95 w-full rounded-xl border px-3 py-2 outline-none"
+              placeholder="Icon (Lucide name or emoji)"
             />
             <textarea
               value={item.description}
@@ -151,6 +166,7 @@ export function ContentCardList({ sourceId, path, fallback, renderItem }: Conten
               }}
               className="border-primary/40 bg-background/95 w-full rounded-xl border px-3 py-2 outline-none"
               rows={3}
+              placeholder="Description"
             />
           </div>
         ))}

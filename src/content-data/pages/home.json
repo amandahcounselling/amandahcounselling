@@ -17,15 +17,18 @@
       "items": [
         {
           "title": "Person-centred",
-          "description": "A collaborative relationship where you are met with warmth, respect, and curiosity."
+          "description": "A collaborative relationship where you are met with warmth, respect, and curiosity.",
+          "icon": "HeartHandshake"
         },
         {
           "title": "Integrative",
-          "description": "A combination of mind-body approaches shaped to your specific needs, not a one-size-fits all approach."
+          "description": "A combination of mind-body approaches shaped to your specific needs, not a one-size-fits all approach.",
+          "icon": "Leaf"
         },
         {
           "title": "Trauma-informed",
-          "description": "Care that prioritizes safety, consent, pacing, and the wisdom of the nervous system."
+          "description": "Care that prioritizes safety, consent, pacing, and the wisdom of the nervous system.",
+          "icon": "TreeDeciduous"
         }
       ]
     },
@@ -49,7 +52,8 @@
     {
       "type": "cta",
       "title": "Ready to explore working together?",
-      "description": "Book a consultation with me to learn more about my approach, ask questions, and see whether we may be a good fit."
+      "description": "Book a consultation with me to learn more about my approach, ask questions, and see whether we may be a good fit.",
+      "icon": "BookOpen"
     }
   ]
 }
