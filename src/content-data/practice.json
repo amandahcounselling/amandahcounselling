@@ -74,7 +74,7 @@
           "label": "Individual counselling",
           "durationMinutes": 50,
           "fee": "$150",
-          "description": "Your standard counselling session length. A space set aside for you, where you decide how you'd like to use those 50-minutes. And if you don't know how you'd like to use them, we can figure it out together",
+          "description": "Your standard counselling session length - 50 minutes. A space set aside for you, where you decide how you'd like to use the time. And if you don't know how you'd like to use it, we can figure it out together",
           "modes": ["virtual"],
           "kind": "session"
         },
