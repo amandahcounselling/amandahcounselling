@@ -8,17 +8,17 @@ icon: Mountain
 
 **_Do any of these sound familiar_?**
 
-• You *chronically over-commit*, taking on extra shifts at work or saying "yes" to all of the invitations (fear of missing out/FOMO is so real)
+• You **chronically over-commit**, taking on extra shifts at work or saying "yes" to all of the invitations (fear of missing out/FOMO is so real)
 
-• You want to **_rest_**, but when you do get the chance, it feels unfamiliar, maybe even uncomfortable, so you keep filling your schedule to the brim
+• You want to **_rest_**, but when you do get the chance, it feels unfamiliar (maybe even uncomfortable), so you keep filling your schedule to the brim
 
-• You're the person who **_supports everyone_** else at the drop of a hat, but **_you never ask for the same in return_**
+• You're the person who **_supports everyone_** else at the drop of a hat, but you never ask or get the same in return
 
-• You have **_high expectations_** of yourself but have too many tasks in a day that exceed your actual capacity
+• You have **_high expectations_** of yourself, and you think you should be able to complete everything on your to-do list without being aware of your actual capacity
 
-• You've been **_juggling raising kids_**, taking care of aging parents, trying to advance your career, or working to make enough money to survive in this economy
+• You've been **_juggling_** raising kids, taking care of aging parents, trying to advance your career, or working to make enough money to survive in this economy
 
 
-Whatever your reason may be, burnout is a real experience that effects so many people, but you might be thinking _isn't it just depression_? Burnout tends to be in response to an immediate and/or long-standing stressor in a specific area of our lives. We may still find joy in our hobbies and in other aspects of life, and once the stressor is removed or dealt with, the feelings of numbness and overwhelm tend to improve.
+Whatever your reason may be, burnout is a real experience that effects so many people. While burnout and depression may seem similar on the surface, burnout tends to be in response to an immediate and/or long-standing stressor in a specific area of our lives. We may still find joy in our hobbies and in other aspects of life, and once the stressor is removed or dealt with, the feelings of numbness and overwhelm tend to improve. This isn't often the case when it comes to depression, as it tends to be more deeply rooted in our belief systems, which impact our thoughts, feelings, and behaviours in most domains in our lives.
 
 While burnout can be an unpleasant experience, it can also serve as a signal that something isn't working for us. The numbness, exhaustion, overwhelm, and brain fog can feel like they're making our lives unbearable, but if we can turn towards them and explore what may be causing them, we may learn a great deal about ourselves and what we need to move forward. Our work together can explore the "why" behind the burnout. For some, the "why" may be a career that doesn't feel aligned, high-expectations of self, lack of social support, hyper-independence, or a challenging economy. 
