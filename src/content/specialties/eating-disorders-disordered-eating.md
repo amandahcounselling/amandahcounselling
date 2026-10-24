@@ -12,4 +12,4 @@ I view eating disorders and disordered eating as ways people may have learned to
 
 Trauma, interpersonal relationship challenges, and life transitions are some common experiences that can often maintain and intensify challenges with food and body image.
 
-That’s why my approach to counselling intentionally creates space to explore your relationship to food and your body, while also looking at other areas of your life that may be impacting your recovery. We will work to understand what the eating disorder/disordered eating may be helping you cope with, while developing new coping strategies and skills to help you turn towards it less and build a life that feels more fulfilling and aligned with who you are.
+That’s why my approach to counselling intentionally creates space to explore your relationship to food and your body, while also looking at other areas of your life that may be impacting your recovery. We will work to understand what the eating disorder/disordered eating may be helping you cope with, while developing new skills to help you turn towards it less, building a life that feels more fulfilling and aligned with who you are.
