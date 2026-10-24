@@ -14,7 +14,7 @@ icon: Mountain
 
 • You're the person who **_supports everyone_** at the drop of a hat, including that person you just met 5 minutes ago, but you never ask or get the same in return
 
-• You have **_high expectations_** of yourself, and you think you should be able to complete everything on your to-do list but aren't tuned into your actual capacity
+• You have **_high expectations_** of yourself, and you think you should be able to complete everything on your to-do list
 
 • You've been **_juggling_** raising kids, taking care of aging parents, trying to advance your career, or working to make enough money to survive in this economy
 
