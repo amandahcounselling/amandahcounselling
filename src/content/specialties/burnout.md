@@ -8,11 +8,11 @@ icon: Mountain
 
 **_Do any of these sound familiar_?**
 
-• You **chronically over-commit**, taking on extra shifts at work or saying "yes" to all of the invitations (fear of missing out/FOMO is so real)
+• You **_chronically over-commit_**, taking on extra shifts at work or saying "yes" to all of the invitations (fear of missing out/FOMO is so real)
 
 • You want to **_rest_**, but when you do get the chance, it feels unfamiliar (maybe even uncomfortable), so you keep filling your schedule to the brim
 
-• You're the person who **_supports everyone_** else at the drop of a hat, but you never ask or get the same in return
+• You're the person who **_supports everyone_** at the drop of a hat, including that person you just met 5 minutes ago, but you never ask or get the same in return
 
 • You have **_high expectations_** of yourself, and you think you should be able to complete everything on your to-do list without being aware of your actual capacity
 
