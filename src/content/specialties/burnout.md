@@ -12,7 +12,7 @@ icon: Mountain
 
 • You want to **_rest_**, but when you do get the chance, it feels unfamiliar (maybe even uncomfortable), so you keep filling your schedule to the brim
 
-• You're the person who **_supports everyone_** at the drop of a hat, including that person you met 5 minutes ago, but you don't ask for or get the same in return
+• You're the one who **_supports everyone_** at the drop of a hat, including that person you met 5 minutes ago, but you don't ask or get the same in return
 
 • You have **_high expectations_** of yourself, and you think you should be able to complete everything on your to-do list
 
