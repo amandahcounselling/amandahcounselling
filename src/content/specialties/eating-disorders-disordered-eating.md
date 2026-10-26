@@ -16,7 +16,7 @@ icon: Compass
 
 • **_Over-eat_** when you're feeling anxious, bored, sad, angry, etc.
 
-• **_Hide_** or **_eat_** food in secret
+• **_Hide_** or eat food in **_secret_**
 
 • Spend minutes, maybe hours, **_checking your body in the mirror_**
 
