@@ -6,7 +6,9 @@ heroImage: /images/irish-door-wall.JPG
 icon: TreeDeciduous
 ---
 
-Life transitions are constants in our lives, but that doesn't make navigating them any easier. Sometimes they are ones we **_intentionally choose_**, like moving to a new city, and other times they are ones that have been **_sprung on us_**, like the unexpected loss of a loved one. They come in different shapes and sizes. Maybe the transition period is **_brief_**, where you just need to take a 3 month course to upgrade your skills, or maybe it's a period that will last **_years_**, like a getting an undergraduate degree for a complete career change.
+Life transitions are constants in our lives, but that doesn't make navigating them any easier. 
+
+Sometimes they are ones we **_intentionally choose_**, like moving to a new city, and other times they are ones that have been **_sprung on us_**, like the unexpected loss of a loved one. They come in different shapes and sizes. Maybe the transition period is **_brief_**, where you just need to take a 3 month course to upgrade your skills, or maybe it's a period that will last **_years_**, like a getting an undergraduate degree for a complete career change.
 
 Regardless of how it has shown up for you, **_transitions often shift our identities and roles_** in life
 
