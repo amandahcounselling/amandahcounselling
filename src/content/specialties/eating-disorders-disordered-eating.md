@@ -16,11 +16,11 @@ icon: Compass
 
 • **_Over-eat** when you're feeling anxious, bored, sad, angry, etc.
 
-• **_Hide_** or **_eat** food in **_secret_**
+• **_Hide_** or **_eat_** food in secret
 
 • Spend minutes, maybe hours, **_checking your body in the mirror_**
 
-• **_Limit the amount of food you eat in a day_**, and you may bypass or no longer have **_hunger cues_**
+• **_Limit the amount of food you eat in a day_**, and you may bypass or no longer have hunger cues
 
 • Over-exercise, purge, or use other strategies to **_compensate for what you ate_**
 
