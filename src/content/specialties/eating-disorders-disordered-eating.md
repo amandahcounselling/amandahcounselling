@@ -10,6 +10,8 @@ icon: Compass
 
 ____________________________________________________________________________________
 
+
+
 **If you're living with an eating disorder or disordered eating, you may:**
 
 • **_Over-eat food to self-soothe_** when you're feeling anxious, stressed, bored, sad, angry, etc.
@@ -18,19 +20,21 @@ ________________________________________________________________________________
 
 • Spend minutes, maybe hours, **_checking your body in the mirror_**
 
-• Try to **_limit the amount of food you eat in a day_**, and you may bypass or no longer have **_hunger cues_**
+• **_Limit the amount of food you eat in a day_**, and you may bypass or no longer have **_hunger cues_**
 
-• Over-exercise, throw up, or use other strategies to **_compensate for what you ate_**
+• Over-exercise, purge, or use other strategies to **_compensate for what you ate_**
 
-• **_Check your weight_** on the scale multiple times per week, maybe even daily, and any fluctuations impact your mood and self-confidence
+• **_Check your weight_** multiple times per week, maybe even daily, and any fluctuations impact your mood and self-confidence
 
 • Have a **_very strict diet and exercise plan_**, eating only "healthy" foods
 
-• **_Avoid environments_** where food may be present or your body may be seen (e.g., not going to restaurants or avoiding pools)
+• **_Avoid environments_** where there's food or your body may be seen (e.g., not going to restaurants or avoiding pools)
 
 • Go through **_phases_** where your relationship to food and body feels stable, but then a few months later it feels like **_it's taken over your life again_**
 
 • Keep your challenges a **_secret from everyone you know_**, leaving you feeling a deep sense of loneliness and shame
+
+
 
 ____________________________________________________________________________________
 
