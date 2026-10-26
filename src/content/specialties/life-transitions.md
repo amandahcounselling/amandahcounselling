@@ -21,7 +21,9 @@ Regardless of how it has shown up for you, **_transitions often shift our identi
 
 • We may have lived with a partner, but now our parent is moving in
 
-• We may end our time as an employee and retire
+• We may end our time as an employee and become a retiree
+
+• We may have been unwell for a period of time but now have an official diagnosis
 
 **____________________________________________________________________________________**
 
