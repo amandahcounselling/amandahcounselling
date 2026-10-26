@@ -11,7 +11,6 @@ icon: Compass
 **____________________________________________________________________________________**
 
 
-
 **If you're living with an eating disorder or disordered eating, you may:**
 
 • **_Over-eat_** when you're feeling anxious, bored, sad, angry, etc.
@@ -33,7 +32,6 @@ icon: Compass
 • Go through **_phases_** where your relationship to food and body feels stable, but then a few months later it feels like **_it's taken over your life again_**
 
 • Keep your challenges a **_secret from everyone you know_**, leaving you feeling a deep sense of loneliness and shame
-
 
 
 **____________________________________________________________________________________**
