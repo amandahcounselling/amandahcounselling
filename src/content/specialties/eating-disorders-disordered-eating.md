@@ -22,7 +22,7 @@ icon: Compass
 
 • **_Limit the amount of food you eat in a day_**, and you may bypass or no longer have hunger cues
 
-• Over-exercise, purge, or use other strategies to **_compensate for what you ate_**
+• Exercise, purge, or use other strategies to **_compensate for what you ate_**
 
 • **_Check your weight_** multiple times per week, maybe even daily, and any fluctuations impact your mood and self-confidence
 
