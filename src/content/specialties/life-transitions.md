@@ -12,6 +12,9 @@ Sometimes they are ones we **_intentionally choose_**, like moving to a new city
 
 They come in different shapes and sizes. Maybe the transition period is **_brief_**, where you just need to take a 3 month course to upgrade your skills, or maybe it's a period that will last **_years_**, like a getting an undergraduate degree for a complete career change.
 
+**____________________________________________________________________________________**
+
+
 Regardless of how it has shown up for you, **_transitions often shift our identities and roles_** in life:
 
 • We may go from being a student to a working professional
@@ -20,7 +23,10 @@ Regardless of how it has shown up for you, **_transitions often shift our identi
 
 • We may end our time as an employee and retire
 
-These transitions can bring up grief, anxiety, numbness, fear, and excitement, all of which can feel difficult to hold on your own at times.
+**____________________________________________________________________________________**
+
+
+Because of these shifts in our identity and roles, transitions can bring up **_grief_**, **_anxiety_**, **_numbness_**, **_fear_**, and **_excitement_**, all of which can feel difficult to hold on your own at times.
 
 In our work together, we can discuss a transition you are contemplating to help determine whether it's the right choice for you, prepare you for an anticipated transition by looking at ways to support you through it, or explore the different feelings and experiences a current transition is bringing up. 
 
