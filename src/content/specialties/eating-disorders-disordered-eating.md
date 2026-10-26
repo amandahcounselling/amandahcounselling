@@ -14,7 +14,7 @@ icon: Compass
 
 **If you're living with an eating disorder or disordered eating, you may:**
 
-• **_Over-eat food to self-soothe_** when you're feeling anxious, stressed, bored, sad, angry, etc.
+• **_Over-eat** when you're feeling anxious, bored, sad, angry, etc.
 
 • **_Hide_** or **_eat** food in **_secret_**
 
