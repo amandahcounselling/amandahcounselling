@@ -12,7 +12,7 @@ Sometimes they are ones we **_intentionally choose_**, like moving to a new city
 
 They come in different shapes and sizes. Maybe the transition period is **_brief_**, where you just need to take a 3 month course to upgrade your skills, or maybe it's a period that will last **_years_**, like a getting an undergraduate degree for a complete career change.
 
-Regardless of how it has shown up for you, **_transitions often shift our identities and roles_** in life
+Regardless of how it has shown up for you, **_transitions often shift our identities and roles_** in life:
 
 • We may go from being a student to a working professional
 
