@@ -8,6 +8,7 @@ icon: Compass
 
 **_Disordered eating_** is a term used when someone doesn't meet diagnostic criteria for an **_eating disorder_**. This could look like your health or behaviours not being seen as severe enough for an eating disorder diagnosis. However, this does not mean that your relationship to food and body isn't causing you a significant amount of distress. **_Your pain and struggle is real_**, whether you have a diagnosis or not. 
 
+
 **If you're living with an eating disorder or disordered eating, you may:**
 
 • **_Over-eat food to self-soothe_** when you're feeling anxious, stressed, bored, sad, angry, etc.
@@ -30,7 +31,9 @@ icon: Compass
 
 • Keep your challenges a **_secret from everyone you know_**, leaving you feeling a deep sense of loneliness and shame
 
+
 **_You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help._**
+
 
 Through my training and work, I began to understand that eating disorders and disordered eating may be **_tools_** people used to **_cope with overwhelming experiences_** in their lives. I have also found that eating disorders don't typically exist in a vacuum, meaning other factors in our lives impact our relationship to food and our bodies and vice versa. Trauma, interpersonal relationship challenges, and life transitions are common experiences that can often maintain and intensify challenges with food and body image.
 
