@@ -19,7 +19,7 @@ icon: Mountain
 • You've been **_juggling_** raising kids, taking care of aging parents, trying to advance your career, and/or working to make enough money to survive in this economy
 
 
-**____________________________________________________________________________________**
+**__________________________________________________________________________**
 
 
 Whatever the reason for yours may be, burnout can make it feel impossible to function on a daily basis. You may even wonder whether you're experiencing burnout or depression. While burnout and depression may seem similar on the surface, **_burnout tends to be in response to an immediate and/or long-standing stressor in a specific area of our lives_**. We may still find joy in our hobbies and in other aspects of life, and once the stressor is removed or dealt with, our burnout symptoms tend to improve. This often isn't the case when it comes to depression, as it tends to be more deeply rooted in our belief systems, which impact our thoughts, feelings, and behaviours in most areas of our lives.
