@@ -6,7 +6,7 @@ heroImage: /images/scottish-walk.jpg
 icon: Compass
 ---
 
-**_Disordered eating_** is a term used when someone doesn't meet diagnostic criteria for an **_eating disorder_**. This could look like your health or behaviours not being seen as severe enough for an eating disorder diagnosis. However, this doesn;t mean that your relationship to food and body isn't causing you a significant amount of distress. **_Your pain and struggle is real_**, whether you have a diagnosis or not. 
+**_Disordered eating_** is a term used when someone doesn't meet diagnostic criteria for an **_eating disorder_**. This could look like your health or behaviours not being seen as severe enough for an diagnosis. However, this doesn't mean that your relationship to food and body isn't causing you a significant amount of distress. **_Your pain and struggle is real_**, whether you have a diagnosis or not. 
 
 **__________________________________________________________________________**
 
