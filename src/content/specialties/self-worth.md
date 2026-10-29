@@ -17,7 +17,7 @@ icon: Flower
 
 • Striving for a level of **_perfection_** in most things you do that is hard to meet
 
-• Feeling like you don't fit in or no one cares about you, so you **_avoid social situations_**
+• **_Avoiding social situations_** because you feel like you don't fit in or no one cares about you
 
 • Doing whatever you need to do to **_"keep the peace"_** in your relationships, like saying yes to everything or changing your values/personality/needs
 
