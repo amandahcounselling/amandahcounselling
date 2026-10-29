@@ -1,6 +1,6 @@
 ---
 title: Burnout
-description: Space to explore how your current life circumstances may be creating overwhelm and exhaustion that feel hard to manage.
+description: Describing yourself as "tired" feels like an understatement. Here, you'll have space to explore what may be creating the overwhelm, exhaustion, dread, irritability, or brain fog that feel hard to manage in your life.
 order: 5
 heroImage: /images/sunset-gibsons.jpg
 icon: Mountain
