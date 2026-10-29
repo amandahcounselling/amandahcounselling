@@ -30,7 +30,7 @@ icon: Flower
 
 **__________________________________________________________________________**
 
-While these things may not cause challenges when they happen once in a while (we're all human after all), if we notice a **_consistent pattern_** of experiences like these, it may signal a disconnection from our inherent worth. Being disconnected from our self-worth can **_impact every facet of our life_**, and it can lead to things like **_burnout_**, **_depression_**, or **_anxiety_**. 
+While these things may not cause challenges when they happen once in a while (we're all human after all), if we notice a **_consistent pattern_** of experiences like these, it may signal a disconnection from our inherent worth. Being disconnected from our self-worth can **_impact every facet of our life_**, and it can lead to things like burnout, depression, or anxiety. 
 
 When we do this work together, we'll look at the different ways you may disconnect from your worth, like the examples listed above or other ones you have noticed for yourself. We'll discuss the things that get in the way of you connecting to it. For example, you may hold **_beliefs_** that create feelings of unworthiness or you may have **_fears_** around what would happen if you stepped into your worth. 
 
