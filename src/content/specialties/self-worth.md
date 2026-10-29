@@ -10,21 +10,21 @@ icon: Flower
 
 **Some signs that we may struggle with self-worth or may be disconnected from it include:**
 
-• Placing boundaries or sharing an opinion feels terrifying
+• Placing boundaries or sharing an opinion feels **_terrifying_**
 
-• Constantly doubting yourself and your choices, both the big ones and small ones
+• **_Constantly doubting yourself_** and your choices, both the big ones and small ones
 
-• Striving for a level of perfection in most things you do that consumes you
+• Striving for a level of **_perfection_** in most things you do that consumes you
 
-• Feeling like you don't fit in or no one cares about you, so you avoid social situations
+• Feeling like you don't fit in or no one cares about you, so you **_avoid social situations_**
 
-• Doing whatever you need to do to "keep the peace" in your relationships, like saying yes to everything or changing your values/personality/needs
+• Doing whatever you need to do to **_"keep the peace"_** in your relationships, like saying yes to everything or changing your values/personality/needs
 
-• Having a difficult time accepting compliments, kindness, or praise from others, and you have a difficult time giving these things to yourself
+• Having a **difficult time accepting compliments, kindness, or praise_** from others, and you have a difficult time giving these things to yourself
 
-• Over-apologizing or apologizing when it isn't necessary and/or something wasn't your fault
+• **_Over-apologizing_** or apologizing when it isn't necessary and/or something wasn't your fault
 
-• Being unsure of what your likes, dislikes, desires, needs, boundaries, goals etc. are
+• Being **_unsure of who you are*_*: your likes, dislikes, desires, needs, boundaries, goals etc.
 
 
 While these things may not cause challenges when they happen once in a while (we're all human after all), if we notice that we have a ***_consistent or chronic pattern_** of experiences like these, it may signal a disconnection from our inherent worth. Being disconnected from our self-worth can **_impact every facet of our life_**, and it can lead to things like **_burnout_**, **_depression_**, or **_anxiety_**. 
