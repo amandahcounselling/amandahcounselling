@@ -8,6 +8,7 @@ icon: Flower
 
 **_I don't believe we lose or gain our self-worth_**. It's not something we have taken away from us due to our behaviour or a situation that happened that we had no control over. I believe we all have inherent value, or worth, but we may be disconnected from it for a variety of reasons. 
 
+**__________________________________________________________________________**
 
 **Signs we may struggle with self-worth or be disconnected from it include:**
 
@@ -27,6 +28,7 @@ icon: Flower
 
 • Being **_unsure of who you are_**: your likes, dislikes, desires, needs, boundaries, goals etc.
 
+**__________________________________________________________________________**
 
 While these things may not cause challenges when they happen once in a while (we're all human after all), if we notice that we have a **_consistent pattern_** of experiences like these, it may signal a disconnection from our inherent worth. Being disconnected from our self-worth can **_impact every facet of our life_**, and it can lead to things like **_burnout_**, **_depression_**, or **_anxiety_**. 
 
