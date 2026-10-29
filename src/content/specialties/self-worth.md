@@ -14,7 +14,7 @@ icon: Flower
 
 • Placing boundaries or sharing an opinion feels **_terrifying_**
 
-• **_Constantly doubting yourself_** and your choices, both the big ones and small ones
+• **_Constantly doubting yourself_** and your choices, the big and small ones
 
 • Striving for a level of **_perfection_** in most things you do that is hard to meet
 
