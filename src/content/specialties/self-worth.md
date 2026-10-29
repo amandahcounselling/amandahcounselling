@@ -1,10 +1,16 @@
 ---
 title: Self-worth
-description: Chronic self-doubt, people-pleasing, perfectionism, and loneliness may signal a disconnection from your worth. We'll focus on understanding how the disconnection shows up for you, while discovering ways to reconnect to it.
+description: Chronic self-doubt, people-pleasing, perfectionism, and loneliness may signal a disconnection from your worth. We'll focus on understanding how the disconnection shows up for you, while discovering ways to reconnect to your inherent worth.
 order: 6
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
 ---
+
+I don't believe we lose or gain self-worth - I believe we all have it within us, but our experiences can disconnect us from it. 
+
+Some common signs that we may struggle with self-worth may include:
+
+
 
 You have this sneaking suspicion that your challenges may be related to how you see and view yourself, where you don't consider your own needs...
 
