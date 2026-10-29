@@ -1,5 +1,5 @@
 ---
-title: Eating Disorders and Disordered Eating
+title: Eating disorders and disordered eating
 description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, and binge-eating. While isolation and shame may be part of your experience, you don't have to walk this path alone.
 order: 1
 heroImage: /images/scottish-walk.jpg
