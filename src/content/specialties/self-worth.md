@@ -22,7 +22,7 @@ icon: Flower
 
 • Doing whatever you need to do to **_"keep the peace"_** in your relationships, like saying yes to everything or changing your values/personality/needs
 
-• Having a **difficult time accepting compliments, kindness, or praise_** from others, and you have a difficult time giving these things to yourself
+• Having a **_difficult time accepting compliments_**, **_kindness_**, or **_praise_** from others, and you have a difficult time giving these things to yourself
 
 • **_Over-apologizing_**, apologizing when nothing happened, or apologizing when something wasn't your fault
 
