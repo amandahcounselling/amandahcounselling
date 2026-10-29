@@ -1,7 +1,7 @@
 ---
 title: Anxiety
 description: Support for worry, panic, perfectionism, stress, and the body signals that can make life feel smaller.
-order: 3
+order: 4
 heroImage: /images/bluebells-ireland.jpg
 icon: Sparkles
 ---
