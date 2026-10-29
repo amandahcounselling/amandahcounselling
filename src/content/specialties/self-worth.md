@@ -1,6 +1,6 @@
 ---
 title: Self-worth
-description: Self-doubt, people-pleasing, and depression can be signs of disconnection from your worth. We'll focus on understanding how this disconnection shows up for you and discovering ways to reconnect to your inherent worth.
+description: Self-doubt, people-pleasing, and depression may signal a disconnection from your worth. We'll focus on understanding how this disconnection shows up for you, while discovering ways to reconnect to your inherent worth.
 order: 6
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
