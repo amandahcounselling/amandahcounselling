@@ -1,7 +1,7 @@
 ---
 title: Life transitions
 description: Transitions can bring a lot to the surface, such as anxiety, grief, anger, sadness, and excitement. Whether it's one you're contemplating or one you're moving through, this is a place for you to feel supported through it all.
-order: 4
+order: 3
 heroImage: /images/irish-door-wall.JPG
 icon: TreeDeciduous
 ---
