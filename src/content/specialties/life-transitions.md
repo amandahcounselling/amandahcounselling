@@ -1,6 +1,6 @@
 ---
 title: Life transitions
-description: Whether it's one you're contemplating or one you're moving through, transitions can bring a lot of different things to the surface. 
+description: Transitions can bring a lot of different things to the surface, such as anxiety, grief, anger, sadness, and excitement. Whether it's one you're contemplating or one you're moving through, this is a place for you to feel supported through it all.
 order: 4
 heroImage: /images/irish-door-wall.JPG
 icon: TreeDeciduous
