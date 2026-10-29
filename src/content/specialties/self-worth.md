@@ -24,11 +24,11 @@ icon: Flower
 
 • **_Over-apologizing_** or apologizing when it isn't necessary and/or something wasn't your fault
 
-• Being **_unsure of who you are*_*: your likes, dislikes, desires, needs, boundaries, goals etc.
+• Being **_unsure of who you are_**: your likes, dislikes, desires, needs, boundaries, goals etc.
 
 
 While these things may not cause challenges when they happen once in a while (we're all human after all), if we notice that we have a ***_consistent or chronic pattern_** of experiences like these, it may signal a disconnection from our inherent worth. Being disconnected from our self-worth can **_impact every facet of our life_**, and it can lead to things like **_burnout_**, **_depression_**, or **_anxiety_**. 
 
 When we do this work together, we'll look at the different ways you may disconnect from your worth, like the examples listed above or other ones you have noticed for yourself. We'll discuss the things that get in the way of you connecting to it. For example, you may hold **_beliefs_** that create feelings of unworthiness or you may have **_fears_** around what would happen if you stepped into your worth by placing a boundary or not rooting your worth in perfectionism. 
 
-When we reconnect to our inherent value and worth, we stop allowing other people to be in control of it and **_begin to trust ourselves to lead our own lives_**. Life will still present us with challenges, but we experience more moments of contentment, flow, or stability. As we take our values, needs, desires, and goals into consideration, you may notice that it **_feels easier to navigate the ups and downs of life when you're connected to your self-worth_**.
+When we reconnect to our inherent value and worth, we stop allowing other people to be in control of it and begin to **_trust ourselves to lead our own lives_**. Life will still present us with challenges, but we experience more moments of contentment, flow, or stability. As we take our values, needs, desires, and goals into consideration, you may notice that it feels **_easier to navigate the ups and downs_** of life when you're **_connected to your self-worth_**.
