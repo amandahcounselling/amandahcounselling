@@ -1,6 +1,6 @@
 ---
 title: Self-worth
-description: Chronic self-doubt, people-pleasing, perfectionism, and loneliness may signal a disconnection from your worth. We'll focus on understanding how disconnection shows up for you, while discovering ways to reconnect to it.
+description: Chronic self-doubt, people-pleasing, perfectionism, and loneliness may signal a disconnection from your worth. We'll focus on understanding how the disconnection shows up for you, while discovering ways to reconnect to it.
 order: 6
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
