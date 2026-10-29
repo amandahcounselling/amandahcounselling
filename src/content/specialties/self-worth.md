@@ -1,7 +1,7 @@
 ---
 title: Self-worth
 description: Chronic self-doubt, people-pleasing, perfectionism, and loneliness may signal a disconnection from your worth. We'll focus on understanding how the disconnection shows up for you, while discovering ways to reconnect to your inherent worth.
-order: 6
+order: 5
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
 ---
