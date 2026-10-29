@@ -3,7 +3,7 @@ title: Burnout
 description: Describing yourself as "tired" feels like an understatement. Here, you'll have space to explore what may be creating the overwhelm, exhaustion, dread, irritability, or brain fog that feel hard to manage in your daily life.
 order: 2
 heroImage: /images/sunset-gibsons.jpg
-icon: Mountain
+icon: Moon
 ---
 
 **_Do any of these sound familiar_?**
