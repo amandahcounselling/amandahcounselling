@@ -15,7 +15,7 @@ icon: Flower
 
 • **_Constantly doubting yourself_** and your choices, both the big ones and small ones
 
-• Striving for a level of **_perfection_** in most things you do that consumes you
+• Striving for a level of **_perfection_** in most things you do that is hard to meet
 
 • Feeling like you don't fit in or no one cares about you, so you **_avoid social situations_**
 
