@@ -22,7 +22,7 @@ icon: Flower
 
 • Having a **difficult time accepting compliments, kindness, or praise_** from others, and you have a difficult time giving these things to yourself
 
-• **_Over-apologizing_** or apologizing when it isn't necessary and/or something wasn't your fault
+• **_Over-apologizing_**, apologizing when nothing happened, or apologizing when something wasn't your fault
 
 • Being **_unsure of who you are_**: your likes, dislikes, desires, needs, boundaries, goals etc.
 
