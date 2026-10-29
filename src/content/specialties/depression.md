@@ -1,7 +1,7 @@
 ---
 title: Depression
 description: Counselling for low mood, numbness, self-criticism, burnout, and feeling disconnected from yourself or others.
-order: 2
+order: 6
 heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
 ---
