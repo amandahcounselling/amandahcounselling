@@ -1,6 +1,6 @@
 ---
 title: Self-worth
-description: Feeling disconnected from yourself, making decisions based on other people's needs
+description: We all have inherent value, but sometimes we may be disconnected from it. We may experience self-doubt, people-pleasing, anxiety, or depression as a result. This work will focus on understanding how this disconnection shows up for you, it's impact, and discovering ways to reconnect to yourself.
 order: 6
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
