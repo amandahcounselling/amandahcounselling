@@ -8,8 +8,10 @@ icon: Flower
 
 **_I don't believe we lose or gain our self-worth_**. It's not something we have taken away from us due to our behaviour or a situation that happened that we had no control over. I believe we all have inherent value, or worth, but we may be disconnected from it for a variety of reasons. 
 
-**Signs we may struggle with self-worth or be disconnected from it include:**
 **__________________________________________________________________________**
+
+**Signs we may struggle with self-worth or be disconnected from it include:**
+
 
 • Placing boundaries or sharing an opinion feels **_terrifying_**
 
