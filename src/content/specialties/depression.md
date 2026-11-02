@@ -1,6 +1,6 @@
 ---
 title: Depression
-description: Counselling for low mood, numbness, self-criticism, burnout, and feeling disconnected from yourself or others.
+description: For when low mood, irritability, isolation, and numbness feel like a thick fog that makes it hard to see the light. We'll work together to understand what the depression may be trying to communicate, so you may begin reconnecting to yourself and the world around you.
 order: 4
 heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
