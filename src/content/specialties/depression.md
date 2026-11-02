@@ -10,7 +10,7 @@ You try to put on a **_happy face for everyone_** and go about your day, pretend
 
 These are just a few experiences that may be common for someone living with depression: 
 
-• The **_stiffness_**, extreme **_fatigue_**, or **_changes_** in your **_sleep_** or **_appetite_**, can make it hard to get out of bed in the morning or have the energy to take care of yourself or others throughout the day. 
+• The **_stiffness_**, extreme **_fatigue_**, or **_changes_** in your **_sleep_** or **_appetite_** can make it hard to get out of bed in the morning or have the energy to take care of yourself or others throughout the day. 
 
 • You may find that you become **_irritated_** or **_frustrated more quickly_**, which can impact your relationships and interactions with loved ones, co-workers, or that person on the bus. 
 
