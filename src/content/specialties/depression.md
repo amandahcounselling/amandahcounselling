@@ -20,7 +20,7 @@ These are just a few experiences that may be common for someone living with depr
 
 • You're **_isolating yourself from others_**: cancelling plans you had with loved ones, not responding to loved ones when they reach out, or not making new plans at all.
 
-• You feel numb more often than not. Or if you do feel something, like joy when you watch a funny video, it's fleeting and doesn't last.
+• You feel **_numb_** more often than not. Or if you do feel something, like joy when you watch a funny video, it's fleeting and doesn't last.
 
 
 While we all may experience similar symptoms related to depression, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger. 
