@@ -23,6 +23,6 @@ These are just a few experiences that may be common for someone living with depr
 • You feel numb more often than not. Or if you do feel something, like joy when you watch a funny video, it's fleeting and doesn't last.
 
 
-While we all may experience similar symptoms related to depression, the underlying reason for depression is unique for each of us. At times, depression may be due to **_anxiety_**, **_self-worth challenges_**, **_unprocessed grief_**, or **_repressed anger_**. 
+While we all may experience similar symptoms related to depression, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger. 
 
 Together, we can begin to **_understand_** your depression and determine what approaches would be **_best suited to you_**.
