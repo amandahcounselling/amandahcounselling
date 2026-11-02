@@ -12,7 +12,9 @@ Depression can show up differently for each of us and affect multiple areas of o
 
 • The stiffness, extreme fatigue, or changes in your sleep or appetite, can make it hard to get out of bed in the morning or have the energy to take care of yourself or others throughout the day. 
 
-• You may find that you become irritated or frustrated more quickly, which can impact your relationships and interactions with loved ones, co-workers, or that person on the bus. There might an underlying feeling of loneliness and hopelessness that follows you throughout your days. Where you used to feel a sense of purpose or direction in your life, you're now noticing thoughts, like "what's the point?", becoming more frequent, squashing any desire to create or reach your goals. 
+• You may find that you become irritated or frustrated more quickly, which can impact your relationships and interactions with loved ones, co-workers, or that person on the bus. 
+
+• There might an underlying feeling of loneliness and hopelessness that follows you throughout your days. Where you used to feel a sense of purpose or direction in your life, you're now noticing thoughts, like "what's the point?", becoming more frequent, squashing any desire to create or reach your goals. 
 
 • You may stop engaging in activities that used to support your well-being, like moving your body, trying something new, or connecting with your spirituality. 
 
