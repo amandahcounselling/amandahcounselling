@@ -8,6 +8,8 @@ icon: Cloud
 
 You try to put on a happy face for everyone and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. Whether you're putting on a mask for others or not, depression can show up in different ways through our body, mind, feelings, or behaviours. We may notice that it shows up in certain ways more than others or some may be more obvious to spot, while others can fly under the radar.
 
+**__________________________________________________________________________**
+
 These are just a few experiences that may be common for someone living with depression: 
 
 • The **_stiffness_**, extreme **_fatigue_**, or **_changes_** in your **_sleep_** or **_appetite_** can make it hard to get out of bed in the morning or have the energy to take care of yourself or others throughout the day. 
