@@ -6,7 +6,7 @@ heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
 ---
 
-You try to put on a **_happy face for everyone_** and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. 
+Depression can show up in our body, mind, feelings, or behaviours. We may notice that it shows up in a certain ways more than others. We might continue to participate in activities we typically enjoy, but we may feel feel numb through it all.
 
 These are just a few experiences that may be common for someone living with depression: 
 
@@ -22,7 +22,9 @@ These are just a few experiences that may be common for someone living with depr
 
 • You feel **_numb_** more often than not. Or if you do feel something, like joy when you watch a funny video, it's fleeting and doesn't last.
 
+• You try to put on a happy face for everyone and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. 
 
-While we all may experience similar symptoms related to depression, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger. 
 
-Together, we can begin to **_understand_** your depression and determine what approaches would be **_best suited to you_**.
+Some of us may have been living with depression for a long time and not remember what it felt like to live without it, while others may have a more recent experience with it. While we may share some similar experiences or symptoms of depression with others, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger.
+
+Together, we can begin to **_understand_** your depression, including what may factors may have contributed to it developing and what factors may be maintaining it. Whether it's looking at underlying core beliefs, processing anger or grief, or connecting to different "parts" of yourself, we'll discuss what counselling approaches would be **_best suited for you_**. 
