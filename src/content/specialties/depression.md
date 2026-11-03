@@ -1,6 +1,6 @@
 ---
 title: Depression
-description: For when low mood, irritability, isolation, and numbness feel like a thick fog that makes it hard to see the light. We'll work together to understand what the depression may be trying to communicate, so you may begin reconnecting to yourself and the world around you.
+description: For when low mood, irritability, or numbness feel like a thick fog that makes it hard to see the light. We'll work together to understand what the depression may be trying to communicate, so you may begin reconnecting to yourself and the world around you.
 order: 4
 heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
@@ -27,4 +27,4 @@ These are just a few experiences that may be common for someone living with depr
 
 Some of us may have been living with depression for a long time and not remember what it felt like to live without it, while others may have a more recent experience with it. While we may share some similar experiences or symptoms of depression with others, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger.
 
-Together, we can begin to **_understand_** your depression, including what may factors may have contributed to it developing and what factors may be maintaining it. Whether it's looking at underlying core beliefs, processing anger or grief, or connecting to different "parts" of yourself, we'll discuss what counselling approaches would be **_best suited for you_**. 
+Together, we can begin to **_understand_** your depression, including what may factors may have contributed to it developing and what factors may be maintaining it. Whether it's looking at underlying core beliefs, processing anger or grief, or connecting to different "parts" of yourself, we'll discuss what counselling approaches would be **_best suited for you_**, helping you begin to let go of the heaviness you've been carrying for so long. 
