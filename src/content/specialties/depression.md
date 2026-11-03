@@ -6,7 +6,9 @@ heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
 ---
 
-You try to put on a happy face for everyone and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. Whether you're putting on a mask for others or not, depression can show up in different ways through our body, mind, feelings, or behaviours. We may notice that it shows up in certain ways more than others or some may be more obvious to spot, while others can fly under the radar.
+You try to put on a happy face for everyone and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. 
+
+Whether you're putting on a mask for others or not, depression can show up in different ways through our body, mind, feelings, or behaviours. We may notice that it shows up in certain ways more than others or some may be more obvious to spot, while others can fly under the radar.
 
 These are just a few experiences that may be common for someone living with depression:
 
