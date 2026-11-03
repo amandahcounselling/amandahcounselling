@@ -6,7 +6,7 @@ heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
 ---
 
-Depression can show up in our body, mind, feelings, or behaviours. We may notice that it shows up in a certain ways more than others. We might continue to participate in activities we typically enjoy, but we may feel feel numb through it all.
+You try to put on a happy face for everyone and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. Whether you're putting on a mask for others or not, depression can show up in different ways through our body, mind, feelings, or behaviours. We may notice that it shows up in certain ways more than others or some may be more obvious to spot, while others can fly under the radar.
 
 These are just a few experiences that may be common for someone living with depression: 
 
@@ -21,8 +21,6 @@ These are just a few experiences that may be common for someone living with depr
 • You're **_isolating yourself from others_**: cancelling plans you had with loved ones, not responding to loved ones when they reach out, or not making new plans at all.
 
 • You feel **_numb_** more often than not. Or if you do feel something, like joy when you watch a funny video, it's fleeting and doesn't last.
-
-• You try to put on a happy face for everyone and go about your day, pretending everything is fine. But the moment you're alone again, the **_heaviness of it all comes flooding back_**. 
 
 
 Some of us may have been living with depression for a long time and not remember what it felt like to live without it, while others may have a more recent experience with it. While we may share some similar experiences or symptoms of depression with others, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger.
