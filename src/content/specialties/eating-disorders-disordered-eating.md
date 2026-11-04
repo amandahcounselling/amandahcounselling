@@ -1,6 +1,6 @@
 ---
 title: Eating disorders and disordered eating
-description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, and binge-eating. While isolation and shame may be part of your experience, you don't have to walk this path alone.
+description: Support that explores your relationship to food and body, including anorexia, bulimia, orthorexia, binge-eating, and disordered eating, and other factors impacting your recovery. As much as the eating disorder or disordered eating may try to convince you otherwise, you don't have to walk this path alone.
 order: 1
 heroImage: /images/scottish-walk.jpg
 icon: Compass
