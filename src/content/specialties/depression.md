@@ -1,6 +1,6 @@
 ---
 title: Depression
-description: For when low mood, irritability, or numbness feel like a thick fog, making it hard to see the light. We'll work together to understand what the depression may be trying to communicate to you, so you may begin reconnecting to yourself, others, and the world around you.
+description: For when low mood, irritability, or numbness feel like a thick fog, making it hard to see the light. We'll work to understand what the depression may be trying to communicate to you, so you may begin reconnecting to yourself, others, and the world around you.
 order: 4
 heroImage: /images/fog-mud-bay.jpg
 icon: Cloud
