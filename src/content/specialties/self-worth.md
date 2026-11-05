@@ -1,6 +1,6 @@
 ---
 title: Self-worth
-description: What if self-worth isn't something you lose or gain, but something you can be connected or disconnected from in varying degrees? Challenges with self-worth may show up through chronic self-doubt, people-pleasing, perfectionism, and loneliness. We'll focus on understanding how the disconnection shows up for you, while discovering ways to reconnect to your inherent worth.
+description: What if self-worth isn't something you lose or gain, but something you can be connected or disconnected from in varying degrees? We'll focus on understanding how the disconnection shows up for you, like chronic self-doubt or people-pleasing, while discovering ways to reconnect to your inherent worth.
 order: 5
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
