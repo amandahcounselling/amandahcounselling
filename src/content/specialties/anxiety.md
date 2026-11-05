@@ -1,6 +1,6 @@
 ---
 title: Anxiety
-description: Anxiety's trying it's best to keep you safe, but the catastrophizing, avoidance, and overthinking make you exhausted, miserable, and physically ill. We won't get rid of anxiety (it's an important), but we will work to help you feel more grounded, process experiences that led to your system becoming hyper-alert, and build confidence in your ability to discern a situation's safety.
+description: Anxiety's trying it's best to keep you safe, but the catastrophizing, avoidance, and overthinking are debilitating. We won't get rid of anxiety (it's important), but we will work to help you feel more grounded, process experiences that led to your system becoming hyper-alert, and build confidence in your ability to discern a situation's safety.
 order: 6
 heroImage: /images/bluebells-ireland.jpg
 icon: Sparkles
@@ -14,7 +14,7 @@ Anxiety. The thing you wish you could get rid of but can never truly shake. And 
 
 • It's *_hard_** for you to **_truly be present_** because you're constantly thinking about what could go wrong
 
-• You may stick to the places and people you feel **_comfortable_** with; the uncertainty of trying something new or meeting new people is **_debilitating_**
+• You may stick to the places and people you feel **_comfortable_** with; the uncertainty of trying something new or meeting new people is **_frightening_**
 
 • You may need **_days to recover_** after pushing yourself out of your comfort zone or something unexpected happening
 
