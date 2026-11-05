@@ -22,9 +22,10 @@ Anxiety. The thing you wish you could get rid of but can never truly shake. And 
 
 
 <hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
+<p></p>
 
-
-It's like a **fire alarm in your house_**, but it's having a hard time knowing the difference between a true fire and that decorative candle you just lit. To your brain and body, that candle flame feels like a very real and potential threat, maybe because of your **_past experiences_**. Maybe you had a painful experience happen that you didn't anticipate, and now your brain is on high alert to try and keep you safe from it happening again in the future. Maybe you had caregivers who were anxious, and your system learned to be just as sensitive to potential danger as theirs were. 
+It's like a **_fire alarm in your house_**, but it's having a hard time knowing the difference between a true fire and that decorative candle you just lit. To your brain and body, that candle flame feels like a very real and potential threat, maybe because of your **_past experiences_**. Maybe you had a painful experience happen that you didn't anticipate, and now your brain is on high alert to try and keep you safe from it happening again in the future. Maybe you had caregivers who were anxious, and your system learned to be just as sensitive to potential danger as theirs were. 
 
 Whatever the cause or reasons may be, to your body, **_it feels like a very real and imminent threat_**.
 
