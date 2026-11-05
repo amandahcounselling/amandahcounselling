@@ -8,8 +8,7 @@ icon: Compass
 
 **_Disordered eating_** is a term used when someone doesn't meet diagnostic criteria for an **_eating disorder_**. This could look like your health or behaviours not being seen as severe enough for a diagnosis. But, this doesn't mean that your relationship to food and body isn't causing you a significant amount of distress. **_Your pain and struggle is real_**, whether you have a diagnosis or not. 
 
-**__________________________________________________________________________**
-
+---
 
 **If you're living with an eating disorder or disordered eating, you may:**
 
@@ -33,14 +32,10 @@ icon: Compass
 
 • Keep your challenges a **_secret from everyone you know_**, leaving you feeling a deep sense of loneliness and shame
 
-
-**__________________________________________________________________________**
-
+---
 
 **_You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help._**
 
-
 While often times our perception of our body can be a significant part of eating disorders and disordered eating, **_it isn't the only aspect_**. Through my training and work, I began to understand that eating disorders and disordered eating may be **_tools_** people learned to use to **_cope with overwhelming experiences_** in their lives. That stressful day at work, difficult conversation with a loved one, moment that startled you, or promotion you wanted can all create feelings that you may not have the capacity to hold, so you may turn to eating disorder or disordered eating behaviours to try and comfort yourself.
-
 
 This is the **_"why"_** behind my approach to counselling for eating disorders and disordered eating. I intentionally create space to explore your relationship to food and your body, while also looking at other areas that may be impacting your recovery, including **_interpersonal relationship challenges_**, **_life transitions_**, **_anxiety_**, **_depression_**, and **_trauma_**. We will work to understand what the eating disorder/disordered eating may be helping you cope with, while developing new skills to help you turn towards it less, building a life that feels more **_fulfilling_** and **_aligned with who you are_**.
