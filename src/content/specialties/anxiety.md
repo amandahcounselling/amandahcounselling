@@ -8,7 +8,7 @@ icon: Sparkles
 
 Anxiety. The thing you wish you could get rid of but can never truly shake. And you might not like me for saying this, but **_it's an emotion we don't want to get rid of_**. In healthy doses, anxiety is an extremely helpful emotion - it signals to us that there may be danger, which can ultimately save our lives. But, for many of us, our system may have become **_overly focused on keeping us safe_**, making anxiety feel like a constant companion of ours. While it may have good intentions, anxiety can make our worlds incredibly small.
 
-• You may **_avoid_*** social situations due to fear of rejection, criticism, or judgment
+• You may **_avoid_** social situations due to fear of rejection, criticism, or judgment
 
 • Since you're overthinking by preparing for scenarios A through Z, you feel **_exhausted_** or **_low-energy_** more often than not
 
