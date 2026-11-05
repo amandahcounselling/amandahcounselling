@@ -1,6 +1,6 @@
 ---
 title: Self-worth
-description: What if self-worth isn't something you lose or gain, but something you can be connected or disconnected from in varying degrees? We'll focus on understanding how the disconnection shows up for you, like chronic self-doubt or people-pleasing, while discovering ways to reconnect to your inherent worth.
+description: What if self-worth isn't something you lose or gain, but something you can be connected or disconnected from in varying degrees? We'll look at how the chronic self-doubt, people-pleasing, perfectionism, or loneliness may be trying to protect you, while discovering ways to reconnect to your inherent worth.
 order: 5
 heroImage: /images/heart-tree-bark.jpg
 icon: Flower
