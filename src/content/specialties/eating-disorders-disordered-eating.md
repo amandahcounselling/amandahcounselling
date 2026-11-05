@@ -10,7 +10,7 @@ icon: Compass
 
 ---
 
-##**If you're living with an eating disorder or disordered eating, you may:**
+## **If you're living with an eating disorder or disordered eating, you may:**
 
 • **_Over-eat_** when you're feeling anxious, bored, sad, angry, etc.
 
