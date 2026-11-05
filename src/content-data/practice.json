@@ -14,6 +14,8 @@
   "heroImage": "/images/pender-hill-cropped.jpg",
   "aboutImage": "/images/amanda-hero-1-cropped.webp",
   "defaultImage": "/images/amanda-hero-cropped.webp",
+  "badgeImage": "/images/rcc-badge.png",
+  "flagImage": "/images/prideflag.png",
   "socialLinks": {
     "instagram": "",
     "linkedin": ""
@@ -102,5 +104,7 @@
   "footer": {
     "practiceHeading": "Practice",
     "resourcesHeading": "Resources"
-  }
+  },
+  "acknowledgement": "With gratitude, I acknowledge that I live, work, and play on the traditional, ancestral, and unceded territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) Nations in Vancouver"
+  
 }

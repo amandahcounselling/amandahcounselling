@@ -3,6 +3,7 @@ import { getBookCtaLabel, isPhoneEnabled, siteConfig } from '../config';
 import { getBookLinkProps } from '../lib/booking';
 import { withBase } from '../lib/paths';
 import SharedField from './admin/SharedField';
+import ImageField from './admin/ImageField';
 
 export default function SiteFooter() {
   const bookLink = getBookLinkProps();
@@ -22,7 +23,7 @@ export default function SiteFooter() {
 
   return (
     <footer className="bg-card border-border/70 border-t">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.5fr_1fr_1fr] lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.5fr_1fr_1fr_1fr] lg:px-8 pb-2">
         <div className="space-y-4">
           <h2 className="font-heading text-foreground text-2xl font-bold">
             <SharedField path="practiceName" fallback={siteConfig.practiceName} />
@@ -89,8 +90,27 @@ export default function SiteFooter() {
             ))}
           </ul>
         </div>
+        <div className="relative flex items-center gap-2 grid grid-cols-2">
+          <div className="bg-accent absolute -left-5 -top-5 h-32 w-32 rounded-full blur-3xl" />
+          <div className="grid gap-2">
+          <ImageField
+            path="badgeImage"
+            fallback={siteConfig.badgeImage}
+            fieldKey="badge"
+            className="relative h-32 w-32 object-contain"
+          />
+            <ImageField
+            path="flagImage"
+            fallback={siteConfig.flagImage}
+            fieldKey="flag"
+            className="relative h-32 w-auto object-contain"
+          />
+          </div>
+        </div>
       </div>
-
+      <div className="border-border/70 border-t px-6 py-5 text-center text-sm text-muted-foreground">
+        <SharedField path="acknowledgement" fallback={siteConfig.acknowledgement} />.
+      </div>
       <div className="border-border/70 border-t px-6 py-5 text-center text-sm text-muted-foreground">
         (c) {new Date().getFullYear()}{' '}
         <SharedField path="practiceName" fallback={siteConfig.practiceName} />. All rights

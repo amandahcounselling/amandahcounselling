@@ -21,7 +21,7 @@ const content = pageContent.home;
 
 function HomePageContent({ specialties }: HomePageProps) {
   return (
-    <div className="bg-background min-h-screen pb-24">
+    <div className="bg-background min-h-screen pb-4">
       <SiteHeader />
       <main>
         <PageSections
