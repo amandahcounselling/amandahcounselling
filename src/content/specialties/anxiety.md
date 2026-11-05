@@ -1,6 +1,6 @@
 ---
 title: Anxiety
-description: Anxiety is trying it's best to keep you safe, but the catastrophizing, avoidance, and overthinking are making you exhausted, miserable, and physically ill. We won't get rid of anxiety (it's an important response to have), but we will work to help you feel more grounded, process experiences that led to your system becoming hyper-alert, and build confidence in your ability to discern a situation's safety.
+description: Anxiety's trying it's best to keep you safe, but the catastrophizing, avoidance, and overthinking make you exhausted, miserable, and physically ill. We won't get rid of anxiety (it's an important), but we will work to help you feel more grounded, process experiences that led to your system becoming hyper-alert, and build confidence in your ability to discern a situation's safety.
 order: 6
 heroImage: /images/bluebells-ireland.jpg
 icon: Sparkles
