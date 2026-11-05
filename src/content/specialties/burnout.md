@@ -1,6 +1,6 @@
 ---
 title: Burnout
-description: Describing yourself as "tired" feels like the understatement of the century. Here, you'll have space to explore what may be creating the overwhelm, exhaustion, dread, irritability, or brain fog that feel hard to manage, and work towards lessening your burnout in ways that feel practical for you.
+description: Describing yourself as "tired" feels like the understatement of the century. Here, you'll have space to explore what may be creating the dread, brain fog, overwhelm, exhaustion, or irritability that feel hard to manage, and work towards lessening your burnout in ways that feel practical for you.
 order: 2
 heroImage: /images/sunset-gibsons.jpg
 icon: Moon
