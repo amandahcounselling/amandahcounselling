@@ -3,7 +3,7 @@ title: Life transitions
 description: Transitions can bring a lot to the surface, such as anxiety, grief, anger, sadness, and excitement. Whether it's one you're contemplating or one you're moving through, this is a place for you to feel supported through it all.
 order: 3
 heroImage: /images/irish-door-wall.JPG
-icon: Trees
+icon: Sprout
 ---
 
 Life transitions are constants in our lives, but that doesn't make navigating them any easier. 
@@ -18,10 +18,8 @@ Regardless of how it has shown up for you, **_transitions often shift our identi
 
 • We may have been unwell for a while but now have an official diagnosis
 
-**__________________________________________________________________________**
-
+---
 
 Because of these shifts in our identity and roles, transitions can bring up **_grief_**, **_anxiety_**, **_numbness_**, **_fear_**, and **_excitement_**, all of which can feel difficult to hold on your own at times.
 
 In our work together, we can discuss a transition you are contemplating to explore whether it may align with you, prepare you for an anticipated transition by looking at ways to support you through it, or explore the different feelings and experiences a current transition is bringing up. Beginning, middle, or near the end, you can seek help at any time through a life transition to get the support you need.
-
