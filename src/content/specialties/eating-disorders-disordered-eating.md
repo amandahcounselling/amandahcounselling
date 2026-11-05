@@ -10,8 +10,8 @@ icon: Compass
 
 ---
 
-## **If you're living with an eating disorder or disordered eating, you may:**
-
+**If you're living with an eating disorder or disordered eating, you may:**
+\
 • **_Over-eat_** when you're feeling anxious, bored, sad, angry, etc.
 
 • **_Hide_** or eat food in **_secret_**
@@ -31,9 +31,8 @@ icon: Compass
 • Go through **_phases_** where your relationship to food and body feels stable, but then a few months later it feels like **_it's taken over your life again_**
 
 • Keep your challenges a **_secret from everyone you know_**, leaving you feeling a deep sense of loneliness and shame
-
----
 \
+---
 \
 **_You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help._**
 
