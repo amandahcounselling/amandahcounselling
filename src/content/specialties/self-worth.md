@@ -8,7 +8,7 @@ icon: Flower
 
 **_I don't believe we lose or gain our self-worth_**. It's not something we have taken away from us due to our behaviour or a situation that happened that we had no control over. I believe we all have inherent value, or worth, but we may be more or less connected to it due to our life experiences. 
 
----
+**---**
 
 **Signs we may be less connected to our self-worth include:**
 
