@@ -113,7 +113,7 @@ export default function SiteFooter() {
       </div>
       <div className="border-border/70 border-t px-6 py-5 text-center text-sm text-muted-foreground">
         (c) {new Date().getFullYear()}{' '}
-        <SharedField path="practiceName" fallback={siteConfig.practiceName} />. All rights
+        <SharedField path="practiceName" fallback={siteConfig.practiceName} markdown />. All rights
         reserved.
       </div>
     </footer>

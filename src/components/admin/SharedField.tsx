@@ -2,6 +2,7 @@ import { Settings2 } from 'lucide-react';
 import { useOptionalAdmin } from '../../lib/admin/admin-context';
 import { withBase } from '../../lib/paths';
 import { hasText } from '../../lib/utils';
+import MarkdownText from '../MarkdownText';
 
 type SharedFieldProps = {
   sourceId?: string;
@@ -9,6 +10,7 @@ type SharedFieldProps = {
   fallback: unknown;
   as?: 'span' | 'p' | 'h1' | 'h2' | 'h3';
   className?: string;
+  markdown?: boolean;
 };
 
 export default function SharedField({
@@ -17,6 +19,7 @@ export default function SharedField({
   fallback,
   as = 'span',
   className,
+  markdown = true,
 }: SharedFieldProps) {
   const admin = useOptionalAdmin();
   const value = admin?.getFieldValue(sourceId, path) ?? fallback;
@@ -29,7 +32,7 @@ export default function SharedField({
 
   return (
     <span className="group relative inline">
-      {hasText(display) ? <Tag className={className}>{display}</Tag> : null}
+      {hasText(display) ? <Tag className={className}>{markdown ? <MarkdownText>{display}</MarkdownText> : display}</Tag> : null}
       {admin?.isEditMode && (
         <a
           href={withBase('/admin')}
