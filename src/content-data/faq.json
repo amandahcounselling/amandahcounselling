@@ -3,37 +3,37 @@
     {
       "id": "first-session",
       "question": "What happens in the first counselling session?",
-      "answer": "The first session is a chance to get oriented. We will talk about what brings you to counselling, what you hope will feel different, and whether this approach feels like a good fit. You do not need to prepare anything perfectly before you arrive."
+      "answer": "The first session is a chance for us to get oriented to one another. We can chat about what has brought you to counselling and any goals that you may want to work towards. My intention is to make it feel like a conversation, not an interview where you're being evaluated; you can share as much or as little about yourself as you'd like, and you don't need to prepare anything perfectly before you arrive."
     },
     {
       "id": "confidentiality",
       "question": "Is counselling confidential?",
-      "answer": "Counselling is private and confidential, with a few legal and ethical limits related to safety. Confidentiality is reviewed clearly before you begin so you know what to expect."
+      "answer": "Yes, counselling is private and confidential, with a few legal and ethical limits related to safety. We'll go over confidentiatlity and it's limits during our first session together, but you can always ask about it anytime throughout the counselling process."
     },
     {
       "id": "session-length",
       "question": "How long are sessions?",
-      "answer": "Most individual sessions are 50 minutes. Extended 75-minute sessions may be available when clinically appropriate."
+      "answer": "Individual counselling sessions are 50 minutes long. If we feel like an extended session would be of benefit and is appropriate, we can discuss having 75-minute sessions."
     },
     {
       "id": "virtual-in-person",
       "question": "Do you offer virtual or in-person counselling?",
-      "answer": "Sessions are offered virtually for clients across British Columbia. If you have questions about format or suitability, please ask during consultation."
+      "answer": "Currenlty, sessions are offered virtually for clients across British Columbia. Virtual sessions can be done through Jane App or Zoom, whichever you'd prefer."
     },
     {
       "id": "approach",
       "question": "What counselling approaches do you use?",
-      "answer": "Work is person-centred, trauma-informed, and CBT-informed. The approach is shaped around your goals, capacity, and what feels useful in the moment."
+      "answer": "I take an integrative approach to counselling, where I utilize multiple counselling modalities to tailor sessions to my client's unique needs. You can learn more about my approach [here](http://amandahcounselling.com/about/)."
     },
     {
       "id": "insurance",
       "question": "Can I use insurance benefits?",
-      "answer": "Many extended health plans cover counselling with a Registered Clinical Counsellor. Coverage varies by plan. Clients are encouraged to check their benefits before booking. Receipts can be provided for reimbursement."
+      "answer": "Many extended health plans cover counselling with a Registered Clinical Counsellor. However, coverage varies by plan. Clients are encouraged to check their benefits before booking. Direct billing isn't available at this time, but receipts can be provided for reimbursement."
     },
     {
       "id": "cancellation",
       "question": "What is the cancellation policy?",
-      "answer": "Please provide at least 24 hours’ notice if you need to cancel or reschedule. Late cancellations or missed appointments may be charged the session fee."
+      "answer": "Please provide at least 24 hours’ notice if you need to cancel or reschedule. Late cancellations or missed appointments will be charged the full session fee."
     }
   ]
 }
