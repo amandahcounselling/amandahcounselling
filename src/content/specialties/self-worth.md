@@ -11,7 +11,11 @@ icon: Flower
 <hr style="border: 0; border-top: 2px solid #999; width: 100%;">
 <p></p>
 
-<h2 align="center">**Signs we may be less connected to our self-worth include:**</h2>
+<h2 align="center">
+  
+**Signs we may be less connected to our self-worth include:**
+
+</h2>
 
 • Placing boundaries or sharing an opinion feels **_terrifying_**
 
