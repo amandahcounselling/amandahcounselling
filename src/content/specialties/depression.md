@@ -10,9 +10,10 @@ You try to put on a happy face for everyone and go about your day, pretending ev
 
 Whether you're putting on a mask for others or not, depression can show up in different ways through our body, mind, feelings, or behaviours. We may notice that it shows up in certain ways more than others or some may be more obvious to spot, while others can fly under the radar.
 
-These are just a few experiences that may be common for someone living with depression:
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
 
----
+<p align="center">**These are just a few experiences that may be common for someone living with depression:**</p>
 
 • The **_stiffness_**, extreme **_fatigue_**, or **_changes_** in your **_sleep_** or **_appetite_** can make it hard to get out of bed in the morning or have the energy to take care of yourself or others throughout the day. 
 
@@ -26,7 +27,9 @@ These are just a few experiences that may be common for someone living with depr
 
 • You feel **_numb_** more often than not. Or if you do feel something, like joy when you watch a funny video, it's fleeting and doesn't last.
 
----
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
+<p></p>
 
 Some of us may have been living with depression for a long time and not remember what it felt like to live without it, while others may have a more recent experience with it. While we may share some similar experiences or symptoms of depression with others, the **_underlying reason for depression is unique for each of us_**. At times, depression may be due to anxiety, self-worth challenges, unprocessed grief, or repressed anger.
 
