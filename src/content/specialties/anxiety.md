@@ -10,7 +10,7 @@ Anxiety. The thing you wish you could get rid of but can never truly shake. And 
 
 In healthy doses, anxiety is an extremely helpful emotion - it signals to us that there may be danger, which can ultimately save our lives. But, for many of us, our system may have become **_overly focused on keeping us safe_**, making anxiety feel like a constant companion of ours. 
 
-<p align="center">## Despite it's good intentions, anxiety can make our worlds incredibly small.</p>
+<p align="center">**_Despite it's good intentions, anxiety can make our worlds incredibly small_**.</p>
 
 • You may **_avoid_** social situations due to fear of rejection or judgment
 
@@ -31,7 +31,7 @@ In healthy doses, anxiety is an extremely helpful emotion - it signals to us tha
 
 It's like a **_fire alarm in your house_**, but it's having a hard time knowing the difference between a true fire and that decorative candle you just lit. To your brain and body, that candle flame feels like a very real and potential threat, maybe because of your **_past experiences_**. Maybe you had a painful experience happen that you didn't anticipate, and now your brain is on high alert to try and keep you safe from it happening again in the future. Maybe you had caregivers who were anxious, and your system learned to be just as sensitive to potential danger as theirs were. 
 
-Whatever the cause or reasons may be, to your body, **_it feels like a very real and imminent threat_**.
+Whatever the cause or reasons may be, to your body, **_it feels real_**.
 
 In our work together, we can **_practice different strategies_**, like mindfulness, breathing exercises, or thought logs, to help try and bring your system down to a more calm state. We can **_explore the roots_** of your anxiety and begin processing past experiences that may have made your system hyper-alert to any potential dangers. This may be done through dialogue with your anxiety or uncovering core beliefs about yourself. 
 
