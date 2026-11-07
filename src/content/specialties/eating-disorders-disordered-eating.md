@@ -8,7 +8,9 @@ icon: Compass
 
 **_Disordered eating_** is a term used when someone doesn't meet diagnostic criteria for an **_eating disorder_**. This could look like your health or behaviours not being seen as severe enough for a diagnosis. But, this doesn't mean that your relationship to food and body isn't causing you a significant amount of distress. **_Your pain and struggle is real_**, whether you have a diagnosis or not. 
 
----
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
+<p></p>
 
 **If you're living with an eating disorder or disordered eating, you may:**
 
@@ -33,7 +35,9 @@ icon: Compass
 
 • Keep your challenges a **_secret from everyone you know_**, leaving you feeling a deep sense of loneliness and shame
 
----
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
+<p></p>
 
 **_You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help._**
 
