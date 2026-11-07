@@ -18,8 +18,6 @@ In healthy doses, anxiety is an extremely helpful emotion - it signals to us tha
 
 
 <hr style="border: 0; border-top: 2px solid #999; width: 100%;">
-<p></p>
-<p></p>
 
 <h2 align="center">
   
