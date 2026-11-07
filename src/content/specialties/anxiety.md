@@ -6,7 +6,9 @@ heroImage: /images/bluebells-ireland.jpg
 icon: Sparkles
 ---
 
-Anxiety. The thing you wish you could get rid of but can never truly shake. And you might not like me for saying this, but **_it's an emotion we don't want to get rid of_**. 
+<p align="center">**Anxiety.**</p>
+
+The thing you wish you could get rid of but can never truly shake. And you might not like me for saying this, but **_it's an emotion we don't want to get rid of_**. 
 
 In healthy doses, anxiety is an extremely helpful emotion - it signals to us that there may be danger, which can ultimately save our lives. But, for many of us, our system may have become **_overly focused on keeping us safe_**, making anxiety feel like a constant companion of ours. 
 
