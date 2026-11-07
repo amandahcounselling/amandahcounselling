@@ -10,7 +10,7 @@ Anxiety. The thing you wish you could get rid of but can never truly shake. And 
 
 In healthy doses, anxiety is an extremely helpful emotion - it signals to us that there may be danger, which can ultimately save our lives. But, for many of us, our system may have become **_overly focused on keeping us safe_**, making anxiety feel like a constant companion of ours. 
 
-<p align="center">**_Despite it's good intentions, anxiety can make our worlds incredibly small_**.</p>
+<h2 align="center">**_Despite it's good intentions, anxiety can make our worlds incredibly small_**.</h2>
 
 • You may **_avoid_** social situations due to fear of rejection or judgment
 
