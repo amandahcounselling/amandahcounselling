@@ -6,7 +6,7 @@ heroImage: /images/sunset-gibsons.jpg
 icon: Moon
 ---
 
-**_Do any of these sound familiar_?**
+<h2 align="center">Do any of these sound familiar?</h2>
 
 • You **_chronically over-commit_**, taking on extra shifts at work or saying "yes" to all of the invitations (fear of missing out/FOMO is so real)
 
