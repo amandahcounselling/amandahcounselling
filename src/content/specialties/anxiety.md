@@ -6,7 +6,7 @@ heroImage: /images/bluebells-ireland.jpg
 icon: Sparkles
 ---
 
-<h2 align="center">Anxiety.</h2>
+<h1 align="center">Anxiety.</h1>
 
 The thing you wish you could get rid of but can never truly shake. And you might not like me for saying this, but **_it's an emotion we don't want to get rid of_**. 
 
