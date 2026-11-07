@@ -6,7 +6,11 @@ heroImage: /images/bluebells-ireland.jpg
 icon: Sparkles
 ---
 
-Anxiety. The thing you wish you could get rid of but can never truly shake. And you might not like me for saying this, but **_it's an emotion we don't want to get rid of_**. In healthy doses, anxiety is an extremely helpful emotion - it signals to us that there may be danger, which can ultimately save our lives. But, for many of us, our system may have become **_overly focused on keeping us safe_**, making anxiety feel like a constant companion of ours. While it may have good intentions, anxiety can make our worlds incredibly small.
+Anxiety. The thing you wish you could get rid of but can never truly shake. And you might not like me for saying this, but **_it's an emotion we don't want to get rid of_**. 
+
+In healthy doses, anxiety is an extremely helpful emotion - it signals to us that there may be danger, which can ultimately save our lives. But, for many of us, our system may have become **_overly focused on keeping us safe_**, making anxiety feel like a constant companion of ours. 
+
+While it may have good intentions, anxiety can make our worlds incredibly small.
 
 • You may **_avoid_** social situations due to fear of rejection or judgment
 
@@ -29,4 +33,6 @@ It's like a **_fire alarm in your house_**, but it's having a hard time knowing 
 
 Whatever the cause or reasons may be, to your body, **_it feels like a very real and imminent threat_**.
 
-In our work together, we can **_practice different strategies_**, like mindfulness, breathing exercises, or thought logs, to help try and bring your system down to a more calm state. We can **_explore the roots_** of your anxiety and begin processing past experiences that may have made your system hyper-alert to any potential dangers. This may be done through dialogue with your anxiety or uncovering core beliefs about yourself. **_Our goal isn't to get rid of the anxiety completely_**, but to better understand it and have experiences that discredit it. When we do encounter anxiety again, we can navigate it with more **_confidence_**, **_clarity_**, and a **_greater capacity to sit with it_** before making choices.  
+In our work together, we can **_practice different strategies_**, like mindfulness, breathing exercises, or thought logs, to help try and bring your system down to a more calm state. We can **_explore the roots_** of your anxiety and begin processing past experiences that may have made your system hyper-alert to any potential dangers. This may be done through dialogue with your anxiety or uncovering core beliefs about yourself. 
+
+**_Our goal isn't to get rid of the anxiety completely_**, but to better understand it and have experiences that discredit it. When we do encounter anxiety again, we can navigate it with more **_confidence_**, **_clarity_**, and a **_greater capacity to sit with it_** before making choices.  
