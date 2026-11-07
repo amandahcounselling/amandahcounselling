@@ -13,7 +13,11 @@ Whether you're putting on a mask for others or not, depression can show up in di
 <hr style="border: 0; border-top: 2px solid #999; width: 100%;">
 <p></p>
 
-<h2 align="center">Common experiences for someone living with depression:</h2>
+<h2 align="center">
+  
+**Common experiences for someone living with depression:**
+
+</h2>
 
 • The **_stiffness_**, extreme **_fatigue_**, or **_changes_** in your **_sleep_** or **_appetite_** can make it hard to get out of bed in the morning or have the energy to take care of yourself or others throughout the day. 
 
