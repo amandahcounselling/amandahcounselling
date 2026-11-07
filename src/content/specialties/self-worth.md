@@ -8,10 +8,10 @@ icon: Flower
 
 **_I don't believe we lose or gain our self-worth_**. It's not something we have taken away from us due to our behaviour or a situation that happened that we had no control over. I believe we all have inherent value, or worth, but we may be more or less connected to it due to our life experiences. 
 
-**---**
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
 
-**Signs we may be less connected to our self-worth include:**
-
+<h2 align="center">**Signs we may be less connected to our self-worth include:**</h2>
 
 • Placing boundaries or sharing an opinion feels **_terrifying_**
 
@@ -29,7 +29,9 @@ icon: Flower
 
 • Being **_unsure of who you are_**: your likes, dislikes, desires, needs, boundaries, goals etc.
 
----
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
+<p></p>
 
 While these things may not cause challenges when they happen once in a while (we're all human after all), if we notice a **_consistent pattern_** of experiences like these, it may signal that we find it difficult to connect deeply with our inherent worth. 
 
