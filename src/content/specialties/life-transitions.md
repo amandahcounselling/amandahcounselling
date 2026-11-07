@@ -1,6 +1,6 @@
 ---
 title: Life transitions
-description: Transitions can bring a lot to the surface, such as anxiety, grief, anger, sadness, and excitement. Whether it's one you're contemplating or one you're moving through, this is a place for you to feel supported through it all.
+description: Transitions can stir up a lot of feelings, such as anxiety, grief, anger, sadness, and excitement, and bring them to the surface. Whether it's one you're contemplating or one you're moving through, this is a place for you to feel supported through it all.
 order: 3
 heroImage: /images/irish-door-wall.JPG
 icon: Sprout
@@ -18,7 +18,9 @@ Regardless of how it has shown up for you, **_transitions often shift our identi
 
 • We may have been unwell for a while but now have an official diagnosis
 
----
+<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
+<p></p>
+<p></p>
 
 Because of these shifts in our identity and roles, transitions can bring up **_grief_**, **_anxiety_**, **_numbness_**, **_fear_**, and **_excitement_**, all of which can feel difficult to hold on your own at times.
 
