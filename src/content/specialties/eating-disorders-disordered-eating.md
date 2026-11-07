@@ -8,15 +8,22 @@ icon: Compass
 
 **_Disordered eating_** is a term used when someone doesn't meet diagnostic criteria for an **_eating disorder_**. This could look like your health or behaviours not being seen as severe enough for a diagnosis. But, this doesn't mean that your relationship to food and body isn't causing you a significant amount of distress. 
 
-**_Your pain and struggle are real_**, whether you have a diagnosis or not. 
+<h1 align="center">
+  
+**Your pain and struggle are real**, whether you have a diagnosis or not.
+
+</h1>
 
 <hr style="border: 0; border-top: 2px solid #999; width: 100%;">
 <p></p>
 <p></p>
 
-<p align="center">If you're living with an eating disorder or disordered eating, you may:</p>
-<p></p>
-<p></p>
+<h2 align="center">
+  
+**If you're living with an eating disorder or disordered eating, you may:**
+
+</h2>
+
 
 • **_Over-eat_** when you're feeling anxious, bored, sad, angry, etc.
 
@@ -42,7 +49,7 @@ icon: Compass
 <p></p>
 <p></p>
 
-**_You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help._**
+**You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help.**
 
 While often times our perception of our body can be a significant part of eating disorders and disordered eating, **_it isn't the only aspect_**. Through my training and work, I began to understand that eating disorders and disordered eating may be **_tools_** people learned to use to **_cope with overwhelming experiences_** in their lives. That stressful day at work, difficult conversation with a loved one, moment that startled you, or promotion you wanted can all create feelings that you may not have the capacity to hold, so you may turn to eating disorder or disordered eating behaviours to try and comfort yourself.
 
