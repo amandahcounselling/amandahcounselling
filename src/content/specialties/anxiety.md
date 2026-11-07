@@ -24,8 +24,8 @@ In healthy doses, anxiety is an extremely helpful emotion - it signals to us tha
 **Despite its good intentions, anxiety can make our worlds incredibly small**
 
 </h2>
-
-
+<p></p>
+<p></p>
 • You may **_avoid_** social situations due to fear of rejection or judgment
 
 • Since you're overthinking by preparing for scenarios A through Z, you feel **_exhausted_** or **_low-energy_** more often than not
