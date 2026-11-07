@@ -12,7 +12,7 @@ Sometimes they are ones we **_intentionally choose_**, like moving to a new city
 
 <h2 align="center">
   
-Regardless of how it has shown up for you, **_transitions often shift our identities and roles_** in life:**
+**Regardless of how it has shown up for you, transitions often shift our identities and roles in life:**
 
 </h2>
 
