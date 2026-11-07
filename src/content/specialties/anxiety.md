@@ -26,8 +26,6 @@ In healthy doses, anxiety is an extremely helpful emotion - it signals to us tha
 
 </h2>
 
-
-
 • You may **_avoid_** social situations due to fear of rejection or judgment
 
 • Since you're overthinking by preparing for scenarios A through Z, you feel **_exhausted_** or **_low-energy_** more often than not
@@ -39,7 +37,6 @@ In healthy doses, anxiety is an extremely helpful emotion - it signals to us tha
 • You may need **_days to recover_** after pushing yourself out of your comfort zone or something unexpected happening
 
 • You might **_beat yourself up_** after something you didn't anticipate happens, or you thought about plans A to Y but didn't consider Z
-
 
 <hr style="border: 0; border-top: 2px solid #999; width: 100%;">
 <p></p>
