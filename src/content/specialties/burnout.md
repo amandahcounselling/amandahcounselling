@@ -8,7 +8,7 @@ icon: Moon
 
 <h2 align="center">
   
-**Do any of these sound familiar?<**
+**Do any of these sound familiar?**
 
 </h2>
 
