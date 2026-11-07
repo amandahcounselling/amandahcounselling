@@ -53,7 +53,7 @@ icon: Compass
   
 **You don't need a diagnosis to seek support or to feel like your relationship to food and body is "bad enough" to get help.**
 
-</h>
+</h2>
 
 While often times our perception of our body can be a significant part of eating disorders and disordered eating, **_it isn't the only aspect_**. Through my training and work, I began to understand that eating disorders and disordered eating may be **_tools_** people learned to use to **_cope with overwhelming experiences_** in their lives. That stressful day at work, difficult conversation with a loved one, moment that startled you, or promotion you wanted can all create feelings that you may not have the capacity to hold, so you may turn to eating disorder or disordered eating behaviours to try and comfort yourself.
 
