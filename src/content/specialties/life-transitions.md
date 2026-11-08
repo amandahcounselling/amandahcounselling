@@ -16,14 +16,6 @@ Regardless of how it has shown up for you, **transitions often shift our identit
 
 </h2>
 
-
-• We may go from being a student to a working professional
-
-• We may have lived with a partner, but now our parent is moving in
-
-• We may have been unwell for a while but now have an official diagnosis
-
-<hr style="border: 0; border-top: 2px solid #999; width: 100%;">
 <p></p>
 <p></p>
 
