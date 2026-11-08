@@ -8,7 +8,7 @@ icon: Sprout
 
 Life transitions are **_constants in our lives_**, but that doesn't make **_navigating them any easier_**. 
 
-Sometimes they are ones we **_intentionally choose_**, like moving to a new city, and other times they are ones that have been **_sprung on us_**, like the unexpected loss of a loved one. Sometimes they involve **_events occurring_** that change our futures, like getting into that program you have been working toward for years; other times, transitions can be ones where an **_event doesn't occur_** that changes the trajectory of our lives. You might not get into that program, and the future you had been planning and the role of "learner" you had been wanting to adopt doesn't come to fruition.
+Sometimes they are ones we **_intentionally choose_**, like moving to a new city, and other times they are ones that have been **_sprung on us_**, like the unexpected loss of a loved one. Sometimes they involve **_events occurring_** that change our futures, like getting into that program you have been working toward for years; other times, transitions can be ones where an **_event doesn't occur_** that changes the trajectory of our lives. You might not get into that program, and the future you had been planning and the role of "learner" you had been wanting to adopt don't come to fruition.
 
 <h2 align="center">
   
