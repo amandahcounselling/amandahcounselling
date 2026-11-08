@@ -46,6 +46,6 @@ Anxiety is like a **_fire alarm in your house_**, but it's having a hard time kn
 
 Whatever the cause or reasons may be, to your body **_it feels real_**, and it's turning to anxiety to try and keep you safe.
 
-In our work together, we can **_practice different strategies_**, like mindfulness, breathing exercises, or thought logs, to help try and bring your system down to a more calm state. We will also likely explore **_explore the roots_** of your anxiety and begin processing past experiences that may have made your system hyper-alert to any potential danger. This may be done through dialogue with your anxiety or uncovering core beliefs about yourself that may be leading you to feel anxious. 
+In our work together, we can **_practice different strategies_**, like mindfulness, breathing exercises, or thought logs, to help try and bring your system down to a more calm state. We will also likely **_explore the roots_** of your anxiety and begin processing past experiences that may have made your system hyper-alert to any potential danger. This may be done through dialogue with your anxiety or uncovering core beliefs about yourself that may be leading you to feel anxious. 
 
 **_Our goal isn't to get rid of the anxiety completely_** but to better understand it and have experiences that discredit it. When we do encounter anxiety again, we can navigate it with more **_confidence_**, **_clarity_**, and a **_greater capacity to sit with it_** before making choices.  
