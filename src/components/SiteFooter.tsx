@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { getBookCtaLabel, isPhoneEnabled, siteConfig } from '../config';
 import { getBookLinkProps } from '../lib/booking';
@@ -7,17 +7,23 @@ import SharedField from './admin/SharedField';
 import ImageField from './admin/ImageField';
 
 export default function SiteFooter() {
-  useEffect(() => {
+const psychologyTodayRef = useRef<HTMLDivElement>(null);
+
+useEffect(() => {
+  const container = psychologyTodayRef.current;
+
+  if (!container) return;
+
   const script = document.createElement('script');
 
   script.src = 'https://member.psychologytoday.com/verified-seal.js';
-  script.async = true;
+  script.type = 'text/javascript';
   script.dataset.badge = '10';
   script.dataset.id = '1886338';
   script.dataset.code =
     'aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE4ODYzMzg/Y2FsbGJhY2s9c3hjYWxsYmFjaw==';
 
-  document.body.appendChild(script);
+  container.appendChild(script);
 
   return () => {
     script.remove();
@@ -61,8 +67,11 @@ export default function SiteFooter() {
   </a>
 </p>
 
-{/* Psychology Today Verification Badge */}
-<div className="mt-4">
+{/* Psychology Today Verification */}
+<div
+  ref={psychologyTodayRef}
+  className="mt-4"
+>
   <a
     href="https://www.psychologytoday.com/profile/1886338"
     className="sx-verified-seal"
