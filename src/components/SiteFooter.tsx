@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import {
   getBookCtaLabel,
@@ -11,32 +10,6 @@ import SharedField from './admin/SharedField';
 import ImageField from './admin/ImageField';
 
 export default function SiteFooter() {
-  const psychologyTodayRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const container = psychologyTodayRef.current;
-
-    if (!container) return;
-
-    const script = document.createElement('script');
-
-    script.src =
-      'https://member.psychologytoday.com/verified-seal.js';
-    script.type = 'text/javascript';
-    script.async = true;
-    script.dataset.badge = '10';
-    script.dataset.id = '1886338';
-    script.dataset.code =
-      'aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE4ODYzMzg/Y2FsbGJhY2s9c3hjYWxsYmFjaw==';
-
-    container.appendChild(script);
-
-    return () => {
-      script.remove();
-      container.innerHTML = '';
-    };
-  }, []);
-
   const bookLink = getBookLinkProps();
 
   const practiceLinks = [
@@ -87,7 +60,7 @@ export default function SiteFooter() {
               />
             </p>
 
-            {/* Email and Psychology Today Badge */}
+            {/* Email */}
             <div className="space-y-3">
               <p className="flex items-center gap-2">
                 <Mail
@@ -102,20 +75,15 @@ export default function SiteFooter() {
                 </a>
               </p>
 
-              {/* Psychology Today Verification */}
-              <div className="pl-6">
-                <div
-                  ref={psychologyTodayRef}
-                  className="psychology-today-badge"
-                >
-                  <a
-                    href="https://www.psychologytoday.com/profile/1886338"
-                    className="sx-verified-seal"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="View my verified Psychology Today profile"
-                  />
-                </div>
+              {/* Psychology Today Badge */}
+              <div className="pl-6 mt-3">
+                <a
+                  href="https://www.psychologytoday.com/profile/1886338"
+                  className="sx-verified-seal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View my Psychology Today profile"
+                />
               </div>
             </div>
 
