@@ -1,9 +1,5 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
-import {
-  getBookCtaLabel,
-  isPhoneEnabled,
-  siteConfig,
-} from '../config';
+import { getBookCtaLabel, isPhoneEnabled, siteConfig } from '../config';
 import { getBookLinkProps } from '../lib/booking';
 import { withBase } from '../lib/paths';
 import SharedField from './admin/SharedField';
@@ -11,7 +7,6 @@ import ImageField from './admin/ImageField';
 
 export default function SiteFooter() {
   const bookLink = getBookLinkProps();
-
   const practiceLinks = [
     siteConfig.pages.about,
     siteConfig.pages.specialties,
@@ -29,116 +24,50 @@ export default function SiteFooter() {
   return (
     <footer className="bg-card border-border/70 border-t">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.5fr_1fr_1fr_1fr] lg:px-8 pb-2">
-
-        {/* Practice Information */}
         <div className="space-y-4">
           <h2 className="font-heading text-foreground text-2xl font-bold">
-            <SharedField
-              path="practiceName"
-              fallback={siteConfig.practiceName}
-            />
+            <SharedField path="practiceName" fallback={siteConfig.practiceName} />
           </h2>
-
           <p className="text-muted-foreground max-w-md leading-relaxed">
-            <SharedField
-              path="tagline"
-              fallback={siteConfig.tagline}
-            />
+            <SharedField path="tagline" fallback={siteConfig.tagline} />
           </p>
-
           <div className="text-muted-foreground space-y-2 text-sm">
-
-            {/* Location */}
             <p className="flex items-center gap-2">
-              <MapPin
-                className="text-primary h-4 w-4"
-                aria-hidden="true"
-              />
-              <SharedField
-                path="location"
-                fallback={siteConfig.location}
-              />
+              <MapPin className="text-primary h-4 w-4" aria-hidden="true" />
+              <SharedField path="location" fallback={siteConfig.location} />
             </p>
-
-            {/* Email */}
-            <div className="space-y-3">
-              <p className="flex items-center gap-2">
-                <Mail
-                  className="text-primary h-4 w-4"
-                  aria-hidden="true"
-                />
-                <a href={`mailto:${siteConfig.email}`}>
-                  <SharedField
-                    path="email"
-                    fallback={siteConfig.email}
-                  />
-                </a>
-              </p>
-
-              {/* Psychology Today Badge */}
-              <div className="pl-6 mt-3">
-                <a
-                  href="https://www.psychologytoday.com/profile/1886338"
-                  className="sx-verified-seal"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="View my Psychology Today profile"
-                />
-              </div>
-            </div>
-
-            {/* Phone */}
+            <p className="flex items-center gap-2">
+              <Mail className="text-primary h-4 w-4" aria-hidden="true" />
+              <a href={`mailto:${siteConfig.email}`}>
+                <SharedField path="email" fallback={siteConfig.email} />
+              </a>
+            </p>
             {isPhoneEnabled() && (
               <p className="flex items-center gap-2">
-                <Phone
-                  className="text-primary h-4 w-4"
-                  aria-hidden="true"
-                />
+                <Phone className="text-primary h-4 w-4" aria-hidden="true" />
                 <a href={`tel:${siteConfig.phone}`}>
-                  <SharedField
-                    path="phone"
-                    fallback={siteConfig.phone}
-                  />
+                  <SharedField path="phone" fallback={siteConfig.phone} />
                 </a>
               </p>
             )}
           </div>
         </div>
 
-        {/* Practice Links */}
         <div>
-          <h3 className="text-foreground mb-4 font-bold">
-            {siteConfig.footer.practiceHeading}
-          </h3>
-
+          <h3 className="text-foreground mb-4 font-bold">{siteConfig.footer.practiceHeading}</h3>
           <ul className="space-y-3">
             {practiceLinks.map((link) => {
-              const isBookLink =
-                link.href === siteConfig.pages.book.href;
+              const isBookLink = link.href === siteConfig.pages.book.href;
 
               return (
                 <li key={link.href}>
                   <a
-                    href={
-                      isBookLink
-                        ? bookLink.href
-                        : withBase(link.href)
-                    }
-                    target={
-                      isBookLink
-                        ? bookLink.target
-                        : undefined
-                    }
-                    rel={
-                      isBookLink
-                        ? bookLink.rel
-                        : undefined
-                    }
+                    href={isBookLink ? bookLink.href : withBase(link.href)}
+                    target={isBookLink ? bookLink.target : undefined}
+                    rel={isBookLink ? bookLink.rel : undefined}
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    {isBookLink
-                      ? getBookCtaLabel()
-                      : link.label}
+                    {isBookLink ? getBookCtaLabel() : link.label}
                   </a>
                 </li>
               );
@@ -146,12 +75,8 @@ export default function SiteFooter() {
           </ul>
         </div>
 
-        {/* Resource Links */}
         <div>
-          <h3 className="text-foreground mb-4 font-bold">
-            {siteConfig.footer.resourcesHeading}
-          </h3>
-
+          <h3 className="text-foreground mb-4 font-bold">{siteConfig.footer.resourcesHeading}</h3>
           <ul className="space-y-3">
             {resourceLinks.map((link) => (
               <li key={link.href}>
@@ -165,45 +90,31 @@ export default function SiteFooter() {
             ))}
           </ul>
         </div>
-
-        {/* Badges and Images */}
         <div className="relative flex items-center gap-2 grid grid-cols-2">
           <div className="bg-accent absolute -left-5 -top-5 h-32 w-32 rounded-full blur-3xl" />
-
           <div className="grid gap-2">
+          <ImageField
+            path="badgeImage"
+            fallback={siteConfig.badgeImage}
+            fieldKey="badge"
+            className="relative h-32 w-32 object-contain"
+          />
             <ImageField
-              path="badgeImage"
-              fallback={siteConfig.badgeImage}
-              fieldKey="badge"
-              className="relative h-32 w-32 object-contain"
-            />
-
-            <ImageField
-              path="flagImage"
-              fallback={siteConfig.flagImage}
-              fieldKey="flag"
-              className="relative h-32 w-auto object-contain"
-            />
+            path="flagImage"
+            fallback={siteConfig.flagImage}
+            fieldKey="flag"
+            className="relative h-32 w-auto object-contain"
+          />
           </div>
         </div>
       </div>
-
-      {/* Acknowledgement */}
       <div className="border-border/70 border-t px-6 py-5 text-center text-sm text-muted-foreground">
-        <SharedField
-          path="acknowledgement"
-          fallback={siteConfig.acknowledgement}
-        />.
+        <SharedField path="acknowledgement" fallback={siteConfig.acknowledgement} />.
       </div>
-
-      {/* Copyright */}
       <div className="border-border/70 border-t px-6 py-5 text-center text-sm text-muted-foreground">
         (c) {new Date().getFullYear()}{' '}
-        <SharedField
-          path="practiceName"
-          fallback={siteConfig.practiceName}
-          markdown
-        />. All rights reserved.
+        <SharedField path="practiceName" fallback={siteConfig.practiceName} markdown />. All rights
+        reserved.
       </div>
     </footer>
   );
