@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { getBookCtaLabel, isPhoneEnabled, siteConfig } from '../config';
 import { getBookLinkProps } from '../lib/booking';
@@ -6,6 +7,23 @@ import SharedField from './admin/SharedField';
 import ImageField from './admin/ImageField';
 
 export default function SiteFooter() {
+  useEffect(() => {
+  const script = document.createElement('script');
+
+  script.src = 'https://member.psychologytoday.com/verified-seal.js';
+  script.async = true;
+  script.dataset.badge = '10';
+  script.dataset.id = '1886338';
+  script.dataset.code =
+    'aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE4ODYzMzg/Y2FsbGJhY2s9c3hjYWxsYmFjaw==';
+
+  document.body.appendChild(script);
+
+  return () => {
+    script.remove();
+  };
+}, []);
+  
   const bookLink = getBookLinkProps();
   const practiceLinks = [
     siteConfig.pages.about,
@@ -36,12 +54,21 @@ export default function SiteFooter() {
               <MapPin className="text-primary h-4 w-4" aria-hidden="true" />
               <SharedField path="location" fallback={siteConfig.location} />
             </p>
-            <p className="flex items-center gap-2">
-              <Mail className="text-primary h-4 w-4" aria-hidden="true" />
-              <a href={`mailto:${siteConfig.email}`}>
-                <SharedField path="email" fallback={siteConfig.email} />
-              </a>
-            </p>
+          <p className="flex items-center gap-2">
+  <Mail className="text-primary h-4 w-4" aria-hidden="true" />
+  <a href={`mailto:${siteConfig.email}`}>
+    <SharedField path="email" fallback={siteConfig.email} />
+  </a>
+</p>
+
+{/* Psychology Today Verification Badge */}
+<div className="mt-4">
+  <a
+    href="https://www.psychologytoday.com/profile/1886338"
+    className="sx-verified-seal"
+    aria-label="Psychology Today verified profile"
+  />
+</div>
             {isPhoneEnabled() && (
               <p className="flex items-center gap-2">
                 <Phone className="text-primary h-4 w-4" aria-hidden="true" />
