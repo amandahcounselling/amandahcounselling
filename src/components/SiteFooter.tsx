@@ -10,6 +10,9 @@ export default function SiteFooter() {
 const psychologyTodayRef = useRef<HTMLDivElement>(null);
 
 useEffect(() => {
+ const psychologyTodayRef = useRef<HTMLDivElement>(null);
+
+useEffect(() => {
   const container = psychologyTodayRef.current;
 
   if (!container) return;
@@ -18,6 +21,7 @@ useEffect(() => {
 
   script.src = 'https://member.psychologytoday.com/verified-seal.js';
   script.type = 'text/javascript';
+  script.async = true;
   script.dataset.badge = '10';
   script.dataset.id = '1886338';
   script.dataset.code =
@@ -27,6 +31,7 @@ useEffect(() => {
 
   return () => {
     script.remove();
+    container.innerHTML = '';
   };
 }, []);
   
@@ -67,16 +72,29 @@ useEffect(() => {
   </a>
 </p>
 
-{/* Psychology Today Verification */}
-<div
-  ref={psychologyTodayRef}
-  className="mt-4"
->
-  <a
-    href="https://www.psychologytoday.com/profile/1886338"
-    className="sx-verified-seal"
-    aria-label="Psychology Today verified profile"
-  />
+<div className="space-y-3">
+  <p className="flex items-center gap-2">
+    <Mail className="text-primary h-4 w-4" aria-hidden="true" />
+    <a href={`mailto:${siteConfig.email}`}>
+      <SharedField path="email" fallback={siteConfig.email} />
+    </a>
+  </p>
+
+  {/* Psychology Today Verification */}
+  <div className="pl-6">
+    <div
+      ref={psychologyTodayRef}
+      className="psychology-today-badge"
+    >
+      <a
+        href="https://www.psychologytoday.com/profile/1886338"
+        className="sx-verified-seal"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View my verified Psychology Today profile"
+      />
+    </div>
+  </div>
 </div>
             {isPhoneEnabled() && (
               <p className="flex items-center gap-2">
