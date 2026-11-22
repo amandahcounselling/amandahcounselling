@@ -66,8 +66,17 @@ const themeVariables = Object.entries(activePalette.cssVariables)
 
     <style is:inline set:html={`:root {\n${themeVariables}\n}`} />
   </head>
-  <body>
+ <body>
     <slot />
+
+    <!-- Psychology Today Verification Badge -->
+    <script
+      is:inline
+      src="https://member.psychologytoday.com/verified-seal.js"
+      data-badge="10"
+      data-id="1886338"
+      data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE4ODYzMzg/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="
+    ></script>
   </body>
 </html>
 
