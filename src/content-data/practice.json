@@ -75,7 +75,7 @@
         {
           "label": "Individual counselling",
           "durationMinutes": 50,
-          "fee": "$150",
+          "fee": "$165",
           "description": "Your standard counselling session length - 50 minutes. A space set aside for you, where you decide how you'd like to use the time. And if you don't know how you'd like to use it, we can figure it out together",
           "modes": ["virtual"],
           "kind": "session"
@@ -83,7 +83,7 @@
         {
           "label": "Extended individual session",
           "durationMinutes": 75,
-          "fee": "$215",
+          "fee": "$245",
           "description": "Sometimes, we need extra space to explore things in more depth and at a pace that honours what you're bringing into the room. Longer sessions can be used to facilitate deeper work, discuss complex concerns, or practice new skills without taking time away from sharing what's on your heart and mind",
           "modes": ["virtual"],
           "kind": "session"
